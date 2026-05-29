@@ -1,0 +1,20 @@
+{
+  "name": "iching-web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate:data": "node scripts/convert-resx.mjs",
+    "validate:data": "node scripts/convert-resx.mjs --check",
+    "test": "node --test",
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  },
+  "dependencies": {
+    "solarlunar": "^3.1.0"
+  }
+}
