@@ -1,0 +1,65 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="IChing.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="768"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    shell:SystemTray.IsVisible="True" Name="IChingPage" Loaded="IChingPage_Loaded" xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit" Unloaded="IChingPage_Unloaded">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28" Opacity="1">
+            <TextBlock x:Name="ApplicationTitle" Text="...." Style="{StaticResource PhoneTextNormalStyle}" Foreground="#FF2A1414" FontStretch="UltraCondensed" FontSize="24" />
+            <TextBlock x:Name="CurrentDate" Text="...." Margin="9,-7,0,0" FontSize="20" Foreground="#FF2C2323"/>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Margin="12,81,12,16" Background="{x:Null}" Grid.RowSpan="2">
+            <Button Content="...." Height="72" HorizontalAlignment="Left" Margin="0,6,0,0" Name="btnDivineNow" VerticalAlignment="Top" Width="160" Click="OnBtnDevineNowClick" Foreground="#FF2C2323" BorderBrush="#FFE0AEAE" BorderThickness="2" />
+            <Button Content="...." Height="72" HorizontalAlignment="Left" Margin="160,6,0,0" Name="btnDivineRand" VerticalAlignment="Top" Width="160" Foreground="#FF2C2323" BorderBrush="#FFE0AEAE" BorderThickness="2" Click="OnBtnDivineRandClick">
+            </Button>
+            <TextBlock Height="38" HorizontalAlignment="Left" Margin="23,107,0,0" Name="tblTitle" Text="" VerticalAlignment="Top" Width="305" Foreground="#FF2C2323" FontSize="24" FontFamily="Segoe WP" FontWeight="Bold" />
+            <Image Height="81" HorizontalAlignment="Left" Margin="355,74,0,0" Name="image1" Stretch="Fill" VerticalAlignment="Top" Width="83" />
+            <RadioButton Content="...." Height="72" HorizontalAlignment="Left" Margin="0,554,0,0" Name="rbMain" VerticalAlignment="Top" GroupName="rbOptions" IsChecked="True" Checked="rbMain_Checked" Foreground="#FF372626" Width="136" FontSize="20" />
+            <RadioButton Content="...." Height="72" HorizontalAlignment="Center" Margin="144,554,167,0" Name="rbSymbols" VerticalAlignment="Top" GroupName="rbOptions" Checked="rbMain_Checked" Foreground="#FF413333" Width="145" FontSize="20" />
+            <RadioButton Content="...." Foreground="#FF413333" GroupName="rbOptions" Height="72" HorizontalAlignment="Right" Margin="0,554,42,0" Name="rbPoems" VerticalAlignment="Top" Checked="rbMain_Checked" Width="119" FontSize="20" />
+            <RadioButton Content="...." Foreground="#FF372626" GroupName="rbOptions" Height="72" HorizontalAlignment="Left" IsChecked="False" Margin="0,611,0,0" Name="rbJudge" VerticalAlignment="Top" Checked="rbMain_Checked" Width="152" FontSize="20" />
+            <RadioButton Content="...." Foreground="#FF372626" GroupName="rbOptions" Height="72" HorizontalAlignment="Center" IsChecked="False" Margin="145,611,157,0" Name="rbJudgeClassfied" VerticalAlignment="Top" Checked="rbMain_Checked" Width="154" FontSize="20" />
+            <RadioButton Content="...." Foreground="#FF372626" GroupName="rbOptions" Height="72" HorizontalAlignment="Right" IsChecked="False" Margin="0,611,0,0" Name="rbMeihua" VerticalAlignment="Top" Checked="rbMain_Checked" Width="161" FontSize="20" />
+            <Button BorderBrush="#FFE0AEAE" BorderThickness="2" Content="...." Foreground="#FF2C2323" Height="72" HorizontalAlignment="Left" Margin="333,6,0,0" Name="btnAbout" VerticalAlignment="Top" Width="111" Click="OnBtnAboutClick" />
+
+            <ScrollViewer Height="386" VerticalScrollBarVisibility="Auto" Margin="0,161,0,124" Name="scv" VerticalContentAlignment="Top">
+                <TextBox VerticalAlignment="Top" Margin="0,166,6,80" Name="tbxContent" Text="" Width="450" TextWrapping="Wrap" IsReadOnly="True" Opacity="0.8" Height="1800" VerticalContentAlignment="Top"></TextBox>
+            </ScrollViewer>
+        </Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/SamPeng.IChing;component/Images/background.jpg" />
+        </Grid.Background>
+    </Grid>
+
+    <!--Sample code showing usage of ApplicationBar-->
+    <!--<phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button1.png" Text="Button 1"/>
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button2.png" Text="Button 2"/>
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem Text="MenuItem 1"/>
+                <shell:ApplicationBarMenuItem Text="MenuItem 2"/>
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>-->
+
+</phone:PhoneApplicationPage>

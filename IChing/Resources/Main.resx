@@ -1,0 +1,602 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ChineseCharDay" xml:space="preserve">
+    <value>日</value>
+  </data>
+  <data name="ChineseCharHour" xml:space="preserve">
+    <value>時</value>
+  </data>
+  <data name="ChineseCharLeap" xml:space="preserve">
+    <value>閏</value>
+  </data>
+  <data name="ChineseCharMonth" xml:space="preserve">
+    <value>月</value>
+  </data>
+  <data name="ChineseCharYear" xml:space="preserve">
+    <value>年</value>
+  </data>
+  <data name="ChineseEight" xml:space="preserve">
+    <value>八</value>
+  </data>
+  <data name="ChineseEleven" xml:space="preserve">
+    <value>十一</value>
+  </data>
+  <data name="ChineseFive" xml:space="preserve">
+    <value>五</value>
+  </data>
+  <data name="ChineseFour" xml:space="preserve">
+    <value>四</value>
+  </data>
+  <data name="ChineseNine" xml:space="preserve">
+    <value>九</value>
+  </data>
+  <data name="ChineseOne" xml:space="preserve">
+    <value>一</value>
+  </data>
+  <data name="ChineseSeven" xml:space="preserve">
+    <value>七</value>
+  </data>
+  <data name="ChineseSix" xml:space="preserve">
+    <value>六</value>
+  </data>
+  <data name="ChineseTen" xml:space="preserve">
+    <value>十</value>
+  </data>
+  <data name="ChineseThree" xml:space="preserve">
+    <value>三</value>
+  </data>
+  <data name="ChineseTwelve" xml:space="preserve">
+    <value>十二</value>
+  </data>
+  <data name="ChineseTwo" xml:space="preserve">
+    <value>二</value>
+  </data>
+  <data name="ChineseWordRepresent" xml:space="preserve">
+    <value>為</value>
+  </data>
+  <data name="ChineseZodiacDog" xml:space="preserve">
+    <value>狗</value>
+  </data>
+  <data name="ChineseZodiacDragon" xml:space="preserve">
+    <value>龍</value>
+  </data>
+  <data name="ChineseZodiacHorse" xml:space="preserve">
+    <value>馬</value>
+  </data>
+  <data name="ChineseZodiacMonkey" xml:space="preserve">
+    <value>猴</value>
+  </data>
+  <data name="ChineseZodiacOx" xml:space="preserve">
+    <value>牛</value>
+  </data>
+  <data name="ChineseZodiacPig" xml:space="preserve">
+    <value>豬</value>
+  </data>
+  <data name="ChineseZodiacRabbit" xml:space="preserve">
+    <value>兔</value>
+  </data>
+  <data name="ChineseZodiacRam" xml:space="preserve">
+    <value>羊</value>
+  </data>
+  <data name="ChineseZodiacRat" xml:space="preserve">
+    <value>鼠</value>
+  </data>
+  <data name="ChineseZodiacRooster" xml:space="preserve">
+    <value>雞</value>
+  </data>
+  <data name="ChineseZodiacSnake" xml:space="preserve">
+    <value>蛇</value>
+  </data>
+  <data name="ChineseZodiacTiger" xml:space="preserve">
+    <value>虎</value>
+  </data>
+  <data name="EarthlyBranchesChen" xml:space="preserve">
+    <value>辰</value>
+  </data>
+  <data name="EarthlyBranchesChou" xml:space="preserve">
+    <value>丑</value>
+  </data>
+  <data name="EarthlyBranchesHai" xml:space="preserve">
+    <value>亥</value>
+  </data>
+  <data name="EarthlyBranchesMao" xml:space="preserve">
+    <value>卯</value>
+  </data>
+  <data name="EarthlyBranchesShen" xml:space="preserve">
+    <value>申</value>
+  </data>
+  <data name="EarthlyBranchesSi" xml:space="preserve">
+    <value>巳</value>
+  </data>
+  <data name="EarthlyBranchesWei" xml:space="preserve">
+    <value>未</value>
+  </data>
+  <data name="EarthlyBranchesWu" xml:space="preserve">
+    <value>午</value>
+  </data>
+  <data name="EarthlyBranchesXu" xml:space="preserve">
+    <value>戌</value>
+  </data>
+  <data name="EarthlyBranchesYin" xml:space="preserve">
+    <value>寅</value>
+  </data>
+  <data name="EarthlyBranchesYou" xml:space="preserve">
+    <value>酉</value>
+  </data>
+  <data name="EarthlyBranchesZi" xml:space="preserve">
+    <value>子</value>
+  </data>
+  <data name="FivePhasesAttributeEarth" xml:space="preserve">
+    <value>土</value>
+  </data>
+  <data name="FivePhasesAttributeFire" xml:space="preserve">
+    <value>火</value>
+    <comment>Used for TrigramSymbol as well</comment>
+  </data>
+  <data name="FivePhasesAttributeGold" xml:space="preserve">
+    <value>金</value>
+  </data>
+  <data name="FivePhasesAttributeWater" xml:space="preserve">
+    <value>水</value>
+    <comment>Used for TrigramSymbol as well</comment>
+  </data>
+  <data name="FivePhasesAttributeWood" xml:space="preserve">
+    <value>木</value>
+  </data>
+  <data name="HeavenlyStemsBing" xml:space="preserve">
+    <value>丙</value>
+  </data>
+  <data name="HeavenlyStemsDing" xml:space="preserve">
+    <value>丁</value>
+  </data>
+  <data name="HeavenlyStemsGeng" xml:space="preserve">
+    <value>庚</value>
+  </data>
+  <data name="HeavenlyStemsJi" xml:space="preserve">
+    <value>己</value>
+  </data>
+  <data name="HeavenlyStemsJia" xml:space="preserve">
+    <value>甲</value>
+  </data>
+  <data name="HeavenlyStemsKui" xml:space="preserve">
+    <value>癸</value>
+  </data>
+  <data name="HeavenlyStemsRen" xml:space="preserve">
+    <value>壬</value>
+  </data>
+  <data name="HeavenlyStemsWu" xml:space="preserve">
+    <value>戊</value>
+  </data>
+  <data name="HeavenlyStemsXin" xml:space="preserve">
+    <value>辛</value>
+  </data>
+  <data name="HeavenlyStemsYi" xml:space="preserve">
+    <value>乙</value>
+  </data>
+  <data name="HexagramBi" xml:space="preserve">
+    <value>水地比</value>
+  </data>
+  <data name="HexagramBi_ShanHuo" xml:space="preserve">
+    <value>山火賁</value>
+  </data>
+  <data name="HexagramBo" xml:space="preserve">
+    <value>山地剝</value>
+  </data>
+  <data name="HexagramCui" xml:space="preserve">
+    <value>澤地萃</value>
+  </data>
+  <data name="HexagramDaGuo" xml:space="preserve">
+    <value>澤風大過</value>
+  </data>
+  <data name="HexagramDaXu" xml:space="preserve">
+    <value>山天大畜</value>
+  </data>
+  <data name="HexagramDaYou" xml:space="preserve">
+    <value>火天大有</value>
+  </data>
+  <data name="HexagramDaZhuang" xml:space="preserve">
+    <value>雷天大壯</value>
+  </data>
+  <data name="HexagramDing" xml:space="preserve">
+    <value>火風鼎</value>
+  </data>
+  <data name="HexagramDui" xml:space="preserve">
+    <value>兌為澤</value>
+  </data>
+  <data name="HexagramDun" xml:space="preserve">
+    <value>天山遁</value>
+  </data>
+  <data name="HexagramFeng" xml:space="preserve">
+    <value>雷火豐</value>
+  </data>
+  <data name="HexagramFu" xml:space="preserve">
+    <value>地雷復</value>
+  </data>
+  <data name="HexagramGe" xml:space="preserve">
+    <value>澤火革</value>
+  </data>
+  <data name="HexagramGen" xml:space="preserve">
+    <value>艮為山</value>
+  </data>
+  <data name="HexagramGou" xml:space="preserve">
+    <value>天風姤</value>
+  </data>
+  <data name="HexagramGu" xml:space="preserve">
+    <value>山風蠱</value>
+  </data>
+  <data name="HexagramGuai" xml:space="preserve">
+    <value>澤天夬</value>
+  </data>
+  <data name="HexagramGuan" xml:space="preserve">
+    <value>風地觀</value>
+  </data>
+  <data name="HexagramGuiMei" xml:space="preserve">
+    <value>雷澤歸妹</value>
+  </data>
+  <data name="HexagramHeng" xml:space="preserve">
+    <value>雷風恆</value>
+  </data>
+  <data name="HexagramHuan" xml:space="preserve">
+    <value>風水渙</value>
+  </data>
+  <data name="HexagramJian" xml:space="preserve">
+    <value>風山漸</value>
+  </data>
+  <data name="HexagramJian_ShuiShan" xml:space="preserve">
+    <value>水山蹇</value>
+  </data>
+  <data name="HexagramJiaRen" xml:space="preserve">
+    <value>風火家人</value>
+  </data>
+  <data name="HexagramJie" xml:space="preserve">
+    <value>雷水解</value>
+  </data>
+  <data name="HexagramJie_ShuiZe" xml:space="preserve">
+    <value>水澤節</value>
+  </data>
+  <data name="HexagramJiJi" xml:space="preserve">
+    <value>水火既濟</value>
+  </data>
+  <data name="HexagramJin" xml:space="preserve">
+    <value>火地晉</value>
+  </data>
+  <data name="HexagramJing" xml:space="preserve">
+    <value>水風井</value>
+  </data>
+  <data name="HexagramKan" xml:space="preserve">
+    <value>坎為水</value>
+  </data>
+  <data name="HexagramKui" xml:space="preserve">
+    <value>火澤睽</value>
+  </data>
+  <data name="HexagramKun" xml:space="preserve">
+    <value>澤水困</value>
+  </data>
+  <data name="HexagramKun_WeiDi" xml:space="preserve">
+    <value>坤為地</value>
+  </data>
+  <data name="HexagramLi" xml:space="preserve">
+    <value>離為火</value>
+  </data>
+  <data name="HexagramLin" xml:space="preserve">
+    <value>地澤臨</value>
+  </data>
+  <data name="HexagramLv" xml:space="preserve">
+    <value>天澤履</value>
+  </data>
+  <data name="HexagramLv_Travel" xml:space="preserve">
+    <value>火山旅</value>
+  </data>
+  <data name="HexagramMeng" xml:space="preserve">
+    <value>山水蒙</value>
+  </data>
+  <data name="HexagramMingYi" xml:space="preserve">
+    <value>地火明夷</value>
+  </data>
+  <data name="HexagramPi" xml:space="preserve">
+    <value>天地否</value>
+  </data>
+  <data name="HexagramQian" xml:space="preserve">
+    <value>乾為天</value>
+  </data>
+  <data name="HexagramQian_DiShan" xml:space="preserve">
+    <value>地山謙</value>
+  </data>
+  <data name="HexagramSheng" xml:space="preserve">
+    <value>地風升</value>
+  </data>
+  <data name="HexagramShi" xml:space="preserve">
+    <value>地水師</value>
+  </data>
+  <data name="HexagramShiKe" xml:space="preserve">
+    <value>火雷噬嗑</value>
+  </data>
+  <data name="HexagramSong" xml:space="preserve">
+    <value>天水訟</value>
+  </data>
+  <data name="HexagramSui" xml:space="preserve">
+    <value>澤雷隨</value>
+  </data>
+  <data name="HexagramSun" xml:space="preserve">
+    <value>山澤損</value>
+  </data>
+  <data name="HexagramTai" xml:space="preserve">
+    <value>地天泰</value>
+  </data>
+  <data name="HexagramTongRen" xml:space="preserve">
+    <value>天火同人</value>
+  </data>
+  <data name="HexagramTun" xml:space="preserve">
+    <value>水雷屯</value>
+  </data>
+  <data name="HexagramWeiJi" xml:space="preserve">
+    <value>火水未濟</value>
+  </data>
+  <data name="HexagramWuWang" xml:space="preserve">
+    <value>天雷無妄</value>
+  </data>
+  <data name="HexagramXian" xml:space="preserve">
+    <value>澤山咸</value>
+  </data>
+  <data name="HexagramXiaoGuo" xml:space="preserve">
+    <value>雷山小過</value>
+  </data>
+  <data name="HexagramXiaoXu" xml:space="preserve">
+    <value>風天小畜</value>
+  </data>
+  <data name="HexagramXu" xml:space="preserve">
+    <value>水天需</value>
+  </data>
+  <data name="HexagramXun" xml:space="preserve">
+    <value>巽為風</value>
+  </data>
+  <data name="HexagramYi" xml:space="preserve">
+    <value>風雷益</value>
+  </data>
+  <data name="HexagramYi_ShanLei" xml:space="preserve">
+    <value>山雷頤</value>
+  </data>
+  <data name="HexagramYu" xml:space="preserve">
+    <value>雷地豫</value>
+  </data>
+  <data name="HexagramZhen" xml:space="preserve">
+    <value>震為雷</value>
+  </data>
+  <data name="HexagramZhongFu" xml:space="preserve">
+    <value>風澤中孚</value>
+  </data>
+  <data name="InternalGeneratesExternal" xml:space="preserve">
+    <value>體生用</value>
+  </data>
+  <data name="InternalOvercomesExternal" xml:space="preserve">
+    <value>體克用</value>
+  </data>
+  <data name="ExternalGeneratesInternal" xml:space="preserve">
+    <value>用生體</value>
+  </data>
+  <data name="ExternalOvercomessInternal" xml:space="preserve">
+    <value>用克體</value>
+  </data>
+  <data name="InternalExternalSame" xml:space="preserve">
+    <value>體用比和</value>
+  </data>
+  <data name="TrigramDui" xml:space="preserve">
+    <value>兌</value>
+  </data>
+  <data name="TrigramGen" xml:space="preserve">
+    <value>艮</value>
+  </data>
+  <data name="TrigramKan" xml:space="preserve">
+    <value>坎</value>
+  </data>
+  <data name="TrigramKun" xml:space="preserve">
+    <value>坤</value>
+  </data>
+  <data name="TrigramLi" xml:space="preserve">
+    <value>離</value>
+  </data>
+  <data name="TrigramQian" xml:space="preserve">
+    <value>乾</value>
+  </data>
+  <data name="TrigramSymbolEarth" xml:space="preserve">
+    <value>地</value>
+  </data>
+  <data name="TrigramSymbolHeaven" xml:space="preserve">
+    <value>天</value>
+  </data>
+  <data name="TrigramSymbolLake" xml:space="preserve">
+    <value>澤</value>
+  </data>
+  <data name="TrigramSymbolMountain" xml:space="preserve">
+    <value>山</value>
+  </data>
+  <data name="TrigramSymbolThunder" xml:space="preserve">
+    <value>雷</value>
+  </data>
+  <data name="TrigramSymbolWind" xml:space="preserve">
+    <value>風</value>
+  </data>
+  <data name="TrigramXun" xml:space="preserve">
+    <value>巽</value>
+  </data>
+  <data name="TrigramZhen" xml:space="preserve">
+    <value>震</value>
+  </data>
+  <data name="WordDown" xml:space="preserve">
+    <value>下</value>
+  </data>
+  <data name="WordUp" xml:space="preserve">
+    <value>上</value>
+  </data>
+  <data name="MainPageTitle" xml:space="preserve">
+    <value>易經占蔔</value>
+  </data>
+  <data name="ChineseWordDong" xml:space="preserve">
+    <value>動</value>
+  </data>
+  <data name="ChineseWordYao" xml:space="preserve">
+    <value>爻</value>
+  </data>
+  <data name="DivineNow" xml:space="preserve">
+    <value>即時起卦</value>
+  </data>
+  <data name="DivineRandom" xml:space="preserve">
+    <value>隨機起卦</value>
+  </data>
+  <data name="HexgramMain" xml:space="preserve">
+    <value>卦辭</value>
+  </data>
+  <data name="HexgramPoem" xml:space="preserve">
+    <value>偈語</value>
+  </data>
+  <data name="HexgramSymbol" xml:space="preserve">
+    <value>卦象</value>
+  </data>
+  <data name="HexgramJudgeClassfied" xml:space="preserve">
+    <value>分類占斷</value>
+  </data>
+  <data name="HexgramJudgement" xml:space="preserve">
+    <value>主占斷</value>
+  </data>
+  <data name="HexGramMeihua" xml:space="preserve">
+    <value>梅花易術</value>
+  </data>
+  <data name="ChineseAbout" xml:space="preserve">
+    <value>關於</value>
+  </data>
+  <data name="ChineseChange" xml:space="preserve">
+    <value>變</value>
+  </data>
+  <data name="HexgramSymbolNumber" xml:space="preserve">
+    <value>卦數</value>
+  </data>
+  <data name="MainHelp" xml:space="preserve">
+    <value>這是一個易經占蔔工具。
+
+[即時起卦]：用當前時間起卦。由於一天共分十二個時辰，因此在同一天同一時辰所起的卦是相同的。
+
+[隨機起卦]：用隨機數生成卦。
+
+[卦辭]，[卦象]以及其它選項從不同角度解釋所得卦之含義。其中[梅花易數]為動態生成用於預測吉兇和時間。除[梅花易數]外各項解釋均引自易經原文和互聯網絡。
+
+作者：彭晟 Sam Peng
+聯系：sam.s.peng@gmail.com</value>
+  </data>
+</root>

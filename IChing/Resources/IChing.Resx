@@ -1,0 +1,4729 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+  <data name="H_1_Main" xml:space="preserve">
+    <value>《乾卦》象征天：元始，亨通，和諧，貞正。《象》曰：天行健，君子以自強不息。《象辭》說：天道運行周而復始，永無止息，誰也不能阻擋，君子應效法天道，自立自強，不停地奮斗下去。</value>
+  </data>
+
+  <data name="H_1_Change1" xml:space="preserve">
+    <value>初九，龍尚潛伏在水中，養精蓄銳，暫時還不能發揮作用。《象》曰：潛龍勿用，陽在下也。《象辭》說：龍象征陽。"龍尚潛伏在水中，養精蓄銳，暫時還不能發揮作用"，是因為此爻位置最低，陽氣不能散發出來的緣故。</value>
+  </data>
+
+  <data name="H_1_Change2" xml:space="preserve">
+    <value>九二，龍已出現在地上，利於出現德高勢隆的大人物。 《象》曰："見龍在田"，德施普也。 《象辭》說："龍已出現在地上"，猶如陽光普照，天下人普遍得到恩惠。</value>
+  </data>
+
+  <data name="H_1_Change3" xml:space="preserve">
+    <value>九三，君子整天自強不息，晚上也不敢有絲毫的懈怠，這樣即使遇到危險也會逢凶化吉。《象》曰："終日乾乾"，反復道也。《象辭》說："整天自強不息"，是因為要避免出現反復，不敢有絲毫大意。</value>
+  </data>
+
+  <data name="H_1_Change4" xml:space="preserve">
+    <value>九四，龍或騰躍而起，或退居於淵，均不會有危害。《象》曰："或躍在淵"，進無咎也。《象辭》說："龍或騰躍而起，或退居於淵，均不會有危害"，因為能審時度勢，故進退自如，不會有危害。</value>
+  </data>
+
+  <data name="H_1_Change5" xml:space="preserve">
+    <value>九五，龍飛上了高空，利於出現德高勢隆的大人物。《象》曰："飛龍在天"，大人造也。《象辭》說："龍飛上了高空"，象征德高勢隆的大人物一定會有所作為。</value>
+  </data>
+
+  <data name="H_1_Change6" xml:space="preserve">
+    <value>上九，龍飛到了過高的地方，必將會后悔。《象》曰："亢龍有悔"，盈不可久也。《象辭》說"龍飛到了過高的地方，必將會后悔"，因為物極必反，事物發展到了盡頭，必將走向自己的反面。</value>
+  </data>
+
+  <data name="H_1_Meaning" xml:space="preserve">
+    <value>凜凜皇者之象　自強不息之意</value>
+  </data>
+
+  <data name="H_1_Judgement" xml:space="preserve">
+    <value>困龍得水,上上卦</value>
+  </data>
+
+  <data name="H_1_Poem1" xml:space="preserve">
+    <value>卦辭：困龍得水好運交，不由喜氣上眉梢。一切謀望皆如意，向后時運漸漸高。</value>
+  </data>
+
+  <data name="H_1_Deduction" xml:space="preserve">
+    <value>推斷：詞訟和吉，病人痊愈，功名有成，求名大吉。 </value>
+  </data>
+
+  <data name="H_1_Omen" xml:space="preserve">
+    <value>大象：天行剛健，自強不息</value>
+  </data>
+
+  <data name="H_1_Luck" xml:space="preserve">
+    <value>運勢：飛龍在天，名利雙收之象，宜把握機會，爭取成果。 </value>
+  </data>
+
+  <data name="H_1_Love" xml:space="preserve">
+    <value>愛情：雙方逞強，宜多加溝通遷就。 </value>
+  </data>
+
+  <data name="H_1_Health" xml:space="preserve">
+    <value>疾病：病情惡化，宜細心調養，注意頭、腦、骨髓等病變。</value>
+  </data>
+
+  <data name="H_1_Lost" xml:space="preserve">
+    <value>失物：可望尋回。</value>
+  </data>
+
+  <data name="H_1_Lawsuit" xml:space="preserve">
+    <value>訴訟：宜據理力爭。</value>
+  </data>
+
+  <data name="H_1_Poem2" xml:space="preserve">
+    <value>為君之道陽剛健 運覆無窮龍御天 萬物始創通且順 問求有利理當然</value>
+  </data>
+
+  <data name="H_2_Main" xml:space="preserve">
+    <value>《履卦》象征小心行動：跟在老虎尾巴后面走路，老虎卻沒有回頭咬人，當然亨通順利。《象》曰：上天下澤，"履"；君子以辯上下，定民志。《象辭》說：《履卦》的卦象是兌（澤）下乾（天）上，為天下有澤之表象。上有天，下有澤，說明要處處小心行動，如行在沼澤之上，一不注意就會陷下去；君子要深明大義，分清上下尊卑名分，堅定百姓的意志，遵循禮儀而行，必然秩序井然。</value>
+  </data>
+
+  <data name="H_2_Change1" xml:space="preserve">
+    <value>初九，心地純朴，品行端正，處處小心行事，那麼無論到什麼地方都沒有災禍。《象》曰："素履之往"，獨行願也。《象辭》說："心地純朴，品行端正，處處小心行事"，表明要專心致志，遵循禮儀實現自己的意願。</value>
+  </data>
+
+  <data name="H_2_Change2" xml:space="preserve">
+    <value>九二，小心行走在平坦寬廣的大道上,幽居的人安於閑逸恬靜的生活，結果是吉祥的。《象》曰："幽人貞吉"，中不自亂也。《象辭》說："幽居的人可獲吉祥"，說明自己內心平靜自然毫不紊亂，循禮儀而行的信念堅固。</value>
+  </data>
+
+  <data name="H_2_Change3" xml:space="preserve">
+    <value>六三，眼睛快要瞎了，但勉強能看到一點點；腿跛了，但勉強能走幾步。不小心踩在老虎尾巴上，老虎回頭就咬人，凶險；勇敢的武士要竭力為君主效勞。《象》曰："眇能視"，不足以有明也；"跛能履"，不足以與行也；"咥人之凶"，位不當也；"武人為於大君"，志剛也。《象辭》說："眼睛快瞎了，但勉強能看到一點點"，不足以分辯事物；"腿跛了，但勉強能走幾步"，不能出外遠行；"老虎咬人是凶險的"，表明這時處的位置很不妥當，竟然踩在老虎尾巴上。"武士要竭力為君主效勞"，表明武士的志向剛強。</value>
+  </data>
+
+  <data name="H_2_Change4" xml:space="preserve">
+    <value>九四，跟在老虎尾巴后面走路，感到恐懼害怕，但謹慎小心，終於得到吉祥。《象》曰："愬愬終吉"，志行也。《象辭》說："感到恐懼害怕，但謹慎小心，終久獲得吉祥"，說明小心遵循禮儀而行就能實現自己的志願。</value>
+  </data>
+
+  <data name="H_2_Change5" xml:space="preserve">
+    <value>九五，剛毅善於作出決斷，小心行動，要提防危險。《象》曰："夬履貞厲"，位正當也。《象辭》說："剛毅果斷，小心行動，要提防危險"，說明此時雖處於正當的位置，但也不能疏忽大意。</value>
+  </data>
+
+  <data name="H_2_Change6" xml:space="preserve">
+    <value>上九，回頭看看走過的路，詳細察看一下吉凶禍福，轉身來順應陰柔自然之道，這樣是吉祥的。《象》曰："元吉在上，大有慶也"。《象辭》說：極為吉祥，高居尊上之位，表明有大的福分值得慶祝。</value>
+  </data>
+
+  <data name="H_2_Meaning" xml:space="preserve">
+    <value>如履虎尾之象　險中求勝之意</value>
+  </data>
+
+  <data name="H_2_Judgement" xml:space="preserve">
+    <value>俊鳥出籠,中吉卦</value>
+  </data>
+
+  <data name="H_2_Poem1" xml:space="preserve">
+    <value>卦辭：俊鳥幸得出籠中，脫離災難顯威風。一朝得志凌雲去，東南西北任意行。 </value>
+  </data>
+
+  <data name="H_2_Deduction" xml:space="preserve">
+    <value>推斷：合伙如意，遷移如心，買賣興旺，求財十分。 </value>
+  </data>
+
+  <data name="H_2_Omen" xml:space="preserve">
+    <value>大象：柔弱遇剛強，欲行卻難行之象，難且危也。 </value>
+  </data>
+
+  <data name="H_2_Luck" xml:space="preserve">
+    <value>運勢：先勞而后逸，始驚而后安，百事不宜急進，須以和待人，有驚無險。 </value>
+  </data>
+
+  <data name="H_2_Love" xml:space="preserve">
+    <value>愛情：兩情相悅，但阻礙重重，精誠所至，金石為開。 </value>
+  </data>
+
+  <data name="H_2_Health" xml:space="preserve">
+    <value>疾病：病雖重，但注意調理亦可愈，防頭、口、肺等疾。 </value>
+  </data>
+
+  <data name="H_2_Lost" xml:space="preserve">
+    <value>失物：趕快去找有可能尋回，留意行過的路上，或者有鞋的地方。</value>
+  </data>
+
+  <data name="H_2_Lawsuit" xml:space="preserve">
+    <value>訴訟：敵強而我弱之象，宜步步為營。</value>
+  </data>
+
+  <data name="H_2_Poem2" xml:space="preserve">
+    <value>啟程舉步要留神 量力前行虎尾跟 柔悅對剛知應對 方能猛虎不傷人</value>
+  </data>
+
+  <data name="H_3_Main" xml:space="preserve">
+    <value>《同人卦》象征與人和睦相處：和別人親密地走在寬廣的原野上，亨通，有利於渡過大河急流，有利於君子堅守正道。《象》曰：天與火，同人；君子以類族辨物。《象辭》說：《同人卦》的卦象是離（為）下乾（天）上，為天下有火之表象。天在高處，火勢熊熊而上，天與火親和相處，君子要明白物以類聚，人以群分的道理，明辨事物，求同存異，團結眾人以治理天下。</value>
+  </data>
+
+  <data name="H_3_Change1" xml:space="preserve">
+    <value>初九，一出門便能與人和睦相處，不會有什麼災禍。《象》曰：出門同人，又誰咎也！《象辭》說：一出門便能與人和睦相處，又有誰會來危害你呢？</value>
+  </data>
+
+  <data name="H_3_Change2" xml:space="preserve">
+    <value>六二，隻和本宗本派的人和睦相處，必然會惹來一些麻煩。《象》曰：“同人於宗”，吝道也。《象辭》說"隻和本宗本派的人和睦相處"，不能團結各個階層的人，這是引起麻煩的根源。</value>
+  </data>
+
+  <data name="H_3_Change3" xml:space="preserve">
+    <value>九三，把軍隊埋伏在密林草莽之中，佔據附近的制高點頻頻瞭望，三年都不敢出兵打仗。《象》曰：“伏戎於莽”，敵剛也；“三歲不興”，安行也？《象辭》說：“埋伏軍隊在密林草莽中”，說明敵人力量強大，我方力量弱小，隻能潛伏下來。“三年都不敢興兵打仗”，表明敵我力量相差懸殊，怎麼敢冒險輕進呢？</value>
+  </data>
+
+  <data name="H_3_Change4" xml:space="preserve">
+    <value>九四，准備登城向敵人進攻，但終於沒有進攻，是吉祥的。《象》曰：“乘其墉”，義弗克也，其“吉”，則困而反則也。《象辭》說：“准備登城向敵人進攻”，但終於沒有進攻，是因為發現這種進攻是不仁義的，這樣做能獲得吉祥，是因為在困惑時能及時醒悟，反過來能按正確的辦法行事。</value>
+  </data>
+
+  <data name="H_3_Change5" xml:space="preserve">
+    <value>九五，與人和睦相處，開始大聲痛哭，后來破涕為笑，大軍作戰告捷，志同道合者相會在一起。《象》曰：同人之先，以中直也；大師相遇，天罔極上遇，言相克也。《象辭》說：與人和睦相處，開始大聲痛哭，說明這時內心中正誠信，因不知戰事的勝敗而焦急痛哭；大軍遇到了志同道合者，終於獲得了戰爭的勝利，於是歡笑起來。</value>
+  </data>
+
+  <data name="H_3_Change6" xml:space="preserve">
+    <value>上九，在荒郊也願與人和睦相處，未遇到志同道合者，也不后悔。《象》曰：“同人於郊“，志未得也。《象辭》說：“在荒郊也願與人和睦相處，未遇到志同道合者”，說明此時團結眾人，而希望天下大同的願望沒有實現。</value>
+  </data>
+
+  <data name="H_3_Meaning" xml:space="preserve">
+    <value>二人同心之象　合作共事之意</value>
+  </data>
+
+  <data name="H_3_Judgement" xml:space="preserve">
+    <value>仙人指路,中吉卦</value>
+  </data>
+
+  <data name="H_3_Poem1" xml:space="preserve">
+    <value>卦辭：仙人指路過路通，勸君任意走西東。交易求財不費力，生意合伙也相通。 </value>
+  </data>
+
+  <data name="H_3_Deduction" xml:space="preserve">
+    <value>推斷：婚姻有成，行人歸來，走失可見，做事無差。 </value>
+  </data>
+
+  <data name="H_3_Omen" xml:space="preserve">
+    <value>大象：二人同心，其利斷金，君子正心誠意，與人和同之象。 </value>
+  </data>
+
+  <data name="H_3_Luck" xml:space="preserve">
+    <value>運勢：如意吉祥，與人共事，上下皆和，又得長輩提拔。 </value>
+  </data>
+
+  <data name="H_3_Love" xml:space="preserve">
+    <value>愛情：如魚得水，彼此互敬互諒，定成美眷。 </value>
+  </data>
+
+  <data name="H_3_Health" xml:space="preserve">
+    <value>疾病：病輕，不久可愈，注意心臟，頭肺等疾。 </value>
+  </data>
+
+  <data name="H_3_Lost" xml:space="preserve">
+    <value>失物：遺失似文件眼鏡等物，可能被壓在底層，盡快找尋，則可取回。 </value>
+  </data>
+
+  <data name="H_3_Lawsuit" xml:space="preserve">
+    <value>訴訟：凡事以和為貴。</value>
+  </data>
+
+  <data name="H_3_Poem2" xml:space="preserve">
+    <value>結伴同行大路寬 離火直上九重天 最宜君子貞求問 創業功成過險關</value>
+  </data>
+
+  <data name="H_4_Main" xml:space="preserve">
+    <value>《無妄卦》象征不妄動妄求：極為亨通順利，利於堅守正道。然而，如果不能堅守正道的話就會發生禍殃，因而也就不利於前去行事了。《象》曰：天下雷行，物與無妄；先王以茂對時育萬物。《象辭》說：《無妄卦》的卦象是震（雷）下乾（天）上，好比在天的下面有雷在運行之表象，象征著天用雷的威勢警戒萬物，並賦予萬物以不妄動妄求的本性；從前的君主順應天命，盡其所能地遵循天時以養育萬物的生長。</value>
+  </data>
+
+  <data name="H_4_Change1" xml:space="preserve">
+    <value>初九，隻要是不妄動妄求的話，那麼，前去行事就一定會獲得吉祥。《象》曰：“無妄之往”，得志也。《象辭》說：“不妄動妄求地前去行事”，是說這樣就可以實現志願。</value>
+  </data>
+
+  <data name="H_4_Change2" xml:space="preserve">
+    <value>六二，不在剛開始耕作時就期望立刻獲得豐收，不在荒地剛開墾一年時就期望它立即變成良田，能夠這樣，才不是妄動妄求，因而利於前去行事。《象》曰：“不耕獲”，未富也。《象辭》說：“不在剛開始耕作時就期望立刻獲得豐收”，是說不企求獲得非分的財富。</value>
+  </data>
+
+  <data name="H_4_Change3" xml:space="preserve">
+    <value>六三，無緣無故而遭受災禍，好比有人把一頭牛拴在村邊道路旁，路過的人順手把牛牽走，同村的人卻被懷疑為偷牛的人而蒙受不白之冤。《象》曰：行人得牛，邑人災也。《象辭》說：路過人順手把牛牽走，意味著同村的人就會自然地被懷疑為偷牛的人而蒙受不白之冤。這種災難不是因為自己有過，而是由於某種客觀原因的巧合所造成的。</value>
+  </data>
+
+  <data name="H_4_Change4" xml:space="preserve">
+    <value>九四，能夠堅守正道，所以沒有災禍。《象》曰：“可貞，無咎”，固有之也。《象辭》說：“能夠堅守正道，所以沒有災禍”，是說堅守正道的品德是其本身所固有的，所以，自始至終牢固地堅守正道，才能使自己免遭災害。</value>
+  </data>
+
+  <data name="H_4_Change5" xml:space="preserve">
+    <value>九五，不妄動妄求卻身染疾病，這種疾病不需用藥醫治，它會不用治療便自行消除。《象》曰：“無妄之藥”，不可試也。《象辭》說：“不妄動妄求卻身染疾病，這種疾病不需用藥醫治”，是說藥是不可以輕易嘗試，隨便使用的，因為病本來就可以自行消除。</value>
+  </data>
+
+  <data name="H_4_Change6" xml:space="preserve">
+    <value>上九，雖然不妄動妄求，但是，仍然不宜於行動，如果勉強地行動，就會遭受禍殃，得不到一點好處。《象》曰：“無妄之行”，窮之災也。《象辭》說：“雖然沒有妄為，但如有行動（卻仍然遭受禍殃）”，這是由於客觀的時遇所造成的災禍，而不以人的意志為轉移。</value>
+  </data>
+
+  <data name="H_4_Meaning" xml:space="preserve">
+    <value>石中蘊玉之象　守舊安常之意</value>
+  </data>
+
+  <data name="H_4_Judgement" xml:space="preserve">
+    <value>鳥困牢籠,中下卦</value>
+  </data>
+
+  <data name="H_4_Poem1" xml:space="preserve">
+    <value>卦辭：鳥如籠中難出頭，佔著此卦不自由。謀望求財不定准，疾病憂犯口舌愁。 </value>
+  </data>
+
+  <data name="H_4_Deduction" xml:space="preserve">
+    <value>推斷：出門不遇，求財不利，婚姻走失，疾病不宜。</value>
+  </data>
+
+  <data name="H_4_Omen" xml:space="preserve">
+    <value>大象：雷動於天，陽氣舒發，為真實無虛妄之意。 </value>
+  </data>
+
+  <data name="H_4_Luck" xml:space="preserve">
+    <value>運勢：凡事宜守正，若行為不檢者，必招災禍。 </value>
+  </data>
+
+  <data name="H_4_Love" xml:space="preserve">
+    <value>愛情：有不和，不順遂或被傷害之凶象。 </value>
+  </data>
+
+  <data name="H_4_Health" xml:space="preserve">
+    <value>疾病：不宜意氣用事，應盡力療養為宜，屬呼吸系統，頭、足之疾病。 </value>
+  </data>
+
+  <data name="H_4_Lost" xml:space="preserve">
+    <value>失物：找不到，似已遺失。 </value>
+  </data>
+
+  <data name="H_4_Lawsuit" xml:space="preserve">
+    <value>訴訟：因女人或死亡之事起紛爭，宜和解，否則招凶。</value>
+  </data>
+
+  <data name="H_4_Poem2" xml:space="preserve">
+    <value>雷行天下順當然 望外福臨好事連 遇事無須強爭進 成功要緊是心虔</value>
+  </data>
+
+  <data name="H_5_Main" xml:space="preserve">
+    <value>《姤卦》象征相遇：女子過分強壯，不適合娶來作妻子。《象》曰：“天下有風，姤；后以施命誥四方。《象辭》說：《姤卦》的卦象是巽（風）下乾（天）上，為天底下刮著風，風吹遍天地間各個角落，與萬物相依之表象，象征著“相遇”；正如風吹拂大地的情形一樣，君王也應該頒布政令通告四面八方。</value>
+  </data>
+
+  <data name="H_5_Change1" xml:space="preserve">
+    <value>初六，綁上堅固結實的車閘，佔卜結果會很吉祥；前去行事，會遇到凶險，瘦弱的豬因煩躁而團團亂轉。《象》曰：“系於金柅”，柔道牽也。《象辭》說：“綁上堅固結實的車閘”，緊急關頭就可以使車輪與車閘“相遇”，而使狂奔的車子剎住。引伸為遇到強硬的對手，不要去硬碰，應該用柔韌的手段牽制對手，達到以柔克剛的效果。</value>
+  </data>
+
+  <data name="H_5_Change2" xml:space="preserve">
+    <value>九二，廚房裡發現魚，不會有災禍；但不利於拿來宴請賓客。《象》曰：“包有魚”，義不及賓也。《象辭》說：“廚房裡發現魚”，還不會出現災禍，但不宜用魚來宴賓。因為不義之財不可取。</value>
+  </data>
+
+  <data name="H_5_Change3" xml:space="preserve">
+    <value>九三，屁股上蹭破了皮，走起路來很困難；會遇到危險，但不會有大的災禍。《象》曰：“其行次且”，行未牽也。《象辭》說：“走起路來很困難”，表明在路上會遇到艱險，但盡管艱難，卻並未完全受到牽制，還可以繼續前進。</value>
+  </data>
+
+  <data name="H_5_Change4" xml:space="preserve">
+    <value>九四，廚房裡沒有魚，會發生凶險。《象》曰：無魚之凶，遠民也。《象辭》說：廚房裡沒有魚而引起凶險，就好像君主失去民眾百姓的支持，因為脫離民眾，當然會發生凶險。</value>
+  </data>
+
+  <data name="H_5_Change5" xml:space="preserve">
+    <value>九五，用杞樹枝葉包住甜瓜，好比內心懷著美好的品德，不必奔忙，稱心的機遇就會自天而降。《象》曰：九五含章，中正也；有隕自天，志不舍命也。《象辭》說：《姤卦》的第五爻位（九五）內心懷著美好的品德，表明盡管處在最尊貴的地位，卻能夠堅守中道，心地純正。這樣一來，其相遇的情形也是最完美的，用不著上下奔忙，就能與上天恩賜的福佑相遇。充分說明隻要不違天命，就能有好的遇合。</value>
+  </data>
+
+  <data name="H_5_Change6" xml:space="preserve">
+    <value>上九，頭上長角，處境艱難，不過也不會有大的災禍。《象》曰：“姤其角”，上窮吝也。《象辭》說：“頭上長角”，孤芳自賞，根本不會有志同道合的伙伴與之相遇，而失去大眾的支持，等待著的隻有困窮不通的命運。</value>
+  </data>
+
+  <data name="H_5_Meaning" xml:space="preserve">
+    <value>風雲際會之象　聚散隨緣之意</value>
+  </data>
+
+  <data name="H_5_Judgement" xml:space="preserve">
+    <value>他鄉遇友,上平卦</value>
+  </data>
+
+  <data name="H_5_Poem1" xml:space="preserve">
+    <value>卦辭：他鄉遇友喜氣歡，須知運氣福重添。自今交了順當運，向后保管不相干。 </value>
+  </data>
+
+  <data name="H_5_Deduction" xml:space="preserve">
+    <value>推斷：功名有成，家宅平安，失物得見，佔病無妨。 </value>
+  </data>
+
+  <data name="H_5_Omen" xml:space="preserve">
+    <value>大象：風無孔不入，所吹到之處，暴露其間之物體，無一不與之相遇，為邂逅之意。 </value>
+  </data>
+
+  <data name="H_5_Luck" xml:space="preserve">
+    <value>運勢：陰長陽消，注意桃色糾紛，諸事阻滯，宜慎重行事。 </value>
+  </data>
+
+  <data name="H_5_Love" xml:space="preserve">
+    <value>愛情：雙方互不滿意，感情復雜，用情不專之象。 </value>
+  </data>
+
+  <data name="H_5_Health" xml:space="preserve">
+    <value>疾病：病情重，有惡化青況，注意泌尿生殖系統、胸肺科病。 </value>
+  </data>
+
+  <data name="H_5_Lost" xml:space="preserve">
+    <value>失物：盡快尋找，可失而得。失物似被重重物件壓在最底部。 </value>
+  </data>
+
+  <data name="H_5_Lawsuit" xml:space="preserve">
+    <value>訴訟：提防桃色糾紛，是非謠言播弄。</value>
+  </data>
+
+  <data name="H_5_Poem2" xml:space="preserve">
+    <value>風生天下任高低 婦悍豈宜娶作妻 把握時機憑邂逅 小人防范莫輕隨</value>
+  </data>
+
+  <data name="H_6_Main" xml:space="preserve">
+    <value>《訟卦》象征打官司：這是因為誠實守信的德行被阻塞，心中畏懼有所戒備引起，堅守正道居中不偏會有吉祥；堅持把官司打到底則有凶險，如有德高望重的大人物出現則會有利，但出外遠行、要渡過寬闊的大河則不會順利。《象》曰：天與水違行，訟；君子以作事謀始。《象辭》說《訟卦》的卦象是坎（水）下乾（天）上，為天在水上之表象。天從東向西轉動，江河百川之水從西向東流，天與水是逆向相背而行的，象征著人們由於意見不合而打官司。所以君子在做事前要深謀遠慮，從開始就要消除可能引起爭端的因素。</value>
+  </data>
+
+  <data name="H_6_Change1" xml:space="preserve">
+    <value>初六，不久將陷於爭端之中；雖然會受到一些非難和指責，但終久將獲得吉祥。《象》曰："不永所事"，訟不可長也；雖"小有言"，其辯明也。《象辭》說："不久陷於爭端之中"，說明與人爭端決不可長久，決不可互不讓步，相持不下；雖然"受到一些非難指責"，但通過擺事實講道理，可以明辨事非。</value>
+  </data>
+
+  <data name="H_6_Change2" xml:space="preserve">
+    <value>九二，打官司失利，走為上策，趕快逃回來，跑到隻有三百戶人家的小國中，在此居住可以避開災禍。《象》曰："不克訟，歸逋竄也"；自下訟上，患至掇也。《象辭》說："打官司失利，迅速逃回來"，因為自己處於下位，與上面有權有勢的人打官司，必然要失敗而且有災禍降臨，但逃走避開，災禍就沒有了。</value>
+  </data>
+
+  <data name="H_6_Change3" xml:space="preserve">
+    <value>六三，安享著原有的家業，吃喝不愁，堅守正道，處處小心防備危險，終久會獲得吉祥；如果輔佐君王建功立業，成功后不歸功於自己。《象》曰"食舊德"，從上吉也。《象辭》說："安享著祖上遺留下來的家業"，說明隻要順從上級，則可以獲得吉祥的結果。</value>
+  </data>
+
+  <data name="H_6_Change4" xml:space="preserve">
+    <value>九四，打官司失利，經過反思改變了主意，決定不打官司了，安分守己，必然會得到吉利的結果。《象》曰："復即命，渝"，安貞不失也。《象辭》說："打官司失利后，回過頭仔細反思，覺得"和為貴"，還是息事寧人為好，於是改變了主意，撤回訴狀，退出爭端不打官司了，說明堅守正道，安分守己就沒有什麼損失了。</value>
+  </data>
+
+  <data name="H_6_Change5" xml:space="preserve">
+    <value>九五，官司得到了公正的判決，開始獲得吉祥。《象》曰："訟，元吉"，以中正也。《象辭》說："官司得到公正的判決，開始獲得吉祥"，表明此時居於正中地位，得到了大人物的公正的判處。</value>
+  </data>
+
+  <data name="H_6_Change6" xml:space="preserve">
+    <value>上九，因打官司獲勝，君王偶然賞賜給飾有皮束衣帶的華貴衣服，但在一天之內卻幾次被剝下身來。《象》曰：以訟受服，亦不足敬也。《象辭》說：因為打官司獲勝而得到賞賜，沒有什麼可以值得尊敬的。</value>
+  </data>
+
+  <data name="H_6_Meaning" xml:space="preserve">
+    <value>背道而馳之象　無端起訟之意 </value>
+  </data>
+
+  <data name="H_6_Judgement" xml:space="preserve">
+    <value>二人爭路,平平卦</value>
+  </data>
+
+  <data name="H_6_Poem1" xml:space="preserve">
+    <value>卦辭：二人爭路未肯降，佔著此卦費主張。交易出行有阻隔，生意合伙有平常。 </value>
+  </data>
+
+  <data name="H_6_Deduction" xml:space="preserve">
+    <value>推斷：月令不濟，光生閑氣，好事難成，求財費力。 </value>
+  </data>
+
+  <data name="H_6_Omen" xml:space="preserve">
+    <value>大象：乾天升於上，坎水降於下，相背而行而起訟。 </value>
+  </data>
+
+  <data name="H_6_Luck" xml:space="preserve">
+    <value>運勢：事與願違，凡事不順，小人加害，宜防陷阱。 </value>
+  </data>
+
+  <data name="H_6_Love" xml:space="preserve">
+    <value>愛情：反覆不定，是非頻頻，更防小人破壞。 </value>
+  </data>
+
+  <data name="H_6_Health" xml:space="preserve">
+    <value>疾病：病情嚴重，為腰、血液、泌尿系統、頭部疾患。 </value>
+  </data>
+
+  <data name="H_6_Lost" xml:space="preserve">
+    <value>失物：不會出現。 </value>
+  </data>
+
+  <data name="H_6_Lawsuit" xml:space="preserve">
+    <value>訴訟：兩敗俱傷，宜找中間人調解，久爭無益。</value>
+  </data>
+
+  <data name="H_6_Poem2" xml:space="preserve">
+    <value>天水違行成險地 與人爭訟莫逞強 知足退讓英雄事 爭勝雖成終禍殃 得遇貴人能化解 不宜冒險勿輕忘</value>
+  </data>
+
+  <data name="H_7_Main" xml:space="preserve">
+    <value>《遯卦》象征退避：亨通，小事能夠成功。《象》曰：“天下有山，遯；君子以遠小人，不惡而嚴。《象辭》說：《遯卦》的卦象是艮（山）下乾（天）上，為天下有山之表象，象征著隱讓退避。因為山有多高，天就有多高，似乎山在逼天，而天在步步后退，但天無論怎樣后退避讓，卻始終高踞在山之上。君子應同小人保持一定的距離，以傲然不可侵犯的態度截然劃清彼此的界限，這樣一來，就自然而然會生出一種震懾住小人的威嚴來。</value>
+  </data>
+
+  <data name="H_7_Change1" xml:space="preserve">
+    <value>初六，隱退避讓錯過時機落在了后邊，情況非常不好。面對這種情形，應該靜觀待變而不要有所行動，否則將會更加不利。《象》曰：遯尾之厲，不往何災也？《象辭》說：錯過隱退避讓的時機卻還要隱退就會帶來禍患，但是靜觀不動就不會造成什麼危害。</value>
+  </data>
+
+  <data name="H_7_Change2" xml:space="preserve">
+    <value>六二，像用黃牛的皮捆綁起來那樣，誰也難以解脫。《象》曰：執用黃牛，固志也。《象辭》說：“像用黃牛的皮捆綁起來那樣”，意思是說，要堅定自己的志向，決不因任何情況而動搖。</value>
+  </data>
+
+  <data name="H_7_Change3" xml:space="preserve">
+    <value>九三，由於被牽累而難以遠去，就像疾病纏身那樣危險。處在這情況下，就要畜養仆人和侍妾，要使他們被我所用，隻有這樣，才能轉危為安。《象》曰：“系遯之厲”，有疾憊也。“畜臣妾吉”，不可大事也。《象辭》說：“由於被牽累而難以遠去，會有危險”，因為在這種想退而又不能退的情況下，就像疾病纏身那樣使人疲憊不堪。“畜養仆人和侍妾就會吉祥”，的意思是說，處在有所系累的情況下，是不可能有什麼大作為的。</value>
+  </data>
+
+  <data name="H_7_Change4" xml:space="preserve">
+    <value>九四，可以從容隱退避讓而無所系累。君子將因此而獲得吉祥，小人卻不會吉祥。《象》曰：“君子好遯，小人否也。《象辭》說：君子能夠做到該退就退，從容自如，而小人卻做不到這一點。</value>
+  </data>
+
+  <data name="H_7_Change5" xml:space="preserve">
+    <value>九五，能夠進退自如地隱退避讓，能堅守正道，其結果是吉祥的。《象》曰：“嘉遯，貞吉”，以正志也。《象辭》說：“能夠自如地隱退避讓，堅守正道將會獲得吉祥”，關鍵是要堅定自己的信念和志向。</value>
+  </data>
+
+  <data name="H_7_Change6" xml:space="preserve">
+    <value>上九，既無牽累，又已遠離，早已處在隱退避讓中，就像是遠走高飛一樣，所以無論這時做什麼，都不會有什麼不利。《象》曰：“肥遯無不利”，無所疑也。《象辭》說：之所以它能夠“隨心所欲地遠走高飛而又無不利”，就在於它所做的一切都是理所當然和自然而然的，沒有什麼疑慮和思索選擇的。</value>
+  </data>
+
+  <data name="H_7_Meaning" xml:space="preserve">
+    <value>守舊去惡之象　掘井無泉之意</value>
+  </data>
+
+  <data name="H_7_Judgement" xml:space="preserve">
+    <value>濃雲蔽日,中平卦</value>
+  </data>
+
+  <data name="H_7_Poem1" xml:space="preserve">
+    <value>卦辭：濃雲遮日不光明，勸君切莫遠出行。婚姻求財皆不吉，須防口舌到門庭。 </value>
+  </data>
+
+  <data name="H_7_Deduction" xml:space="preserve">
+    <value>推斷：佔病不安，訟事見官，功名不成，事不遂心。 </value>
+  </data>
+
+  <data name="H_7_Omen" xml:space="preserve">
+    <value>大象： 者遁也。山在天之下，陰漸長，而陽漸消，宜退避三舍。</value>
+  </data>
+
+  <data name="H_7_Luck" xml:space="preserve">
+    <value>運勢：小人道長，君子道消，凡事宜退不宜進，窮則獨善其身，養誨修身。 </value>
+  </data>
+
+  <data name="H_7_Love" xml:space="preserve">
+    <value>愛情：落花雖有意，流水卻無情。 </value>
+  </data>
+
+  <data name="H_7_Health" xml:space="preserve">
+    <value>疾病：病重，注意血氣不調、頭、背、筋骨不良之疾。 </value>
+  </data>
+
+  <data name="H_7_Lost" xml:space="preserve">
+    <value>失物：失落遠處，不能尋回。 </value>
+  </data>
+
+  <data name="H_7_Lawsuit" xml:space="preserve">
+    <value>訴訟：強行爭取亦不利，宜罷手逃避反吉。</value>
+  </data>
+
+  <data name="H_7_Poem2" xml:space="preserve">
+    <value>三十六計走為上 君子必須遠小人 凡事忍隱多退避 問求小利亦欣欣</value>
+  </data>
+
+  <data name="H_8_Main" xml:space="preserve">
+    <value>《否卦》象征閉塞：一個卦閉的社會，人們之間的來往是不通暢的，天下沒有便利之處，君子必須堅守正道；這時強大者離去，弱小者到來。《象》曰：天地不交，“否”；君子以儉德辟難，不可榮以祿。《象辭》說：《否卦》的卦象為坤（地）下乾（天）上，為天在地上之表象。天在極高之處，地在極低之處，天地陰陽之間因而不能互相交合，所以時世閉塞不通，這時候君子必須堅持勤儉節約的美德，以避開危險與災難不能謀取高官及豐厚的俸祿，去追求榮華富貴。</value>
+  </data>
+
+  <data name="H_8_Change1" xml:space="preserve">
+    <value>初六，拔起一把茅草，隻見它們的根連在一起，物以類聚，找它們時要以其種類來識別；結果是吉祥的，亨通。《象》曰：“拔茅貞吉”，志在君也。《象辭》說：“拔起茅草，其根相連，結果吉祥”，說明忠心耿耿，有為君主建功立業的遠大志向。</value>
+  </data>
+
+  <data name="H_8_Change2" xml:space="preserve">
+    <value>六二，阿諛奉承有權勢的人，小人因此獲得吉祥；德高望重的大人物否定了阿諛奉承，則是吉利的。《象》曰：“大人否享”，不亂群也。《象辭》說：“德高望重的大人物否定了阿諛奉承，則是吉利的”，因為德高望重的大人物是不能與小人為伍的。</value>
+  </data>
+
+  <data name="H_8_Change3" xml:space="preserve">
+    <value>六三，由於受縱容而胡作非為，終於召致羞辱。《象》曰：“包羞”，位不當也。《象辭》說：“由於受縱容而胡作非為，終於召致羞辱”，說明此時處的位置不正。</value>
+  </data>
+
+  <data name="H_8_Change4" xml:space="preserve">
+    <value>九四，奉行天命，替天行道，開通閉塞，沒有災禍，大家互相依附都可以獲得福分。《象》曰：“有命無咎”，志行也。《象辭》說：“奉行天命，替天行道，開通閉塞沒有災禍”，說明要實現濟困扶危替天行道的志向。</value>
+  </data>
+
+  <data name="H_8_Change5" xml:space="preserve">
+    <value>九五，時世閉塞不通的局面將要停止，德高勢隆的大人物可以獲得吉祥；居安思危，常常以“不久將要滅亡，不久將要滅亡”，這樣的警句來提醒自己，才能像系結在一大片叢生的桑樹上那樣牢固，安然無事。《象》曰：“大人之吉”，位正當也。《象辭》說：“德高勢隆的大人物可以獲得吉祥”，說明此時處於居中位置，合適得當。</value>
+  </data>
+
+  <data name="H_8_Change6" xml:space="preserve">
+    <value>上九，時世閉塞不通的局面將要改變，發生了天翻地覆的變化；起初閉塞不通，后來順暢通達，大家歡喜高興。《象》曰：否終則傾，何可長也！《象辭》說：閉塞到了極點必然要發生傾覆，物極必反，否極泰來，一種局面不會長久持續不發生變化的！</value>
+  </data>
+
+  <data name="H_8_Meaning" xml:space="preserve">
+    <value>閉塞不通之象　上下不和之意</value>
+  </data>
+
+  <data name="H_8_Judgement" xml:space="preserve">
+    <value>虎落陷坑,下平卦</value>
+  </data>
+
+  <data name="H_8_Poem1" xml:space="preserve">
+    <value>卦辭：虎落陷坑不堪言，前進容易退后難。謀望不遂自己便，疾病口舌有牽連。 </value>
+  </data>
+
+  <data name="H_8_Deduction" xml:space="preserve">
+    <value>推斷：佔財可成，貴人遠行，出行不宜，事事晚成。 </value>
+  </data>
+
+  <data name="H_8_Omen" xml:space="preserve">
+    <value>大象：天氣上升，地氣下降，天地之氣不交，主閉塞不通。 </value>
+  </data>
+
+  <data name="H_8_Luck" xml:space="preserve">
+    <value>運勢：上下不和，百事不通，凡事宜忍，須知否極泰來。 </value>
+  </data>
+
+  <data name="H_8_Love" xml:space="preserve">
+    <value>愛情：陰陽相背，拒人於千裡之外，有不和及離別之象。 </value>
+  </data>
+
+  <data name="H_8_Health" xml:space="preserve">
+    <value>疾病：佔病為凶兆，病在腦、肺及腸胃等，慎防癌症。 </value>
+  </data>
+
+  <data name="H_8_Lost" xml:space="preserve">
+    <value>失物：尋不回。 </value>
+  </data>
+
+  <data name="H_8_Lawsuit" xml:space="preserve">
+    <value>訴訟：各走極端，有口難言，宜及時求和。</value>
+  </data>
+
+  <data name="H_8_Poem2" xml:space="preserve">
+    <value>天地不交因阻塞 反常世道亂必生 小人得勢欺君子 陽去陰來事不成</value>
+  </data>
+
+  <data name="H_9_Main" xml:space="preserve">
+    <value>《夬卦》象征果決：在君王的宮廷之上當面宣揚小人的罪過，誠心實意地大聲疾呼，告誡人們危險依然存在；告訴國人，不利於動用武力；利於馬上前去有理有節地解決問題。《象》曰：澤上於天，夬；君子以施祿及下，居德則忌。《象辭》說：《夬卦》的卦象是乾（天）下兌（澤）上，為湖水蒸發上天，即將化為雨傾注而下之表象，以此象征決斷。君子從中得一啟迪：應該自覺地向下層民眾廣施恩德，否則如果高高在上，不施恩德，就會遭到忌恨。</value>
+  </data>
+
+  <data name="H_9_Change1" xml:space="preserve">
+    <value>初九，前面的腳趾粗壯，若急匆匆前去，不能完成制裁小人的使命，還會遇到災禍。《象》曰：不勝而往，咎也。《象辭》說：初九爻地位最低下，本應該積蓄力量等待時機，卻輕率急躁地前往，孤軍深入隻能遭到失敗。不僅完不成制裁小人的使命，還會給自身帶來災禍。</value>
+  </data>
+
+  <data name="H_9_Change2" xml:space="preserve">
+    <value>九二，忽然聽到驚叫聲，深夜裡小人來犯，用不著擔憂。《象》曰：“有戎勿恤“，得中道也。《象辭》說：“深夜小人來犯，用不著擔憂”，這是因為九二爻處在下卦的中位，能夠信守中庸之道，盡管遭到小人的騷擾，終究是有驚無險，可以化險為夷。</value>
+  </data>
+
+  <data name="H_9_Change3" xml:space="preserve">
+    <value>九三，顴骨高突怒容滿面，去與小人較量必然有凶險；若是以君子氣度毅然決然地前去，即使遇上大雨渾身濕透而心懷惱怒，卻不會有任何災禍。《象》曰：“君子夬夬”，終無咎也。《象辭》說：“若是君子氣度毅然決然地前去”，不露聲色地與小人周旋，就能夠避免打草驚蛇引起不測，又可斬斷感情糾葛，避免優柔寡斷，因而不會遇到災禍。</value>
+  </data>
+
+  <data name="H_9_Change4" xml:space="preserve">
+    <value>九四，屁股上蹭破了皮，前去制裁小人的行程必然步履維艱；若是緊緊牽著羊（象征陽剛）行走，就不會出現令人后悔的事，無奈聽了這話的人並不相信。《象》曰：“其行次且”，位不當也；“聞言不信”，聰不明也。《象辭》說：“前去制裁小人的行程必然步履維艱”，是因為所處位置失當，處處受到君王的掣肘，好像屁股蹭破了皮，走起路來十分艱難。“無奈聽了這話的人並不相信”，說明處境艱難，別人建議他借重強有利的陽剛君子的幫助，他卻聽不進去，聽覺正常而決斷不明。</value>
+  </data>
+
+  <data name="H_9_Change5" xml:space="preserve">
+    <value>九五，毅然決然地做出決斷，一舉懲處小人就像鏟除莧陸草一樣，隻要注意時時信守中庸之道，就不會遇到災禍。《象》曰：“中行無咎”，中未光也。《象辭》說：“隻要注意時時信守中庸之道，就不會遇到災禍”，表明盡管處在尊貴地位，要解決小人為亂易如反掌，卻也不能做得太過分，要恰到好處才能避免災禍。這也說明堅守正道的舉動並未大放光彩，僅僅起到免除禍殃的作用而已。</value>
+  </data>
+
+  <data name="H_9_Change6" xml:space="preserve">
+    <value>上六，嚎啕大哭也沒有用，最終必然有凶險臨頭。《象》曰：“晚號之凶”，終不可長也。《象辭》說：“嚎啕大哭也沒有用，最終必然有凶險臨頭”，表明上六以陰柔小人凌駕於陽剛君子特別是君王之上，是眾矢之的。其倒行逆施的狀況不會持續很長時間，最終難以逃脫被制裁的命運。</value>
+  </data>
+
+  <data name="H_9_Meaning" xml:space="preserve">
+    <value>蛟龍登天之象　虧中有益之意</value>
+  </data>
+
+  <data name="H_9_Judgement" xml:space="preserve">
+    <value>游蜂脫網,中吉卦</value>
+  </data>
+
+  <data name="H_9_Poem1" xml:space="preserve">
+    <value>卦辭：游蜂脫網喜無邊，添財進口福祿連。外則通達內則順，富貴榮華勝以前。 </value>
+  </data>
+
+  <data name="H_9_Deduction" xml:space="preserve">
+    <value>推斷：詞訟了結，疾病除根，求財到手，任意遂心。 </value>
+  </data>
+
+  <data name="H_9_Omen" xml:space="preserve">
+    <value>大象：澤水積滿而泛濫成災，滔天之勢。又五陽爻之盛勢必除去唯一陰爻，故一陰孤立。 </value>
+  </data>
+
+  <data name="H_9_Luck" xml:space="preserve">
+    <value>運勢：目前雖吉，但困難及變動正在蘊釀中，宜提高警覺，忌驕傲，防口舌是非。 </value>
+  </data>
+
+  <data name="H_9_Love" xml:space="preserve">
+    <value>愛情：決裂之象。但多為男方摒棄女方之象。 </value>
+  </data>
+
+  <data name="H_9_Health" xml:space="preserve">
+    <value>疾病：病情重宜速治，防頭部、呼吸系統、腫瘤等疾。 </value>
+  </data>
+
+  <data name="H_9_Lost" xml:space="preserve">
+    <value>失物：相信失物已經損壞，不能尋回。 </value>
+  </data>
+
+  <data name="H_9_Lawsuit" xml:space="preserve">
+    <value>訴訟：不宜與人爭執，因勢孤力弱，宜尋求法律途徑解決。</value>
+  </data>
+
+  <data name="H_9_Poem2" xml:space="preserve">
+    <value>宣不當庭剛斷柔 虔誠呼號有危憂 告知從眾遲興武 進取功成自可求</value>
+  </data>
+
+  <data name="H_10_Main" xml:space="preserve">
+    <value>《兌卦》象征喜悅：亨通暢達，利於堅守中正之道。《象》曰：麗澤，兌；君子以朋友講習。《象辭》說：《兌卦》的卦象是兌（澤）下兌（澤）上，為兩個澤水並連之表象。澤水相互流通滋潤，彼此受益，因而又象征喜悅；君子應當效法這一精神，樂於同志同道合的朋友一道研討學業，講習道義，這是人生最大的樂趣。</value>
+  </data>
+
+  <data name="H_10_Change1" xml:space="preserve">
+    <value>初九，能以平和喜悅的態度待人，獲得吉祥。《象》曰：“和兌之吉，行未疑也。《象辭》說：用平和喜悅的態度待人，獲得吉祥，是因為行為誠信端正，不被人猜疑。</value>
+  </data>
+
+  <data name="H_10_Change2" xml:space="preserve">
+    <value>九二，心中誠信與人和悅，故而得到吉祥；悔恨可以消失。《象》曰：“孚兌之吉”，信志也。《象辭》說：“心中誠信與人和悅，故而得到吉祥”，說明心志誠信、篤實，能獲得好的結果。</value>
+  </data>
+
+  <data name="H_10_Change3" xml:space="preserve">
+    <value>六三，前來尋求欣悅，有凶險。《象》曰：“來兌之凶”，位不當也。《象辭》說：“前來導求欣悅，有凶險”，是因為居位不中不正的緣故。</value>
+  </data>
+
+  <data name="H_10_Change4" xml:space="preserve">
+    <value>九四，剛居柔位，對喜悅能保持一定的警惕，有所思量，心緒不寧，須排除凶險疾惡才會有喜慶的結果。《象》曰：“九四之喜，有慶也。《象辭》說：《兌卦》的第四爻位（九四）能拒絕誘惑，毅然守正，因此出現好的兆頭，值得慶賀。</value>
+  </data>
+
+  <data name="H_10_Change5" xml:space="preserve">
+    <value>九五，誠心相信小人的巧言令色，必有危險。《象》曰：“孚於剝”，位正當也！《象辭》說：“誠心相信小人的巧言令色必有危險”，隻可惜它所居的正當之位了。</value>
+  </data>
+
+  <data name="H_10_Change6" xml:space="preserve">
+    <value>上六，引誘別人一同歡悅。《象》曰：上六“引兌”，未光也。《象辭》說：《兌卦》的第六爻位（上六）“引誘別人一同歡悅”，不是光明正大的品行，而是偏離正德，這種所謂的歡悅將導致凶險。</value>
+  </data>
+
+  <data name="H_10_Meaning" xml:space="preserve">
+    <value>天降雨澤之象　有譽有譏之意</value>
+  </data>
+
+  <data name="H_10_Judgement" xml:space="preserve">
+    <value>趁水和泥,中吉卦</value>
+  </data>
+
+  <data name="H_10_Poem1" xml:space="preserve">
+    <value>卦辭：這個卦象真有趣，覺著做事不費力。休要錯過這機會，事事就覺遂心意。 </value>
+  </data>
+
+  <data name="H_10_Deduction" xml:space="preserve">
+    <value>推斷：口舌消散，疾病痊愈，求財到手，謀事遂心。 </value>
+  </data>
+
+  <data name="H_10_Omen" xml:space="preserve">
+    <value>大象：兩澤相依，更得澤中映月，美景良辰，令人怡悅。 </value>
+  </data>
+
+  <data name="H_10_Luck" xml:space="preserve">
+    <value>運勢：悲喜交集，有譽有譏，守正道，諸事尚可稱意。 </value>
+  </data>
+
+  <data name="H_10_Love" xml:space="preserve">
+    <value>愛情：可能因金錢而致口舌之爭，又或者因兩個女性而煩惱。 </value>
+  </data>
+
+  <data name="H_10_Health" xml:space="preserve">
+    <value>疾病：六沖卦久病則凶，注意生活檢點，戒酒色。 </value>
+  </data>
+
+  <data name="H_10_Lost" xml:space="preserve">
+    <value>失物：遣失物似為金屬或金錢，有望失而 得，但是遲一點。且多數已損毀或損失。 </value>
+  </data>
+
+  <data name="H_10_Lawsuit" xml:space="preserve">
+    <value>訴訟：似為兩個女性及金錢之事惹起，宜有和事老出面調解。</value>
+  </data>
+
+  <data name="H_10_Poem2" xml:space="preserve">
+    <value>金水滔滔起奪爭 信誠和悅可通亨 須防暗搶加強奪 謹慎能求小利生</value>
+  </data>
+
+  <data name="H_11_Main" xml:space="preserve">
+    <value>《革卦》象征變革：在己日變革舊的事物，能夠使民眾深深的信服，前途通暢，堅守正道，最后就會取得成功，悔恨終將會消釋。《象》曰：“澤中有火，革；君子以治歷明時。《象辭》說：《革卦》的卦象是離（火）下兌（澤）上，為澤中有火之表象。大水可以使火熄滅；大火也可以使水蒸發，如此，水火相克相生，從而產生變革。君子根據變革的規律制定歷法以明辨春、夏、秋、冬四季的變化。</value>
+  </data>
+
+  <data name="H_11_Change1" xml:space="preserve">
+    <value>初九，應該用黃牛的皮革牢牢地捆綁住。《象》曰：“鞏用黃牛”，不可以有為也。《象辭》說：“用黃牛的皮革牢牢地捆綁住”，因為初九在卦的最下位，位卑微而不可能有所作為。</value>
+  </data>
+
+  <data name="H_11_Change2" xml:space="preserve">
+    <value>六二，在己日進行變革，前途必獲吉祥，不會有災禍。《象》曰：“己日革之”，行有佳也。《象辭》說：“在己日進行變革”，必然會有好的功效。</value>
+  </data>
+
+  <data name="H_11_Change3" xml:space="preserve">
+    <value>九三，急進會發生凶險，要以正防危；對於變革的言論，要多次研究周密考慮，贏得人們的信賴，就可以進行變革了。《象》曰：“革言三就”，又何之矣！《象辭》說：“對於變革的言論，要多次研究周密考慮”，其他的路是沒有的，變革已經勢在必行，隻有走變革的道路。</value>
+  </data>
+
+  <data name="H_11_Change4" xml:space="preserve">
+    <value>九四，悔恨已經消釋，仍舊需要人們的信賴以革除舊的事物，這樣做是吉祥的。《象》曰：“改命之吉，信志也。《象辭》說：革除舊的事物，這樣做是吉祥的，因為這符合變革的志向。</value>
+  </data>
+
+  <data name="H_11_Change5" xml:space="preserve">
+    <value>九五，偉大的人物像猛虎一般進行變革，不必置疑一定能光大誠信的美德。《象》曰：“大人虎變”，其文炳也。《象辭》說：“偉大的人物像猛虎一般進行變革”，表明變革必然成功，其美德光照天下。</value>
+  </data>
+
+  <data name="H_11_Change6" xml:space="preserve">
+    <value>上六，君子像有斑紋的豹子那樣進行變革，連小人也順應變革改變舊日傾向；急進會有凶險，居而守正可以得到吉祥。《象》曰：“君子豹變”，其文蔚也；“小人革面”，順以從君也。《象辭》說：“君子像有斑紋的豹子那樣進行變革”，說明君子協助有道德的大人物一起變革，必然使變革的成就更加光輝燦爛；“連小人也順應變革改變舊日傾向”，說明大勢所趨，小人也不得不順從君子的變革。</value>
+  </data>
+
+  <data name="H_11_Meaning" xml:space="preserve">
+    <value>豹變為虎之象　改舊納新之意</value>
+  </data>
+
+  <data name="H_11_Judgement" xml:space="preserve">
+    <value>旱苗得雨,上平卦</value>
+  </data>
+
+  <data name="H_11_Poem1" xml:space="preserve">
+    <value>卦辭：苗逢旱天漸漸衰，幸得天恩降雨來。憂去喜來能變化，求謀諸事遂心懷。 </value>
+  </data>
+
+  <data name="H_11_Deduction" xml:space="preserve">
+    <value>推斷：出行大吉，走失能找，行人來信，百般湊巧。 </value>
+  </data>
+
+  <data name="H_11_Omen" xml:space="preserve">
+    <value>大象：兌為金，被離火所燒，變革之象。 </value>
+  </data>
+
+  <data name="H_11_Luck" xml:space="preserve">
+    <value>運勢：凡事均在變動之中，宜去舊立新，以應革新之象。 </value>
+  </data>
+
+  <data name="H_11_Love" xml:space="preserve">
+    <value>愛情：代表往事如煙，重新再開始，或應改舊有態度。 </value>
+  </data>
+
+  <data name="H_11_Health" xml:space="preserve">
+    <value>疾病：病情多變，宜改換求醫方法，注意心臟，眼目和咽喉之疾。 </value>
+  </data>
+
+  <data name="H_11_Lost" xml:space="preserve">
+    <value>失物：因有棄舊迎新之意，故相信不能尋回。 </value>
+  </data>
+
+  <data name="H_11_Lawsuit" xml:space="preserve">
+    <value>訴訟：要改變舊有對策，才可圓滿解決。</value>
+  </data>
+
+  <data name="H_11_Poem2" xml:space="preserve">
+    <value>澤火難容須變革 維新指日可完成 前程通順貞求利 悔恨將除局朗明</value>
+  </data>
+
+  <data name="H_12_Main" xml:space="preserve">
+    <value>《隨卦》象征隨從，隨和：如果隨從、隨和，便能始終亨通，和諧有利。固守正道，沒有任何危險。《象》曰：澤中有雷，隨；君子以向晦入宴息。《象辭》說：《隨卦》的卦象是震（雷）下兌（澤）上，為澤中有雷之表象。澤中有雷聲，澤隨從雷聲而震動，這便象征隨從。君子行事要遵從合適的作息時間。白天出處辛勞工作，夜晚就回家睡覺安息。</value>
+  </data>
+
+  <data name="H_12_Change1" xml:space="preserve">
+    <value>初九，思想隨時代而變化，堅持正道可獲吉祥。出門交朋友，一定能成功。《象》曰：“官有渝”，從正吉也；“出門交，有功”，不失也。《象辭》說：“思想隨時代而變化”，但無論怎麼變，都必然始終遵從正道，這樣就可以獲得吉祥。“出站交朋友，一定能成功”，這是因為其唯正是從，見善則從，沒有過失的緣故。</value>
+  </data>
+
+  <data name="H_12_Change2" xml:space="preserve">
+    <value>六二，傾心隨從於年輕小子，則會失去了陽剛方正的丈夫。《象》曰：“係小子”，弗兼與也。《象辭》說：“傾心隨從於年輕小子則會失去陽剛方正的丈夫”，因為二者是互相排斥的，是不可兼得的。</value>
+  </data>
+
+  <data name="H_12_Change3" xml:space="preserve">
+    <value>六三，隨從陽剛方正的丈夫行事，則必然丟失年輕小子。隨從於丈夫，有求必得，有利於安居樂業，堅守婦道，貞節處世。《象》曰：“係丈夫”，志舍下也。《象辭》說：“隨從陽剛方正的丈夫行事”，專心不二，說明其志在於舍棄下方的年輕小子。</value>
+  </data>
+
+  <data name="H_12_Change4" xml:space="preserve">
+    <value>九四，他人追隨自己，雖有收獲，但有可能發生凶險。雖有凶險，但隻要心存誠信，不違正道，使自己的美德顯明，那還有什麼危害呢？《象》曰：“隨有獲”，其義凶也。“有孚在道”，明功也。《象辭》說：“他人追隨自己，雖有收獲”，但因居位不當，有“震主“之嫌，所以可能有凶險。但隻要“心存誠信，不違正道”，則可逢凶化吉，這是由於立身光明磊落所帶來的功效。</value>
+  </data>
+
+  <data name="H_12_Change5" xml:space="preserve">
+    <value>九五，把誠信帶給誠實善良之人，可獲吉祥。《象》曰：“孚於嘉，吉”，位正中也。《象辭》說：“把誠信帶給誠實善良之人，可獲吉祥”，這是因為九五爻得正居中，不倚不偏。</value>
+  </data>
+
+  <data name="H_12_Change6" xml:space="preserve">
+    <value>上六，隻有拘禁起來強迫、命令他，他才不得不順服追隨，再用繩索捆綁緊，才能追隨到底。君王在西山設祭，要出師討伐那些不順從的人。《象》曰：“拘係之”，上窮也。《象辭》說：“隻有拘禁起來強迫、命令他，他才不得不順服追隨”，這是因為上六爻高居《隨卦》最上爻，物極必反的緣故。</value>
+  </data>
+
+  <data name="H_12_Meaning" xml:space="preserve">
+    <value>乘馬逐鹿之象　隨遇而安之意</value>
+  </data>
+
+  <data name="H_12_Judgement" xml:space="preserve">
+    <value>推車靠岸,下吉卦</value>
+  </data>
+
+  <data name="H_12_Poem1" xml:space="preserve">
+    <value>卦辭：推車靠堰道路干，謀望求財不費難。婚姻出行無阻隔，疾病口舌保平安。 </value>
+  </data>
+
+  <data name="H_12_Deduction" xml:space="preserve">
+    <value>推斷：苦極生榮，喜氣盈盈，一切做事，大運亨通。 </value>
+  </data>
+
+  <data name="H_12_Omen" xml:space="preserve">
+    <value>大象：震木在兌澤之下，木必隨水漂蕩，隨者，順也。 </value>
+  </data>
+
+  <data name="H_12_Luck" xml:space="preserve">
+    <value>運勢：有去舊迎新之吉象，宜與人合作，可獲厚利，忌三心兩意，或獨斷獨行。 </value>
+  </data>
+
+  <data name="H_12_Love" xml:space="preserve">
+    <value>愛情：防用情不專，沉迷情欲。 </value>
+  </data>
+
+  <data name="H_12_Health" xml:space="preserve">
+    <value>疾病：病重、須長期治療，注意口腔、肝、足患等症。 </value>
+  </data>
+
+  <data name="H_12_Lost" xml:space="preserve">
+    <value>失物：即將疏忽之時，會突然察覺。 </value>
+  </data>
+
+  <data name="H_12_Lawsuit" xml:space="preserve">
+    <value>訴訟：宜決意和解，目前無憂，但不久須防有禍。</value>
+  </data>
+
+  <data name="H_12_Poem2" xml:space="preserve">
+    <value></value>
+  </data>
+
+  <data name="H_13_Main" xml:space="preserve">
+    <value>《大過卦》象征極為過分：房屋的棟梁受重壓而彎曲；利於前去行事，亨通順利。《象》曰：“澤滅木，大過；君子以獨立不懼，遯世無悶。《象辭》說：“《大過卦》的卦象是巽（風）下兌（澤）上，巽在這裡代表木，故為水澤淹沒了樹木之表象，象征極為過分；君子取法這一現象，就應當堅持自己的操守，進則超然獨行，不必顧忌和畏懼他人的非議；退則逃避世間，不為隱姓埋名而苦悶煩惱。</value>
+  </data>
+
+  <data name="H_13_Change1" xml:space="preserve">
+    <value>初六，本來直接把器物放置在地上就可以了，現在又用白色的茅草襯墊在器物的下面，使它更加安穩，所以不會發生災禍。《象》曰：“藉用白茅”，柔在下也。《象辭》說：“用白色的茅草襯墊在器物的下面”，是說行為非常小心謹慎，所以不會發生什麼災禍。</value>
+  </data>
+
+  <data name="H_13_Change2" xml:space="preserve">
+    <value>九二，已經枯萎的楊樹重新又長出新的枝芽，老年男子娶了位年輕的妻子，這種現象沒有什麼不利的。《象》曰：“老夫女妻”，過以相與也。《象辭》說：“老年男子娶了位年輕的妻子”，雖為過分，但由於能夠剛柔相濟，所以不會發生不利的情況。</value>
+  </data>
+
+  <data name="H_13_Change3" xml:space="preserve">
+    <value>九三，房屋的棟梁受重壓而彎曲，結果必然發生凶險。《象》曰：“棟橈之凶”，不可以有輔也。《象辭》說：“房屋的棟梁受重壓而彎曲，結果必然發生凶險”，是因為陽剛極為過分，所以不能再來輔助它，否則后果將不堪設想。</value>
+  </data>
+
+  <data name="H_13_Change4" xml:space="preserve">
+    <value>九四，房屋的棟梁向上隆起，克服了彎曲，可以獲得吉祥；不能再彎曲，再彎曲就會出問題。《象》曰：“棟隆之吉”，不橈乎下也。《象辭》說：“房屋的棟梁向上隆起，克服了彎曲，可以獲得吉祥”，是由於九四爻本身能使棟梁不再向下彎曲。</value>
+  </data>
+
+  <data name="H_13_Change5" xml:space="preserve">
+    <value>九五，已經枯萎的楊樹重新又盛開鮮艷的花朵，已經衰老的婦人嫁給了年富力強的男人，這種現象既不會遇到什麼禍害，也沒有什麼值得稱道的。《象》曰：“枯楊生華”，何可久也？“老婦士夫”，亦可丑也。《象辭》說：“已經枯萎的楊樹重新又盛開鮮艷的花朵”，表面現象又怎麼可以長久保持下去呢？“已經衰老的婦人嫁給了年富力強的男子”，這種婚配是會令人深感羞恥的。</value>
+  </data>
+
+  <data name="H_13_Change6" xml:space="preserve">
+    <value>上六，涉過深之水以至於淹沒了頭頂，就會發生凶險，但最終不會有禍患。《象》曰：“過涉之凶”，不可咎也。《象辭》說：“涉過深之水會發生凶險“，但如果能及時補救，還是可以化險為夷，最終不會有禍患。</value>
+  </data>
+
+  <data name="H_13_Meaning" xml:space="preserve">
+    <value>枯木生花之象　反省過失之意</value>
+  </data>
+
+  <data name="H_13_Judgement" xml:space="preserve">
+    <value>夜夢金銀,下下卦</value>
+  </data>
+
+  <data name="H_13_Poem1" xml:space="preserve">
+    <value>卦辭：夜夢金銀醒來空，求名求利大不通。婚姻難成交易散，走失行人不見蹤。 </value>
+  </data>
+
+  <data name="H_13_Deduction" xml:space="preserve">
+    <value>推斷：月令不和，好事難謀，凡事忍耐，休要琢磨。 </value>
+  </data>
+
+  <data name="H_13_Omen" xml:space="preserve">
+    <value>大象：中間四陽爻，為結實之梁，但初末為陰爻，力弱不支，則勢將摧折。 </value>
+  </data>
+
+  <data name="H_13_Luck" xml:space="preserve">
+    <value>運勢：有力不從心，負擔過重之象，多煩惱，防官非及水險。 </value>
+  </data>
+
+  <data name="H_13_Love" xml:space="preserve">
+    <value>愛情：雙方之眼光均太高或各已有心上人，凶象。 </value>
+  </data>
+
+  <data name="H_13_Health" xml:space="preserve">
+    <value>疾病：嚴重，須耐心治療，為肺、神經系統，女佔得婦科經帶之疾。 </value>
+  </data>
+
+  <data name="H_13_Lost" xml:space="preserve">
+    <value>失物：無法發現，不能物歸原主。 </value>
+  </data>
+
+  <data name="H_13_Lawsuit" xml:space="preserve">
+    <value>訴訟：有文書之煩，即使求和也未能如願。</value>
+  </data>
+
+  <data name="H_13_Poem2" xml:space="preserve">
+    <value>陽剛過度不尋常 枯木花開水澤床 長就棟材堪受壓 自強積極定吉祥</value>
+  </data>
+
+  <data name="H_14_Main" xml:space="preserve">
+    <value>《困卦》象征困頓：亨通；佔卜結果表明，神通廣大的大人物可以獲得吉祥，沒有災禍；此時許下的諾言很難令人相信。《象》曰：澤無水，困；君子以致命遂志。《象辭》說：《困卦》的卦象是坎（水）下兌（澤）上，為澤中無水之表象，象征困頓；作為君子應該身處窮困而不氣餒，為實現自己的志向，不惜犧牲生命。</value>
+  </data>
+
+  <data name="H_14_Change1" xml:space="preserve">
+    <value>初六，屁股卡在木樁上坐立不安，退隱到幽深的山谷裡，三年不與外人相見。《象》曰：“入於幽谷“，幽不明也。《象辭》說：“退隱到幽深的山谷裡”，就是進入荒僻陰暗不見天日的地方，比喻處境極其困難，看不到一線希望。</value>
+  </data>
+
+  <data name="H_14_Change2" xml:space="preserve">
+    <value>九二，為醇酒美食所困擾而窮於應付，高官厚祿就將來到，應當用豐美的酒食祭祀神靈；出兵征戰即使遇到凶險，也不會受到傷害。《象》曰：“困於酒食”，中有慶也。《象辭》說：“為醇酒美食所困擾而窮於應付”，並不是很可怕的事，隻要內心堅持中道，純正而有主見，就會有喜慶之事到來。</value>
+  </data>
+
+  <data name="H_14_Change3" xml:space="preserve">
+    <value>六三，困在石頭下面，站在蒺藜之上；剛剛回到家中，又不見了自家妻室，凶險接二連三來到身邊。《象》曰：“據於蒺藜”，乘剛也；“入於其宮，不見其妻”，不祥也。《象辭》說：“站在蒺藜之上”，就是說陰柔凌駕在陽剛之上，情形就像是站在刺人的蒺藜上面，十分困窘。“剛剛回到家中，又不見了自家妻室”，說明禍不單行，已經飽受各種困擾，家門又慘遭不幸，實在是不吉祥的兆頭。</value>
+  </data>
+
+  <data name="H_14_Change4" xml:space="preserve">
+    <value>九四，慢騰騰姍姍來遲，原來是被一輛豪華金車所困而不能脫身，會遇到一些困難，但最終會有好的結局。《象》曰：“來徐徐”，志在下也；雖不當位，有與也。《象辭》說：“慢騰騰姍姍來遲”，表明沒有飛黃騰達的奢望，一心想著屈尊下士來擺脫困境；雖然所處地位不妥當，不能勝任職務，卻能得到志同道合者的支持。</value>
+  </data>
+
+  <data name="H_14_Change5" xml:space="preserve">
+    <value>九五，用割鼻子剁腳的酷刑治理天下，就會被自身所處的尊貴地位所困擾；但慢慢地又會走出困境，應當虔誠地祭祀神靈，才能保証前景順利。《象》曰：“劓刖”，志未得也；“乃徐有說”，以中直也；“利用祭祀”，受福也。《象辭》說：“用割鼻子剁腳的酷刑治理天下”，表明處在至高無上的顯赫位置上，如果不恤民命，濫施酷刑，就會落得個孤家寡人，被困在眾叛親離的尊位上，擺脫困境走向亨通的志向就難以實現。“慢慢地又會走困境”，完全是由於堅守中庸、保持正直品德的結果；“應當虔誠地祭祀神靈，才能保証前景順利”，就是說誠心敬神，可以時時接受神靈恩賜的福分，求得吉祥順利。</value>
+  </data>
+
+  <data name="H_14_Change6" xml:space="preserve">
+    <value>上六，困在紛亂纏繞的葛藤中，身臨搖搖欲墜的山石之間，假如說動輒會后悔，那就早點行動，讓悔悟快點到來，向前進軍會迎來吉祥。《象》曰：“困於葛藟”，未當也；“動悔有悔”，吉行也。《象辭》說：“困在紛亂纏繞的葛藤中”，說明所處位置不是十分妥當，腳下尚有難以解脫的絆索，因此困難重重。“假如說動輒會后悔，那就早點行動，讓悔悟快點到來”，這是十分明智的舉動，早些悔悟，把危險拋在身后，前途就會無比吉祥順利。</value>
+  </data>
+
+  <data name="H_14_Meaning" xml:space="preserve">
+    <value>河中無水之象　守正待機之意</value>
+  </data>
+
+  <data name="H_14_Judgement" xml:space="preserve">
+    <value>撮杆抽梯,下平卦</value>
+  </data>
+
+  <data name="H_14_Poem1" xml:space="preserve">
+    <value>卦辭：時運不來有人欺，千方百計費商議。明明與你說好話，撮上杆去抽了梯。 </value>
+  </data>
+
+  <data name="H_14_Deduction" xml:space="preserve">
+    <value>推斷：當交君子，莫聽小人，凡事謹慎，永不受窮。 </value>
+  </data>
+
+  <data name="H_14_Omen" xml:space="preserve">
+    <value>大象：水在澤下，萬物不生，喻君子困窮，小人濫盈之象。 </value>
+  </data>
+
+  <data name="H_14_Luck" xml:space="preserve">
+    <value>運勢：諸事不如意，所謂龍游淺水遭蝦戲。 </value>
+  </data>
+
+  <data name="H_14_Love" xml:space="preserve">
+    <value>愛情：多失敗收場，難成氣候。 </value>
+  </data>
+
+  <data name="H_14_Health" xml:space="preserve">
+    <value>疾病：危重之象，注意口腔咽喉，泌尿系統，甚至性病。 </value>
+  </data>
+
+  <data name="H_14_Lost" xml:space="preserve">
+    <value>失物：不能尋回。 </value>
+  </data>
+
+  <data name="H_14_Lawsuit" xml:space="preserve">
+    <value>訴訟：凡事不宜過於執著，雖防牢獄之災。</value>
+  </data>
+
+  <data name="H_14_Poem2" xml:space="preserve">
+    <value>困擾迫人須隱忍 空言無信反蹉跎 求人之問當得遇 順利無災福自多</value>
+  </data>
+
+  <data name="H_15_Main" xml:space="preserve">
+    <value>《咸卦》象征感應：亨通順利，有利於堅守正道；娶妻可以獲得吉祥。《象》曰：山上有澤，咸；君子以虛受人。《象辭》說：《咸卦》的卦象是艮(山)下兌(澤)上，為山上有澤之表象，即上方的水澤滋潤下面的山體，下面的山體承托上方的水澤並吸收其水分的形象，因而象征感應；君子效法山水相連這一現象，以虛懷若谷的精神容納感化他人。初六，咸其拇。</value>
+  </data>
+
+  <data name="H_15_Change1" xml:space="preserve">
+    <value>初六，感應發生在腳的大拇趾上。《象》曰：“咸其拇”，志在外也。《象辭》說：“感應發生在腳的大拇趾上”，說明其感應志向是向外追求。</value>
+  </data>
+
+  <data name="H_15_Change2" xml:space="preserve">
+    <value>六二，感應發生在小腿肚上，是由於急躁妄動，這樣就會發生凶險的事情；若是安居靜處，便可以獲得吉祥。《象》曰：雖凶居吉，順不害也。《象辭》說：雖然會發生凶險的事情，但是隻要安居靜處，便可以避災遠禍了。</value>
+  </data>
+
+  <data name="H_15_Change3" xml:space="preserve">
+    <value>九三，感應發生在大腿上，一味地跟隨著別人任意妄動，這樣前去行事，必然導致災禍。《象》曰：“咸其股”，亦不處也；“志在隨人”，所執下也。《象辭》說：“感應發生在大腿上”，說明不能安居靜處，自我克制，而是性情急躁，隨心所欲地任意妄為；“盲目地跟隨別人任意妄為”，是因為它所執意追求的過於低下卑劣了。</value>
+  </data>
+
+  <data name="H_15_Change4" xml:space="preserve">
+    <value>九四，內心保持純潔無邪的態度，就可以獲得吉祥，沒有后悔；心猿意馬地與朋友交往，朋友會報答你的情意。《象》曰：“貞吉悔亡”，未感害也；“憧憧往來”，未光大也。《象辭》說：“內心保持純潔無邪的態度，就可以獲得吉祥，沒有后悔”，說明九四爻並沒有因感應而遭受禍害；“心猿意馬地與朋友交往”，朋友面必然窄，影響也小，不能遍及於天下人。</value>
+  </data>
+
+  <data name="H_15_Change5" xml:space="preserve">
+    <value>九五，感應發生在脊背的肉上，不會發生后悔。《象》曰：“咸其脢”，志未也。《象辭》說：“感應發生有脊背的肉上”，說明其隻知獨善其身，這樣它的志向難免過於淺薄了。</value>
+  </data>
+
+  <data name="H_15_Change6" xml:space="preserve">
+    <value>上六，感應發生在牙床、臉頰、舌頭上。《象》曰：“咸其輔、頰、舌”，滕口說也。《象辭》說：“感應發生在牙床、臉頰、舌頭上”，說明其隻是玩弄三寸不爛之舌而已。</value>
+  </data>
+
+  <data name="H_15_Meaning" xml:space="preserve">
+    <value>山澤通氣之象　往來無阻之意</value>
+  </data>
+
+  <data name="H_15_Judgement" xml:space="preserve">
+    <value>萌芽出土,平平卦</value>
+  </data>
+
+  <data name="H_15_Poem1" xml:space="preserve">
+    <value>卦辭：腳踏棒槌轉悠悠，時運不來莫強求。幸喜今日時運轉，自有好事在后頭。 </value>
+  </data>
+
+  <data name="H_15_Deduction" xml:space="preserve">
+    <value>推斷：謀望有成，出門可行，走失來信，疾病安寧。 </value>
+  </data>
+
+  <data name="H_15_Omen" xml:space="preserve">
+    <value>大象：少男在少女之下，彼此感應，象徵新婚，兩性交感。 </value>
+  </data>
+
+  <data name="H_15_Luck" xml:space="preserve">
+    <value>運勢：如意吉祥，但勿為不正當感情而意亂情迷。 </value>
+  </data>
+
+  <data name="H_15_Love" xml:space="preserve">
+    <value>愛情：正常戀情，則發展順利，但名不順者，當懸崖勒馬。 </value>
+  </data>
+
+  <data name="H_15_Health" xml:space="preserve">
+    <value>疾病：防泌尿系統病，腸胃病及性病等，須療養得法，否則不利。</value>
+  </data>
+
+  <data name="H_15_Lost" xml:space="preserve">
+    <value>失物：盡速找尋，可以取回，延誤時機，則找不回來。 </value>
+  </data>
+
+  <data name="H_15_Lawsuit" xml:space="preserve">
+    <value>訴訟：提防桃色糾紛，諸事宜和解，有貴人相助。</value>
+  </data>
+
+  <data name="H_15_Poem2" xml:space="preserve">
+    <value>天交地感道天然 心有靈犀一線連 山上澤臨貞者利 問求娶婦喜良緣</value>
+  </data>
+
+  <data name="H_16_Main" xml:space="preserve">
+    <value>《萃卦》象征聚合：亨通；君王到宗廟裡祭祀，祈求神靈保佑，利於出現德高望重的大人物，亨通無阻而且有利於樹立純正的道德風尚；用牛羊等大的祭品獻祭能夠帶來吉祥如意，利於前去行事。《象》曰：“澤上於地，萃；君子以除戎器，戎不虞。《象辭》說：《萃卦》的卦象是：坤（地）下兌（澤）上，為地上有湖，四面八方的細流都源源不斷匯入湖中之表象，象征著聚合；在這種眾流會聚的時候，必然會現魚龍混雜、泥沙俱下的情況，因此君子應當修繕甲杖兵器，以防發生意想不到的變故。</value>
+  </data>
+
+  <data name="H_16_Change1" xml:space="preserve">
+    <value>初六，如果對神靈的一片誠心不能始終如一，各種亂子就會發生而湊到一起；眾人喧嘩呼號，隻要彼此握手交流感情，就能化眾怒為歡笑；用不著憂慮，前去行事不會遇到災禍。《象》曰：“乃亂乃萃“，其志亂也。《象辭》說：“各種亂子就會發生而湊到一起”，不是由於別的原因，主要是因為內心的虔誠不能始終如一，陷於迷惑混亂所致。</value>
+  </data>
+
+  <data name="H_16_Change2" xml:space="preserve">
+    <value>六二，引退謙讓會帶來吉祥，沒有害處；隻要內心懷著虔誠，即使舉行微薄的禴祭（即春祭，古代四季祭祀之一）也能帶來吉祥。《象》曰：“引吉無咎”中未變也。《象辭》說：“引退謙讓會帶來吉祥，沒有災難“，這是因為該爻位置居中而適當，當會聚的時候，它既不偏不激也不過於保守，虔誠地遵循中庸之道始終不曾改變，因而能夠謙讓而逢凶化吉。</value>
+  </data>
+
+  <data name="H_16_Change3" xml:space="preserve">
+    <value>六三，聚合的希望在嘆息聲中破滅，干什麼都不會順利；前去行事不會遇到災禍，隻有一點小小麻煩。《象》曰：“往無咎”，上巽也。《象辭》說：“前去行事不會遇到災禍”這是因為遇到居於上位的陽剛氣十足者。但居於下方的陰柔一方總能表現出謙遜而順從，從而免去了可能出現的災禍。</value>
+  </data>
+
+  <data name="H_16_Change4" xml:space="preserve">
+    <value>九四，隻有在大吉大利的情況下，才能夠沒有災禍。《象》曰：“大吉無咎”，位不當也。《象辭》說：“隻有在大吉大利的情況下，才能夠沒有災害”，這是因為所處位置不適當，隨時有可能受到傷害，隻有在大吉大利的時候才可以避免受害。</value>
+  </data>
+
+  <data name="H_16_Change5" xml:space="preserve">
+    <value>九五，當萬方聚合之時居於尊貴的高位，不會遇到災難，但也並沒有取得大眾的主悅誠服；德高望重的君長如果能堅定不移地主持正義，倡導純正的風尚，就可以避免因做錯事而引起的后悔。《象》曰：“萃有位”，志未光也。《象辭》說：“萬方聚合之時居於尊貴的高位”，並不能表明大會天下、四海歸心的志向得到了發揚光大，還需要修持德行，樹立威望，使大眾心悅誠服。</value>
+  </data>
+
+  <data name="H_16_Change6" xml:space="preserve">
+    <value>上六，唉聲嘆氣而又哭哭啼啼，不會遇到災禍。《象》曰：“齊咨涕洟”，未安上也。《象辭》說：“唉聲嘆氣而又哭哭啼啼”，是因為雖然身在外，但無一日惦念處於京中的君主。</value>
+  </data>
+
+  <data name="H_16_Meaning" xml:space="preserve">
+    <value>鯉登龍門之象　精英薈萃之意</value>
+  </data>
+
+  <data name="H_16_Judgement" xml:space="preserve">
+    <value>鯉魚化龍,中吉卦</value>
+  </data>
+
+  <data name="H_16_Poem1" xml:space="preserve">
+    <value>卦辭：鯉魚化龍喜氣來，口舌疾病永無災。愁疑從此都消散，禍門閉來福門開。 </value>
+  </data>
+
+  <data name="H_16_Deduction" xml:space="preserve">
+    <value>推斷：鯉魚化龍，喜氣重重，求財到手，做事有功。 </value>
+  </data>
+
+  <data name="H_16_Omen" xml:space="preserve">
+    <value>大象：澤在地上，水聚於泥土中，滋養草木，生長茂盛。 </value>
+  </data>
+
+  <data name="H_16_Luck" xml:space="preserve">
+    <value>運勢：吉運昌盛，又得長輩提攜，事業大利，但須防財務糾紛。 </value>
+  </data>
+
+  <data name="H_16_Love" xml:space="preserve">
+    <value>愛情：可喜可賀之吉象。 </value>
+  </data>
+
+  <data name="H_16_Health" xml:space="preserve">
+    <value>疾病：凶象，宜速診治，防胸腹及咽喉之病變。 </value>
+  </data>
+
+  <data name="H_16_Lost" xml:space="preserve">
+    <value>失物：多半能失而 得。 </value>
+  </data>
+
+  <data name="H_16_Lawsuit" xml:space="preserve">
+    <value>訴訟：宜解不宜結。</value>
+  </data>
+
+  <data name="H_16_Poem2" xml:space="preserve">
+    <value>聚水成潭萬事亨 君王得勢廟登臨 勇往進取求者利 厚牲祭祀遇貴人</value>
+  </data>
+
+  <data name="H_17_Main" xml:space="preserve">
+    <value>《大有卦》象征大有收獲：至為亨通。《象》曰：火在天上，“大有“；君子以遏惡揚善，順天休命。《象辭》說：《大有卦》的卦象是乾（天）下離（火）上，為火在天上之表象。火焰高懸於天上，象征太陽照耀萬物，世界一片光明，農業大豐收，“大有收獲”。君子在這個時候要阻止邪惡，頌揚一切善行，順應天命，替天行道，以保護萬物性命。</value>
+  </data>
+
+  <data name="H_17_Change1" xml:space="preserve">
+    <value>初九，不互相來往，也不彼此傷害，沒有什麼禍患；要牢記過去的艱難困苦，才能免於引起禍患。《象》曰：“《大有卦》的第一爻（初九），說明此時不互相往來，一動不如一靜，就不會有什麼事非，自然沒有什麼禍患了。</value>
+  </data>
+
+  <data name="H_17_Change2" xml:space="preserve">
+    <value>九二，用大車裝載著財物，送到前面的地方，必然沒有什麼禍患。《象》曰：“大車以載”，積中不敗也。《象辭》說：“用大車裝載著財物”，說明很富有，隻要把財物放於車中，無論怎樣顛簸震蕩，都不會傾覆。</value>
+  </data>
+
+  <data name="H_17_Change3" xml:space="preserve">
+    <value>九三，王公前來朝賀，向天子貢獻禮品並致以敬意，小人不能擔任如此重要的職務。《象》曰：“公用亨於天子”，小人害也。《象辭》說：“王公前來朝賀，向天子貢獻禮品並致以敬意”，小人若擔任如此重要的職務，必然發生變亂，成為禍害。</value>
+  </data>
+
+  <data name="H_17_Change4" xml:space="preserve">
+    <value>九四，雖然家財萬貫，但不過分聚斂財物，就不會發生災禍。《象》是：“匪其彭，無咎”，明辨晢也。《象辭》說：“雖然家財萬貫，但不過分聚斂財物，就不會發生災禍”，說明眼光遠大，智慧過人能明辨事非，懂得凡事不能做過頭的哲理。</value>
+  </data>
+
+  <data name="H_17_Change5" xml:space="preserve">
+    <value>六五，以誠實守信的准則對外交往，對上尊敬，對下懷柔，必然增加個人的威信，是吉祥的。《象》曰：“厥孚交加”，信以發志也；“威如之吉”，易而無備也。《象辭》說：“以誠實守信的准則對外交往，對上尊敬，對下懷柔”，說明以自己的誠實信用感動別人，使別人也變得誠實守信起來；“必然增加個人的威信，是吉祥的”，說明平易近人，純真簡朴，無所防備，反而使人人敬畏。</value>
+  </data>
+
+  <data name="H_17_Change6" xml:space="preserve">
+    <value>上九，上天保佑有德之人，賜福於己，吉祥，無往不利。《象》曰：《大有》上吉，自天佑也。《象辭》說：《大有卦》第六爻位（上九）的吉祥，是上天保佑有道德的人，是上天賜給的福分，隻有順天應人，才能大有收獲，得到大量的財富。</value>
+  </data>
+
+  <data name="H_17_Meaning" xml:space="preserve">
+    <value>日麗中天之象　好景不常之意</value>
+  </data>
+
+  <data name="H_17_Judgement" xml:space="preserve">
+    <value>砍樹摸雀,上中卦</value>
+  </data>
+
+  <data name="H_17_Poem1" xml:space="preserve">
+    <value>卦辭：砍樹摸雀做事牢，是非口舌自然消。婚姻合伙不費力，若問走失未脫逃。 </value>
+  </data>
+
+  <data name="H_17_Deduction" xml:space="preserve">
+    <value>推斷：恍惚不做，拿穩下手，若求名利，到處自有。 </value>
+  </data>
+
+  <data name="H_17_Omen" xml:space="preserve">
+    <value>大象：太陽在天，遍照大地萬物，但五陽爭一陰，須知有盈即缺。</value>
+  </data>
+
+  <data name="H_17_Luck" xml:space="preserve">
+    <value>運勢：得時得運，昌榮大吉，但防物極必反，盛極而衰。 </value>
+  </data>
+
+  <data name="H_17_Love" xml:space="preserve">
+    <value>愛情：有情人終成眷屬。 </value>
+  </data>
+
+  <data name="H_17_Health" xml:space="preserve">
+    <value>疾病：治療可愈，防高血壓、心臟、頭肺病患。 </value>
+  </data>
+
+  <data name="H_17_Lost" xml:space="preserve">
+    <value>失物：找尋費時，惟可失而 得。 </value>
+  </data>
+
+  <data name="H_17_Lawsuit" xml:space="preserve">
+    <value>訴訟：可圓滿解決。</value>
+  </data>
+
+  <data name="H_17_Poem2" xml:space="preserve">
+    <value>陰柔高坐九五尊 偉業當如日中天 惡遏善揚天意順 大吉大利理當然</value>
+  </data>
+
+  <data name="H_18_Main" xml:space="preserve">
+    <value>《睽卦》象征對立；小心謹慎地去行動做事，就能獲得吉祥。《象》曰：上火下澤，睽；君子以同而異。《象辭》說：《睽卦》的卦象是兌（澤）下離（火）上，為水火相遇之表象，象征對立。所以君子應該在求大同的前提下，保留小的差別和不同。</value>
+  </data>
+
+  <data name="H_18_Change1" xml:space="preserve">
+    <value>初九，悔恨消失；跑掉的馬不要去攆它，它自己就會回來。接近同自己對立敵視的人，不會有什麼禍患。《象》曰：“見惡人”，以辟咎也。《象辭》說：“接近同自己相對立敵視的人”，通過這種方法彼此溝通，以避免因更加對立而帶來的危害。</value>
+  </data>
+
+  <data name="H_18_Change2" xml:space="preserve">
+    <value>九二，在小巷中碰到了居於高位者，雖然不合常規，但是卻沒有什麼危險和災難。《象》曰：“遇主於巷”，未失道也。《象辭》說：“在小巷中碰到了居高位者”，雖然這不合常規，但是卻並不違背原則。</value>
+  </data>
+
+  <data name="H_18_Change3" xml:space="preserve">
+    <value>六三，就像后邊的車被托住，前面的牛又被限制，處境極為困難；又像是受了除掉頭發和割掉鼻子的刑罰；雖然開始時是這樣的困難和難以相合，但最終還是可以達到自己的目的的。《象》曰：“見輿曳”，位不當也；“無初有終”，遇剛也。《象辭》說：“像車子被拖住”的情形是因為六三爻所處的位置不恰當。“開始時極為困難，但最終還是可以達到目的”的原因，在於能和陽剛相應合。</value>
+  </data>
+
+  <data name="H_18_Change4" xml:space="preserve">
+    <value>九四，到處都是對立，孤獨無援，但正好遇到了一位充滿陽剛的大丈夫，彼此信任，相互理解，雖有危險，但卻能免去災禍。《象》曰：“交孚無咎”，志行也。《象辭》說：“相互理解，雖有危險，但卻能免去災禍”，就在於他們有著共同的志向和行動。</value>
+  </data>
+
+  <data name="H_18_Change5" xml:space="preserve">
+    <value>六五，悔恨消失，像柔軟的皮膚那樣一咬就入，放開前進，能有什麼危害呢？《象》曰：“厥宗噬膚”，往有慶也。《象辭》說：“像柔軟的皮膚那樣一咬就入”，表明前進必然會有值得慶賀的事情。</value>
+  </data>
+
+  <data name="H_18_Change6" xml:space="preserve">
+    <value>上九，對立已達到了頂點，似乎看到一隻沾滿污泥的豬和裝滿了鬼的車子，於是就拉開了弓准備對付它，但是后來又放下了弓。因為冷靜下來一看，發現並不是強盜，而是要和自己結婚的伴侶。所以這時如果能前往，就會像遇到陰陽相配形成潤澤的雨一樣，順乎自然，合乎天意，將一定會獲得吉祥。《象》曰：“遇雨之吉”，群疑亡也。《象辭》說：“像遇到陰陽相配形成潤澤的雨一樣，會獲吉祥”，是說原來的種種懷疑都已經煙消雲散，不復存在了。</value>
+  </data>
+
+  <data name="H_18_Meaning" xml:space="preserve">
+    <value>二女同居之象　陰陽失調之意</value>
+  </data>
+
+  <data name="H_18_Judgement" xml:space="preserve">
+    <value>行走薄冰,下平卦</value>
+  </data>
+
+  <data name="H_18_Poem1" xml:space="preserve">
+    <value>卦辭：路上行人色匆匆，過河無橋遇薄冰。小心謹慎過得去，一步錯了落水中。 </value>
+  </data>
+
+  <data name="H_18_Deduction" xml:space="preserve">
+    <value>推斷：薄冰甚險，行人難禁，若佔此卦，凡事小心。 </value>
+  </data>
+
+  <data name="H_18_Omen" xml:space="preserve">
+    <value>大象：離火向上，兌澤則向下，一上一下，兩相乖違，又二女同居，不得正之象。 </value>
+  </data>
+
+  <data name="H_18_Luck" xml:space="preserve">
+    <value>運勢：氣運欠佳，諸事難成，有水火不容之象，宜處變不驚。 </value>
+  </data>
+
+  <data name="H_18_Love" xml:space="preserve">
+    <value>愛情：互相皆無意，不宜寄望。 </value>
+  </data>
+
+  <data name="H_18_Health" xml:space="preserve">
+    <value>疾病：輕症宜速就醫，重症則危，更防斷症錯誤，注意心臟，寒熱失調之症。 </value>
+  </data>
+
+  <data name="H_18_Lost" xml:space="preserve">
+    <value>失物：不能找回。有失竊的可能。 </value>
+  </data>
+
+  <data name="H_18_Lawsuit" xml:space="preserve">
+    <value>訴訟：宜速求和解，遲則理屈辭窮。</value>
+  </data>
+
+  <data name="H_18_Poem2" xml:space="preserve">
+    <value>火升水降兩相違 離背隻能小事為 異可求同同存異 順應時勢莫狐疑</value>
+  </data>
+
+  <data name="H_19_Main" xml:space="preserve">
+    <value>《離卦》象征附著：利於堅守正道，這樣必然亨通；畜養柔順的母牛，可以獲得吉祥。《象》曰：“明兩作，離；大人以繼明照於四方。《象辭》說：“《離卦》的卦象為離(火)下離(火)上，為光明接連升起之表象。《離卦》的本象為火，這裡代表太陽。太陽東升西落，因而有上下充滿光明的形象。太陽的光明連續照耀，必須高懸依附在天空才行，所以象征附著；偉大的人物效法這一現象，也應當連綿不斷地用太陽般的光明美德普照四方。</value>
+  </data>
+
+  <data name="H_19_Change1" xml:space="preserve">
+    <value>初九，在開始行事時，由於急於求成而出現錯亂，后來能恭敬慎重且未輕舉妄動，結果沒有發生什麼災禍。《象》曰：“履錯之敬”，以辟咎也。《象辭》說：“在開始行事時，由於急於求成而出現錯亂，后來能恭敬慎重且未輕舉妄動”，主要是為了避免災禍的發生。</value>
+  </data>
+
+  <data name="H_19_Change2" xml:space="preserve">
+    <value>六二，附著在黃色上，就可以獲得大吉大利。《象》曰：“黃離元吉”，得中道也。《象辭》說：“附著在黃色上，就可以獲得大吉大利”，是因為黃色代表中，堅守正道，可以獲得大吉大利。</value>
+  </data>
+
+  <data name="H_19_Change3" xml:space="preserve">
+    <value>九三，夕陽西下，好比人生已入老年，這時如果不能敲著瓦器伴唱高歌地歡度晚年，就難免會有春蠶將死、蠟炬成灰的哀嘆，這樣必然遭遇凶險。《象》曰：“日昃之離”，何可久也!《白話》《象辭》說：“夕陽西下，好比人生已步入老年”，太陽偏西即將落下，人步入老年呢？即將死去，怎麼能長久呢!</value>
+  </data>
+
+  <data name="H_19_Change4" xml:space="preserve">
+    <value>九四，突然間發出萬道光芒，猶如燃燒的烈火，但頃刻之間又煙消雲散，不復存在，落得個被拋棄的下場。《象》曰：“突如其來如”，無所容也。《象辭》說：“突然間發出萬道光芒，猶如燃燒的烈火”，這種剛烈暴躁的氣焰，必然帶來危險，是天下人所不能容忍的。</value>
+  </data>
+
+  <data name="H_19_Change5" xml:space="preserve">
+    <value>六五，眼淚像泉水一樣不停地涌出，紛紛從面頰上流下，憂愁悲傷地嘆息，居安思危到了這種程度，必將獲得吉祥。《象》曰：“六五之吉，離王公也。《象辭》說：“《離卦》的第五爻位(六五)之所以能夠獲得吉祥，是由於它附著在君主旁，受到了君主的庇佑。</value>
+  </data>
+
+  <data name="H_19_Change6" xml:space="preserve">
+    <value>上九，君主動有軍隊出兵征伐，建功立業，獲得美譽，斬殺敵方首領，捕獲不願歸附者，這樣做不會發生災禍。《象》曰：“王用出征”，以正邦也。《象辭》說：“君主動用軍隊出兵征伐”，是為了治理國家，並非是為了耀武揚威，濫殺無辜。所以，進行正義的戰爭，就不會發生災禍。</value>
+  </data>
+
+  <data name="H_19_Meaning" xml:space="preserve">
+    <value>麗日當天之象　光明遠大之意</value>
+  </data>
+
+  <data name="H_19_Judgement" xml:space="preserve">
+    <value>天官賜福,上上卦</value>
+  </data>
+
+  <data name="H_19_Poem1" xml:space="preserve">
+    <value>卦辭：佔此卦者遇天宮，富祿必然降人間。一切謀望皆吉慶，愁閑消散主平安。 </value>
+  </data>
+
+  <data name="H_19_Deduction" xml:space="preserve">
+    <value>推斷：月令皆善，諸事方便，出門見喜，災消病散。 </value>
+  </data>
+
+  <data name="H_19_Omen" xml:space="preserve">
+    <value>大象：兩離火相重，上下通明之象，火有氣，但無形，主不實不定之意。 </value>
+  </data>
+
+  <data name="H_19_Luck" xml:space="preserve">
+    <value>運勢：外觀極盛，烈日當空之象，凡事不宜急進及意氣用事。 </value>
+  </data>
+
+  <data name="H_19_Love" xml:space="preserve">
+    <value>愛情：不宜性急，會弄巧反拙，靜而誠者必有所成。 </value>
+  </data>
+
+  <data name="H_19_Health" xml:space="preserve">
+    <value>疾病：急病可解，久病則凶，宜耐心調養、為心臟眼科血疾。 </value>
+  </data>
+
+  <data name="H_19_Lost" xml:space="preserve">
+    <value>失物：動作快，可尋回。 </value>
+  </data>
+
+  <data name="H_19_Lawsuit" xml:space="preserve">
+    <value>訴訟：隻宜人侵己，不宜己侵人，主動者不利。</value>
+  </data>
+
+  <data name="H_19_Poem2" xml:space="preserve">
+    <value>光明無限是朝暾 最利貞求事事欣 常道畜牛須擇母 樂天知命唱黃昏</value>
+  </data>
+
+  <data name="H_20_Main" xml:space="preserve">
+    <value>《噬嗑卦》象征咬合：亨通無阻，有利於使用刑法。《象》曰：雷電，噬磕；先王以明罰赤法。《象辭》說：《噬磕卦》的卦象是震（雷）下離（火）上，為雷電交擊之表象。雷電交擊，就像咬合一樣；雷有威懾力，電能放光明，古代帝王效法這一現象，明其刑法，正其法令。</value>
+  </data>
+
+  <data name="H_20_Change1" xml:space="preserve">
+    <value>初九，足戴腳鐐，斷掉了腳趾頭，不會有施刑過重的禍患。《象》曰：“屨校滅趾”，不行也。《象辭》說：“足戴腳鐐，斷掉了腳趾頭”，受到警戒，不至於舊罪重犯。</value>
+  </data>
+
+  <data name="H_20_Change2" xml:space="preserve">
+    <value>六二，施刑傷及犯人的皮膚。即使毀掉犯人的鼻子，也不會有施刑過重的禍患上。《象》曰：“噬膚，滅鼻”，乘剛也。《象辭》說：“施刑傷及犯人的皮膚。毀掉犯人的鼻子”，這是因為必須用重刑使罪犯屈服。</value>
+  </data>
+
+  <data name="H_20_Change3" xml:space="preserve">
+    <value>六三，實施刑法像咬堅硬的臘肉並遇到毒物那樣不順利，但這不過是稍有憾恨，還不至於有禍害。《象》曰：“遇毒”，位不當也。《象辭》說：“實施刑法像咬堅硬的臘肉並遇到毒物那樣不順利”，這是因為六三爻居位不正當的緣故。</value>
+  </data>
+
+  <data name="H_20_Change4" xml:space="preserve">
+    <value>九四，實施刑法像咬帶骨頭的肉那樣困難，但因具有金箭般的剛直品德，因此有利於在艱難中堅守正道，其結果是吉利的。《象》曰：“利艱貞，吉”，未光也。《象辭》說：“有利於在艱難中堅守正道，其結果是吉利的”法治應該繼續發揚光大。</value>
+  </data>
+
+  <data name="H_20_Change5" xml:space="preserve">
+    <value>六五，實施刑法像吃干硬的肉脯那樣艱難，但它具有黃金般的剛堅中和的品質。所以隻要堅守正道，防備凶險，便無禍害。《象》曰：“貞厲，無咎”，得當也。《象辭》說：“隻要堅守正道，防備凶險，便無禍害”，這是因為實施刑法得當的緣故。</value>
+  </data>
+
+  <data name="H_20_Change6" xml:space="preserve">
+    <value>上九，肩負重枷，遭受嚴懲，失掉耳朵，有凶險。《象》曰：“何校滅耳”，聰不明也。《象辭》說：“肩負重枷，遭受嚴懲，失掉耳朵”，這是因為不聽勸告，不能改惡從善，太不聰明了，結果受了這樣的重刑。</value>
+  </data>
+
+  <data name="H_20_Meaning" xml:space="preserve">
+    <value>喉中有物之象　夫妻怨怒之意</value>
+  </data>
+
+  <data name="H_20_Judgement" xml:space="preserve">
+    <value>飢人遇食,中平卦</value>
+  </data>
+
+  <data name="H_20_Poem1" xml:space="preserve">
+    <value>卦辭：運拙如同身受飢，幸得送飯又遇食。適口充腸心歡喜，憂愁從此漸消移。 </value>
+  </data>
+
+  <data name="H_20_Deduction" xml:space="preserve">
+    <value>推斷：見官有理，出門見喜，婚姻成全，事事如意。 </value>
+  </data>
+
+  <data name="H_20_Omen" xml:space="preserve">
+    <value>大象：上唇與下唇間有物，必須咬斷，方能合攏，乃諸事被阻，務必去除，方可成功。 </value>
+  </data>
+
+  <data name="H_20_Luck" xml:space="preserve">
+    <value>運勢：諸事阻隔，紛爭難免，宜守常規，不為利誘，問題可解決。</value>
+  </data>
+
+  <data name="H_20_Love" xml:space="preserve">
+    <value>愛情：有被人阻隔或橫刀奪愛之象，宜勇往直前。 </value>
+  </data>
+
+  <data name="H_20_Health" xml:space="preserve">
+    <value>疾病：病情嚴重，注意足部，心臟、神經系統病變。 </value>
+  </data>
+
+  <data name="H_20_Lost" xml:space="preserve">
+    <value>失物：有被人捷足撿走的可能，尋回的機會不大。 </value>
+  </data>
+
+  <data name="H_20_Lawsuit" xml:space="preserve">
+    <value>訴訟：宜採取主動，據理力爭。</value>
+  </data>
+
+  <data name="H_20_Poem2" xml:space="preserve">
+    <value>咬除障礙道亨通 治獄從來靠証供 明察恩威雷交電 量刑法治古今同</value>
+  </data>
+
+  <data name="H_21_Main" xml:space="preserve">
+    <value>《鼎卦》象征革故鼎新：十分吉祥，亨通。《象》曰：木上有火，鼎，君子以正位凝命。《象辭》說：《鼎卦》的卦象是巽（木）下離（火）上，為木上燃著火之表象，是烹飪的象征，稱為鼎；君子應當像鼎那樣端正而穩重，以此完成使命。</value>
+  </data>
+
+  <data name="H_21_Change1" xml:space="preserve">
+    <value>初六，烹飪食物的鼎足顛翻，卻順利地倒出了鼎中陳積的污穢之物；就好像娶妾可以生子一樣，不會發生災禍。《象》曰：“鼎顛趾”，未悖也；“利出否”，以從貴也。《象辭》說：“烹飪食物的鼎足顛翻”，看似反常，實則不然；“卻順利地倒出了鼎中陳積的污穢之物”，便於除舊布新，反常的現象得以向好的方面轉化。</value>
+  </data>
+
+  <data name="H_21_Change2" xml:space="preserve">
+    <value>九二，鼎中盛滿了烹飪的食物，好比一個人有才干；我的對立面嫉妒我，卻不能把我怎麼樣，是吉祥的。《象》曰：“鼎有實”，慎所之也；“我仇有疾”，終無尤也。《象辭》說：“鼎中盛滿了烹飪的食物，好比人有才干”，應該謹慎行事，不要走錯方向；“我的對立面嫉妒我”，但因無隙可乘，故終將無所怨尤。</value>
+  </data>
+
+  <data name="H_21_Change3" xml:space="preserve">
+    <value>九三，鼎器的耳部發生了變化，無法將插杠插入鼎耳移鼎，精美的野雞肉不能得到無法食用；待到陰陽調和，潤雨出現才能消釋悔恨，最終還可以獲得吉祥。《象》曰：“鼎耳革”，失其義也。《象辭》說：“鼎器的耳部發生了變化”，鼎無法移動，也就失去了它虛中納物的意義。</value>
+  </data>
+
+  <data name="H_21_Change4" xml:space="preserve">
+    <value>九四，鼎的足折斷了，王公鼎裡的粥飯傾倒出來了，鼎身被玷污，凶險。《象》曰：“覆公訴”，信如何也！《象辭》說：“王公鼎裡的粥飯傾倒出來了”，哪裡還有什麼信譽可言呢！</value>
+  </data>
+
+  <data name="H_21_Change5" xml:space="preserve">
+    <value>六五，鼎配上黃色的鼎耳，插上堅固的扛鼎之器，利於堅守正道。《象》曰：“鼎黃耳”中以為實也。《象辭》說：“鼎配上黃色的鼎耳”，是由於六五爻居中，自然可獲得實惠。</value>
+  </data>
+
+  <data name="H_21_Change6" xml:space="preserve">
+    <value>上九，鼎配上玉制的鼎杠，十分吉祥，不會有什麼不利。《象》曰：玉鉉在上，剛柔節也。《象辭》說：“玉制的鼎杠高處上方，表明剛柔相濟，互相調節。</value>
+  </data>
+
+  <data name="H_21_Meaning" xml:space="preserve">
+    <value>鼎器烹調之象　去故取新之意</value>
+  </data>
+
+  <data name="H_21_Judgement" xml:space="preserve">
+    <value>漁人得利,上中卦</value>
+  </data>
+
+  <data name="H_21_Poem1" xml:space="preserve">
+    <value>卦辭：若佔此卦喜自然，求名求利兩周全。婚姻合伙皆如意，生意興隆樂自然。 </value>
+  </data>
+
+  <data name="H_21_Deduction" xml:space="preserve">
+    <value>推斷：出門有益，交易可成，官事無妨，諸事安寧。 </value>
+  </data>
+
+  <data name="H_21_Omen" xml:space="preserve">
+    <value>大象：木之上有離火，為燃炊烹飪之象，鼎有去舊立新，改過遷善之意。 </value>
+  </data>
+
+  <data name="H_21_Luck" xml:space="preserve">
+    <value>運勢：時運仍佳，事業可成，但諸事不宜遲滯，及防有訴訟之累。</value>
+  </data>
+
+  <data name="H_21_Love" xml:space="preserve">
+    <value>愛情：未婚者則順利，已婚女性佔得防婚外情影響家庭。 </value>
+  </data>
+
+  <data name="H_21_Health" xml:space="preserve">
+    <value>疾病：病情有變，但無大礙，為膽石，心臟，消化系統病。 </value>
+  </data>
+
+  <data name="H_21_Lost" xml:space="preserve">
+    <value>失物：過一段時間后可尋回，惟已變形。 </value>
+  </data>
+
+  <data name="H_21_Lawsuit" xml:space="preserve">
+    <value>訴訟：由小事引起，宜和解了事。</value>
+  </data>
+
+  <data name="H_21_Poem2" xml:space="preserve">
+    <value>鐘鳴鼎食帝王鄉 留待英才展所長 除舊布新知善用 同心改革大吉祥</value>
+  </data>
+
+  <data name="H_22_Main" xml:space="preserve">
+    <value>《未濟卦》象征事未完成：經過努力可以得到亨通；小狐狸渡河快到對岸了，卻浸濕了尾巴，則沒有什麼吉利。《象》曰：火在水上，未濟；君子以慎辨物居方。《象辭》說：《未濟卦》的卦象是坎（水）下離（火）上，為火在水上之表象。火在水上，大火燃燒，水波浩浩，水火相對相克，象征著未完成；君子此時要明辨各種事物，看到事物的本質，努力使事物的變化趨向好的方面，這樣做則萬事可成。</value>
+  </data>
+
+  <data name="H_22_Change1" xml:space="preserve">
+    <value>初六，小狐狸渡河時被水浸濕了尾巴，會有麻煩。《象》曰：“濡其尾”，亦不知極也。《象辭》說：“小狐狸渡河時被水浸濕了尾巴”，說明其自不量力，不知道自己究竟能使多大的氣力，急躁冒進，結果招致麻煩。</value>
+  </data>
+
+  <data name="H_22_Change2" xml:space="preserve">
+    <value>九二，向后拖拉車輪，使車不快進，堅守正道可以得到吉祥。《象》曰：九二貞吉，中以行正也。《象辭》說：九二爻之所以可獲吉祥，是因其恃中不移，端正不偏倚，有所節制，這樣行事必獲吉祥。</value>
+  </data>
+
+  <data name="H_22_Change3" xml:space="preserve">
+    <value>六三，事情未完成，急躁冒進去遠行，有凶險，但有利於渡過大河急流。《象》曰：“未濟，征凶”，位不當也。《象辭》說：“事情未完成，急躁冒進去遠行，有凶險”，說明此時所處的位置不當。</value>
+  </data>
+
+  <data name="H_22_Change4" xml:space="preserve">
+    <value>九四，堅守正道可獲吉祥，悔恨會消失；以雷霆萬鈞之勢征討鬼方國，經過三年的激烈戰斗終於得到了勝利，被封為一個大國的諸侯。《象》曰：“貞吉悔亡”，志行也。《象辭》說：“堅守正道可獲吉祥，悔恨會消失”，說明實現了建功立業的志向。</value>
+  </data>
+
+  <data name="H_22_Change5" xml:space="preserve">
+    <value>六五，堅守正道或獲吉祥，沒有什麼悔恨；這是君子所具有的美德的光輝，有誠實守信的德行可以獲得吉祥。《象》曰：“君子之光”其暉吉也。《象辭》說：“君子所具有的美德的光輝”，說明此時正在事情即將成功的關鍵時刻，應該具有誠實守信、光明正大的美德，才能獲得成功，光彩煥發，得到吉祥。</value>
+  </data>
+
+  <data name="H_22_Change6" xml:space="preserve">
+    <value>上九，滿懷信心，充分信任眾人，這時可以安閑自得地飲酒作樂，沒有什麼災禍；縱情濫飲，被酒淋濕了頭，則說明過分信任他人，將會損害君子的正道。《象》曰：“飲酒濡首，亦不知節也。《象辭》說：“縱情濫飲，被酒淋濕了頭”，這樣喝得醉醺醺的，就會誤了大事，就有滅頂之災，這是放縱自己沒有節制的結果。</value>
+  </data>
+
+  <data name="H_22_Meaning" xml:space="preserve">
+    <value>陰陽失調之象　上下不通之意</value>
+  </data>
+
+  <data name="H_22_Judgement" xml:space="preserve">
+    <value>太歲月健,中平卦</value>
+  </data>
+
+  <data name="H_22_Poem1" xml:space="preserve">
+    <value>卦辭：太歲入運事多愁，婚姻財帛莫強求。交易出門走見吉，走失行人不露頭。 </value>
+  </data>
+
+  <data name="H_22_Deduction" xml:space="preserve">
+    <value>推斷：官訟不吉，口舌有災，目下忍耐，過月無妨。 </value>
+  </data>
+
+  <data name="H_22_Omen" xml:space="preserve">
+    <value>大象：水性下注，火勢向上，水火不交，陰陽不得正位，未能完成和未能成功之意。 </value>
+  </data>
+
+  <data name="H_22_Luck" xml:space="preserve">
+    <value>運勢：運氣欠佳，但必須耐心突破難關，終可成功，有初凶后吉之象。 </value>
+  </data>
+
+  <data name="H_22_Love" xml:space="preserve">
+    <value>愛情：發展初期難以溝通，格格不入，但必須耐心，慢慢會得到對方接受。 </value>
+  </data>
+
+  <data name="H_22_Health" xml:space="preserve">
+    <value>疾病：病情不穩定，注意心腎不交、失眠、血液等病。 </value>
+  </data>
+
+  <data name="H_22_Lost" xml:space="preserve">
+    <value>失物：不能尋回。 </value>
+  </data>
+
+  <data name="H_22_Lawsuit" xml:space="preserve">
+    <value>訴訟：宜拖延時間，日久可得貴人之助，和解了事。</value>
+  </data>
+
+  <data name="H_22_Poem2" xml:space="preserve">
+    <value>窮出變思事可通 小狐濟渡正匆匆 隻憐到岸濡沾尾 成敗須期努力中</value>
+  </data>
+
+  <data name="H_23_Main" xml:space="preserve">
+    <value>《旅卦》象征旅行：小心謙順可以亨通，旅行雖是小事，但能堅守正道必然吉祥。《象》曰：山上有火，旅；君子以明慎用刑，而不留獄。《象辭》說：《旅卦》的卦象是艮（山）下離（火）上，為火勢匆匆蔓延之表象，象征行旅之人匆匆趕路；君子觀此應謹慎使用刑罰，明斷決獄。</value>
+  </data>
+
+  <data name="H_23_Change1" xml:space="preserve">
+    <value>初六，旅行之始猥瑣不堪，這是自己招來的災禍。《象》曰：“旅瑣瑣”，志窮災也。《象辭》說：“旅行之始猥瑣不堪”，是意志窮迫造成的災禍。</value>
+  </data>
+
+  <data name="H_23_Change2" xml:space="preserve">
+    <value>六二，旅客住在旅舍，攜帶錢財，有童仆照顧，能堅守正道。《象》曰：“得童仆貞”，終無尤也。《象辭》說：“有童仆照顧，能堅守正道”，故不會有過失。</value>
+  </data>
+
+  <data name="H_23_Change3" xml:space="preserve">
+    <value>九三，旅途中施舍失火，從而喪失了照顧自己的童仆，失去正道，會出現危險。《象》曰：“旅焚其次”，亦以傷矣；以旅與下，其義喪也。《象辭》說：“旅途中施舍失火”，已經受到損傷；把童仆視為路人，童仆舍其而去，是必然的，合乎道理的。</value>
+  </data>
+
+  <data name="H_23_Change4" xml:space="preserve">
+    <value>九四，身處異鄉暫為棲身，不能安居，雖然得到路費，但我的心情仍然不愉快。《象》曰：“旅於處”，未得位也；“得其資斧”，心未快也。《象辭》說：“身處異鄉暫為棲身，不能安居”，因為畢竟未得到長久安身的地方；“雖然得到路費”，但仍然客居他鄉，故此時心中仍不暢快。</value>
+  </data>
+
+  <data name="H_23_Change5" xml:space="preserve">
+    <value>六五，射野雞，喪失一枝箭；但最終獲得榮譽和爵命。《象》曰：“終以譽命”，上逮也。《象辭》說：“最終獲得榮譽和爵命”，是由於能親近居高位的尊者。</value>
+  </data>
+
+  <data name="H_23_Change6" xml:space="preserve">
+    <value>上九，鳥巢失火被燒掉，行旅之人得高位先喜悅歡笑，后因遭禍事而號啕痛哭；牧人在牧場丟失了牛，有凶險。《象》曰：以旅在上，其義焚也；喪牛於易，終莫之聞也。《象辭》說：“作為旅客卻在異鄉身居高位，這樣必然要遭到焚巢之災；牧人在牧場丟失了牛，這個，可悲的結局是無可挽回的。</value>
+  </data>
+
+  <data name="H_23_Meaning" xml:space="preserve">
+    <value>鳥焚其巢之象　樂極生悲之意</value>
+  </data>
+
+  <data name="H_23_Judgement" xml:space="preserve">
+    <value>宿鳥焚巢,下下卦</value>
+  </data>
+
+  <data name="H_23_Poem1" xml:space="preserve">
+    <value>卦辭：飛鳥樹上筑高巢，小人使計用火燒。如佔此卦大不利，一切謀望枉徒勞。 </value>
+  </data>
+
+  <data name="H_23_Deduction" xml:space="preserve">
+    <value>推斷：求財費力，行人未還，走失無信，找事也難。 </value>
+  </data>
+
+  <data name="H_23_Omen" xml:space="preserve">
+    <value>大象：火燒山野，火頭遍布，所到之處，無一幸免，火頭尤如行旅之人，無所定處。 </value>
+  </data>
+
+  <data name="H_23_Luck" xml:space="preserve">
+    <value>運勢：諸事變動不定，此時隻好堅守信心，多參考他人意見，否則必有凶。 </value>
+  </data>
+
+  <data name="H_23_Love" xml:space="preserve">
+    <value>愛情：呈現不穩定現象，有孤身上路之嘆，宜檢討原因。 </value>
+  </data>
+
+  <data name="H_23_Health" xml:space="preserve">
+    <value>疾病：病情變化不定，宜速就醫。 </value>
+  </data>
+
+  <data name="H_23_Lost" xml:space="preserve">
+    <value>失物：盡快去找，應可尋回，失物似在屋舍之外，留意鏡子之類物體，可提供線索。 </value>
+  </data>
+
+  <data name="H_23_Lawsuit" xml:space="preserve">
+    <value>訴訟：宜速戰速決，時間一拖則不利。</value>
+  </data>
+
+  <data name="H_23_Poem2" xml:space="preserve">
+    <value>旅程恰似火燒山 顛沛流離自等閑 並濟剛柔休倨傲 問求行旅凱歌還</value>
+  </data>
+
+  <data name="H_24_Main" xml:space="preserve">
+    <value>《晉卦》象征長進：就像才干出眾的公侯得到了天子的賞識，不僅賜給他許多車馬，而且在一天之內多次接見他。《象》曰：明出地上，晉；君子以自昭明德。《象辭》說：“陽光從地面上升起，象征著前進和昌盛，也象征著發出自己的光和熱。所以，君子應該充分顯示自己的才華和美德，發揮自己的作用。</value>
+  </data>
+
+  <data name="H_24_Change1" xml:space="preserve">
+    <value>初六，剛開始前進就遇到了障礙和阻攔，但是隻要能夠堅守正道，始終如一，就一定會吉祥如意。由於它還沒有樹立起自己的威望，所以能夠不受約束地去處理問題，而不必擔心會有什麼過失。《象》曰：“晉如摧如”，獨行正也；“裕無咎”，未受命。《象辭》說：“向前進遇到障礙和阻攔時”，要能夠持之以恆，按照自己所遵循的原則繼續不斷地努力，才會得到吉祥如意的結果。“隨意行動也不會有什麼過失”，是因為它還沒有被賦予什麼權力、責任和使命。</value>
+  </data>
+
+  <data name="H_24_Change2" xml:space="preserve">
+    <value>六二，前進時充滿憂愁思慮，但是如果能堅守正道，始終如一，將會吉祥如意。而且會獲得極大的恩惠和福澤，是高高在上的王母所賜給他的。《象》曰：“受茲介福”，以中正也。《象辭》說：之所以能夠“獲得極大的恩惠和福澤”，是因為它位置居中，行為符合身份和正道。</value>
+  </data>
+
+  <data name="H_24_Change3" xml:space="preserve">
+    <value>六三，它的所作所為已經得到了眾人的認可和贊同，努力進取，悔恨將會消失。《象》曰：“眾允”之志，上行也。《象辭》說：“得到眾人認可和贊同”的志向，是要努力向前奮斗。</value>
+  </data>
+
+  <data name="H_24_Change4" xml:space="preserve">
+    <value>九四，向上邁進像那既貪婪又怕人，而且沒有什麼專長的梧鼠一樣，即使能夠嚴守自己的本分，也免不了災禍。《象》曰：“鼫鼠貞厲”，位不當也。《象辭》說：之所以“像梧鼠那樣，即使能夠嚴守自己的本分，也免不了災禍”，是因為它所在的位置不對。</value>
+  </data>
+
+  <data name="H_24_Change5" xml:space="preserve">
+    <value>六五，悔恨已經消失，也有不著考慮得失的問題。隻要勇往直前，就會吉祥如意，所有的一切都變得是那樣的順利。《象》曰：“失得勿恤”，往有慶也。《象辭》說：“用不著考慮丟失”，隻要繼續努力奮斗，就必然會有吉祥福慶的。</value>
+  </data>
+
+  <data name="H_24_Change6" xml:space="preserve">
+    <value>上九，向前邁進似乎已經達到了頂點，就像到達獸角尖上一樣，盛大的氣象已不復存在了。隻有像攻打城池那樣，建立新的功勛，或許可以避免災難轉為吉祥；而且一旦這樣做了，將不會產生過失。但即使如此，它以后的發展趨勢也隻能是越來越差。《象》曰：“維用伐邑”，道未光也。《象辭》說：“隻有像攻打城池那樣”，說明前進繁盛已經達到了頂點，再也難以發展光大了。</value>
+  </data>
+
+  <data name="H_24_Meaning" xml:space="preserve">
+    <value>滿地錦繡之象　良臣遇君之意</value>
+  </data>
+
+  <data name="H_24_Judgement" xml:space="preserve">
+    <value>鋤地得金,上平卦</value>
+  </data>
+
+  <data name="H_24_Poem1" xml:space="preserve">
+    <value>卦辭：鋤地鋤去苗裡草，誰想財帛將人找，謀望求財皆如意，這個運氣也算好。 </value>
+  </data>
+
+  <data name="H_24_Deduction" xml:space="preserve">
+    <value>推斷：進退兩難，不敢強辯，撥雲見日，該你出現。 </value>
+  </data>
+
+  <data name="H_24_Omen" xml:space="preserve">
+    <value>大象：日出地面，普照大地，有光明上進之象。 </value>
+  </data>
+
+  <data name="H_24_Luck" xml:space="preserve">
+    <value>運勢：事業、名望、財運皆吉，所謂有加官晉爵之兆。 </value>
+  </data>
+
+  <data name="H_24_Love" xml:space="preserve">
+    <value>愛情：以柔順態度追求，定可成功。 </value>
+  </data>
+
+  <data name="H_24_Health" xml:space="preserve">
+    <value>疾病：久病者凶，近病無妨，注意胃腸、心臟之疾。 </value>
+  </data>
+
+  <data name="H_24_Lost" xml:space="preserve">
+    <value>失物：動作快，可以尋回來。似是在地上的箱子之類藏著。 </value>
+  </data>
+
+  <data name="H_24_Lawsuit" xml:space="preserve">
+    <value>訴訟：最終能圓滿解決。 </value>
+  </data>
+
+  <data name="H_24_Poem2" xml:space="preserve">
+    <value>晉封當似日初升 賞賜良駒意自明 天子一天三接見 順柔奉上作公卿</value>
+  </data>
+
+  <data name="H_25_Main" xml:space="preserve">
+    <value>《大壯卦》象征十分強盛：堅守正道，將會非常有利。《象》曰：雷在天上，大壯；君子以非禮弗履。《象辭》說：《大壯卦》的卦象是乾（天）下震（雷）上，為震雷響徹天上之表象，象征著十分強盛。君子應該嚴格要求自己，不要越出准則和規律去做非分之事。</value>
+  </data>
+
+  <data name="H_25_Change1" xml:space="preserve">
+    <value>初九，陽剛強盛隻在腳趾。這時如果有所行動，必然會招來災禍。《象》曰：“壯於趾”孚窮也。《象辭》說：爻辭中的“陽剛強盛隻在腳趾“一句，說明隻停留在這一狀態下，是決不會有什麼出路的。</value>
+  </data>
+
+  <data name="H_25_Change2" xml:space="preserve">
+    <value>九二，堅守正道而獲得吉祥。《象》曰：九二“貞吉”，以中也。《象辭》說：《大壯卦》的第二爻位（九二）之所以能夠堅守正道而獲得吉祥，是因為它位置居中，能夠以柔相出的原因。</value>
+  </data>
+
+  <data name="H_25_Change3" xml:space="preserve">
+    <value>九三，小人恃強好勝，君子卻恰恰相反。而且，即使逞強好勝者能夠保持住陽剛強盛，其結果也決不會好。就像強壯的大羊去頂觸籬笆，結果隻會把角卡在籬笆中而難以擺脫。《象》曰：小人用壯，君子罔也。《象辭》說：小人恃強好勝，君子卻不這樣。</value>
+  </data>
+
+  <data name="H_25_Change4" xml:space="preserve">
+    <value>九四，堅守正道，必獲吉祥，悔恨也會消失；因為陽剛十分強盛，既像籬笆已經崩潰，羊角從系累中解脫出來，又像堅固的車輪能負重載遠那樣。《象》曰：“藩決不羸”，尚往也。《象辭》說：“籬笆崩潰，羊角從系累中解脫出來”的內在含義是，鼓勵君子要充分行動起來，積極向前進取。</value>
+  </data>
+
+  <data name="H_25_Change5" xml:space="preserve">
+    <value>六五，在田邊地頭丟失了羊，卻並沒有什麼可遺憾的，不會有什麼不利的情況發生。《象》曰：“喪羊於易”，位不當也。《象辭》說：“在田邊地頭丟失了羊”，是由於其位置不恰當。</value>
+  </data>
+
+  <data name="H_25_Change6" xml:space="preserve">
+    <value>上六，強壯的羊因頂觸籬笆而被挂住了角，既不能后退，又不能前進，怎樣掙扎都沒有好處。在這種情況下，要能夠忍耐堅持，不被艱難困苦所壓垮，就會安然渡過難關，獲得吉祥。《象》曰：“不能退，不能遂”，不詳也；“艱則吉”咎不長也。《象辭》說：“既不能后退，又不能前進”，說明行動處事不夠圓滿周到，結果陷入了極為被動的局面。而“忍耐堅持，承受艱難困苦而不被壓垮，就會吉祥”，說明，隻要能夠堅持忍耐，就一定會渡過難關。</value>
+  </data>
+
+  <data name="H_25_Meaning" xml:space="preserve">
+    <value>猛處生角之象　聲威大壯之意 </value>
+  </data>
+
+  <data name="H_25_Judgement" xml:space="preserve">
+    <value>工師得木,上平卦</value>
+  </data>
+
+  <data name="H_25_Poem1" xml:space="preserve">
+    <value>卦辭：卦佔工師得大木，眼前該著走上路。時來運轉多順當，有事自管放心做。 </value>
+  </data>
+
+  <data name="H_25_Deduction" xml:space="preserve">
+    <value>推斷：出門吉利，口舌遠避，疾病皆除，行人即至。 </value>
+  </data>
+
+  <data name="H_25_Omen" xml:space="preserve">
+    <value>大象：雷聲響亮，光明天際，為正大光明之象，又為強烈地動之象，為六沖卦之一。 </value>
+  </data>
+
+  <data name="H_25_Luck" xml:space="preserve">
+    <value>運勢：運勢雖強，但已屆極盛之時，宜心平氣和，否則反招失敗，須知物極必反。 </value>
+  </data>
+
+  <data name="H_25_Love" xml:space="preserve">
+    <value>愛情：隻要保持仁和謙恭，則有成果，否則易招反悔。 </value>
+  </data>
+
+  <data name="H_25_Health" xml:space="preserve">
+    <value>疾病：生平少病者遇此卦則不利，注意急性呼吸道感染和腦疾等。</value>
+  </data>
+
+  <data name="H_25_Lost" xml:space="preserve">
+    <value>失物：不能取回。 </value>
+  </data>
+
+  <data name="H_25_Lawsuit" xml:space="preserve">
+    <value>訴訟：忌與人斗氣，宜和解收場否則兩敗俱傷。</value>
+  </data>
+
+  <data name="H_25_Poem2" xml:space="preserve">
+    <value>雷行天上響隆隆 最利佔求待建功 君子無為能得利 貪羊莫學困籬中</value>
+  </data>
+
+  <data name="H_26_Main" xml:space="preserve">
+    <value>《歸妹卦》象征婚嫁：如果行為不正，前方會有凶險，不會有利益。《象》曰：“澤上有雷，歸妹，君子以永終知敝。《象辭》說：《歸妹卦》的卦象是兌（澤）下震（雷）上，兌又代表少女，震又代表長男為嫁出少女之表象；君子應當永遠使夫婦和諧，白頭偕老，防止夫婦關系被破壞。</value>
+  </data>
+
+  <data name="H_26_Change1" xml:space="preserve">
+    <value>初九，嫁出的少女作為偏房，好像跛腳而奮力向前行走，前進可獲得吉祥。《象》曰：“歸妹以娣”，以恆也；跛能履，吉相承也。《象辭》說：“嫁出的少女作為偏房”，這是婚嫁中的正常情況；“好像跛腳而奮力向前行走”，說明能以偏房側室的地位輔佐和照顧丈夫，必獲吉祥。</value>
+  </data>
+
+  <data name="H_26_Change2" xml:space="preserve">
+    <value>九二，眼睛一瞎一明仍能看到東西，說明幽居之人利於守正。《象》曰：“利幽人之貞”，未變常也。《象辭》說“幽居之人利於守正”，這是因為能遵守恆常的規則。</value>
+  </data>
+
+  <data name="H_26_Change3" xml:space="preserve">
+    <value>六三，妹妹想冒充姐姐之位嫁為正室，結果還是作為妹妹嫁做偏房。《象》曰：“歸妹以須”，未當也。《象辭》說：“妹妹想冒充姐姐的地位嫁為正室”，這是不正當的。</value>
+  </data>
+
+  <data name="H_26_Change4" xml:space="preserve">
+    <value>九四，待嫁少女錯過出嫁的時機，延遲日期待嫁，靜等好的時機。《象》曰：愆期之志，有待而行也。《象辭》說：錯過出嫁的時機，是為等待更好的時機到來再嫁。</value>
+  </data>
+
+  <data name="H_26_Change5" xml:space="preserve">
+    <value>六五，帝乙嫁出少女，正房的服飾，反不如偏房的服飾艷麗華美；月近十五將要圓了，吉祥。《象》曰：“帝乙歸妹，不如其娣之袂良”也；其位在中，以貴行也。《象辭》說：“帝乙嫁出少女，正房的服飾，反不如偏房的服飾艷麗華美”；說明雖身居中位，十分尊貴，卻能保持勤儉謙虛的美德。</value>
+  </data>
+
+  <data name="H_26_Change6" xml:space="preserve">
+    <value>上六，女子的筐籃裡空空蕩蕩沒有實物，男子用刀宰羊卻不見出血。沒有利益。《象》曰：“上六無實，承虛筐也。《象辭》說：《歸妹卦》的第六位（上六）空虛無實，好比手持空空的籃筐。</value>
+  </data>
+
+  <data name="H_26_Meaning" xml:space="preserve">
+    <value>少女追男之象　錯失端正之意</value>
+  </data>
+
+  <data name="H_26_Judgement" xml:space="preserve">
+    <value>緣木求魚,下平卦</value>
+  </data>
+
+  <data name="H_26_Poem1" xml:space="preserve">
+    <value>卦辭：求魚須當向水中，樹上求之不順情。受盡爬揭難遂意，勞而無功事不成。 </value>
+  </data>
+
+  <data name="H_26_Deduction" xml:space="preserve">
+    <value>推斷：月令不好，做事顛倒，打算到手，遂心的少。 </value>
+  </data>
+
+  <data name="H_26_Omen" xml:space="preserve">
+    <value>大象：震長男在上，兌少女在下，女必歸從，歸即是出嫁，但少女配長男，非正常組合。 </value>
+  </data>
+
+  <data name="H_26_Luck" xml:space="preserve">
+    <value>運勢：處事有違常理正道，先得其益，但隨后禍事百端。 </value>
+  </data>
+
+  <data name="H_26_Love" xml:space="preserve">
+    <value>愛情：有女追男之象，但多為悲劇收場，宜三思而行。 </value>
+  </data>
+
+  <data name="H_26_Health" xml:space="preserve">
+    <value>疾病：病危重，極易惡化，為中風、肝病、氣管及性病等。 </value>
+  </data>
+
+  <data name="H_26_Lost" xml:space="preserve">
+    <value>失物：失物雖有被歸還的可能，但自身仍有損失。 </value>
+  </data>
+
+  <data name="H_26_Lawsuit" xml:space="preserve">
+    <value>訴訟：事牽連於女性，宜力求和解，但我方必有損失。</value>
+  </data>
+
+  <data name="H_26_Poem2" xml:space="preserve">
+    <value>婚嫁偏逢澤上雷 勢如水火兩相違 前途凶險終無利 速速停行莫遲疑</value>
+  </data>
+
+  <data name="H_27_Main" xml:space="preserve">
+    <value>《豐卦》象征盛大豐滿：亨通，君王能夠使天下達到盛大豐滿；就不用憂愁，好比太陽位居中天，光芒萬丈。《象》曰：“雷電皆至，豐；君子以折獄致刑。《象辭》說：《豐卦》的卦象是離（火）下（震）雷上，離又代表閃電，震為雷，為雷電同時到來之表象，象征著盛大豐滿；君子應該像雷電那樣，審案用刑正大光明。</value>
+  </data>
+
+  <data name="H_27_Change1" xml:space="preserve">
+    <value>初九，遇見地位彼此相當的伙伴，雖然合作十天也不致受害，前往會受到尊敬重視。《象》曰：“雖旬無咎”，過旬災也。《象辭》說：“雖然合作十天也不致受害”，但是過了十天就可能會有災禍。</value>
+  </data>
+
+  <data name="H_27_Change2" xml:space="preserve">
+    <value>六二，光明遭到雲的蒙蔽，好比明亮的白天卻看到了夜晚的北斗星，前往行事會被猜疑；如果能以自己的至誠之心去啟迪，那麼最后是能獲得吉祥的。《象》曰：“有孚發若”，信以發志也。《象辭》說：“能以自己的至誠之心去啟迪”，是有信以展拓其盛大之志。</value>
+  </data>
+
+  <data name="H_27_Change3" xml:space="preserve">
+    <value>九三，光明被雲遮掩，明亮的白天看見了小星星；好比右臂被折斷而難以有所作為，但終究不會受害。《象》曰：“豐其沛”，不可大事也；“折其右胘”，終不可用也。《象辭》說：“光明被雲遮掩”，不可成就勝任大事；“右臂折斷而無為慎守”，最終得不到重用或不可能有所作用了。</value>
+  </data>
+
+  <data name="H_27_Change4" xml:space="preserve">
+    <value>九四，光明遭到雲的蒙蔽，亮的白天卻看到了夜晚的北斗星；但若遇到明主賞識還是會吉祥的。《象》是：“豐其蔀”，位不當也；“日中見斗”，幽不明也；“遇其夷主”，吉行也。《象辭》說：“光明遭到雲的蒙蔽”，是說九四爻所居的爻位不當；“明亮的白天卻看到了夜晚的北斗星”，說明由於蒙蔽而出現昏暗；“但若遇到明主賞識”，行動還是會獲得吉祥的。</value>
+  </data>
+
+  <data name="H_27_Change5" xml:space="preserve">
+    <value>六五，有美德的賢能之士來輔佐，會有喜慶和美譽，吉祥。《象》曰：“六五之吉，有慶也。《象辭》說：《豐卦》的第五爻位（六五）的吉祥，必定會有喜慶。</value>
+  </data>
+
+  <data name="H_27_Change6" xml:space="preserve">
+    <value>上六，房屋高大，蒙蔽居室，窺視窗戶，寂靜而無人，三年之久仍不見人，自蔽孤立，定有凶險。《象》曰：“豐其屋”，天際翔也；“闚其戶，闃其無人”，自藏也。《象辭》說：“高大的房屋”，居內自蔽，孤立於人，好似在天際飛翔；“窺視窗戶，寂靜而無人”，深深隱藏蹤跡。</value>
+  </data>
+
+  <data name="H_27_Meaning" xml:space="preserve">
+    <value>光明普照之象　棄暗投明之意</value>
+  </data>
+
+  <data name="H_27_Judgement" xml:space="preserve">
+    <value>古鏡重明,中吉卦</value>
+  </data>
+
+  <data name="H_27_Poem1" xml:space="preserve">
+    <value>卦辭：古鏡昏暗好幾年，一朝磨明似月圓。君子謀事佔此卦，時來運轉樂自然。 </value>
+  </data>
+
+  <data name="H_27_Deduction" xml:space="preserve">
+    <value>推斷：出行有益，交易得利，疾病見好，求名遂意。 </value>
+  </data>
+
+  <data name="H_27_Omen" xml:space="preserve">
+    <value>大象：雷電交加，聲勢壯大，又離日動於天際，普照大地，皆為盛大之象。 </value>
+  </data>
+
+  <data name="H_27_Luck" xml:space="preserve">
+    <value>運勢：運勢極強，為收獲之時，但不宜貪得無厭，須知足常樂，要防是非，損財甚至火險。 </value>
+  </data>
+
+  <data name="H_27_Love" xml:space="preserve">
+    <value>愛情：吉利有成，但不可得意忘形。 </value>
+  </data>
+
+  <data name="H_27_Health" xml:space="preserve">
+    <value>疾病：病況重，注意肝足疾及血壓，心臟等疾。 </value>
+  </data>
+
+  <data name="H_27_Lost" xml:space="preserve">
+    <value>失物：盡快找尋，可失而 得。 </value>
+  </data>
+
+  <data name="H_27_Lawsuit" xml:space="preserve">
+    <value>訴訟：自己雖勢如破竹，勝券在握，但應留一線。</value>
+  </data>
+
+  <data name="H_27_Poem2" xml:space="preserve">
+    <value>天地人間萬物豐 為王慶譽日方中 陽光莫讓帘遮隔 世事無憂路自通</value>
+  </data>
+
+  <data name="H_28_Main" xml:space="preserve">
+    <value>《震卦》象征震動的雷聲：可致亨通。當驚雷震動的時候，天下萬物都感到恐懼，然而君子卻能安之若素，言笑如故；即使雷聲震驚百裡之遙，主管祭祀的人卻能做到從容不迫，手中的匙和酒都未失落。大丈夫威武不能屈，所以能成就大事。《象》曰：“洊雷，震；君子以恐懼修省。《象辭》說：《震卦》的卦象是震（雷）下震（雷）上，為雷相重疊之表象，好像震動的雷聲；君子應悟知恐懼驚惕，修身省過。</value>
+  </data>
+
+  <data name="H_28_Change1" xml:space="preserve">
+    <value>初九，當驚雷震動的時候，天下萬物都感到恐懼，君子亦應知恐懼而修省；當驚雷震動的時候，君子亦應言笑自若，結果是吉祥的。《象》曰：“震來虩虩”，恐致福也；“笑言啞啞”，后有則也。《象辭》說：“當驚雷震動的時候，天下萬物都感到恐懼”，表明恐懼之后從而謹慎從事，能夠致福；“而君子卻能安之若素，言笑如故”，說明君子懂得做人的法則。</value>
+  </data>
+
+  <data name="H_28_Change2" xml:space="preserve">
+    <value>六二，驚雷震動，有危難；丟失大量金錢，應當攀登到高高的九陵上邊去躲避，不去追尋它，待到七天自會失而復得。《象》曰：“震來厲”，乘剛也。《象辭》說：“驚雷震動，有危難”，六二爻凌駕於初九爻陽剛的上面，故可能出現危險。</value>
+  </data>
+
+  <data name="H_28_Change3" xml:space="preserve">
+    <value>六三，雷震動時雖恐懼不安，但是因為震懼而能謹慎行事，因此不會有災異。《象》曰：“震蘇蘇“，位不當也。《象辭》說：“雷震動恐懼不安“，說明六三爻所處的位置，不中不正，不適當。</value>
+  </data>
+
+  <data name="H_28_Change4" xml:space="preserve">
+    <value>九四，由於雷震動而墜陷泥污中，不能自拔。《象》曰：“震遂泥”，未光也。《象辭》說：“由於雷震動而墜陷泥污中，不能自拔”，說明其志氣不能發揚光大。</value>
+  </data>
+
+  <data name="H_28_Change5" xml:space="preserve">
+    <value>六五，雷上下震動均有危難；以恐懼之心謹守中道就會萬無一失，宗廟社稷也可以長盛不衰。《象》曰：“震往來厲”，危行也；其事在中，大無喪也。《象辭》說：“雷上下震動均有危難”，但能知恐懼而謹慎行動；處事恪守中道，就不會有什麼大的損失。</value>
+  </data>
+
+  <data name="H_28_Change6" xml:space="preserve">
+    <value>上六，由於雷震動恐懼而畏縮不前，兩眼旁視而不安，如果行動就會有凶險；不過，當雷震還沒有到達自己身上時，就早作戎備謹慎行事，則不致受害；涉及婚配之事則將會產生言語紛爭。《象》曰：“震索索”，中未得也；雖凶無咎，畏鄰戎也。《象辭》說：“由於雷震動恐懼而畏縮不前”，因為上六爻其位不正；雖然有凶險卻不致受害，這是因為能夠看見近鄰的危險及時戎備，因而能防患於未然。</value>
+  </data>
+
+  <data name="H_28_Meaning" xml:space="preserve">
+    <value>雷驚百裡之象　驚恐不屈之意</value>
+  </data>
+
+  <data name="H_28_Judgement" xml:space="preserve">
+    <value>金鐘夜撞,中吉卦</value>
+  </data>
+
+  <data name="H_28_Poem1" xml:space="preserve">
+    <value>卦辭：佔者逢之撞金鐘，時來運轉響一聲。謀事求財不費力，交易合伙大亨通。 </value>
+  </data>
+
+  <data name="H_28_Deduction" xml:space="preserve">
+    <value>推斷：求名遂意，做事遂心，走失行人，自然有音。 </value>
+  </data>
+
+  <data name="H_28_Omen" xml:space="preserve">
+    <value>大象：重雷發向，千裡傳聲，有驚無險之象，亦有變動之意。 </value>
+  </data>
+
+  <data name="H_28_Luck" xml:space="preserve">
+    <value>運勢：表面昌盛風光，內裡正處多事之秋，動蕩不安之境。 </value>
+  </data>
+
+  <data name="H_28_Love" xml:space="preserve">
+    <value>愛情：是非，紛亂，虛而無實之象。 </value>
+  </data>
+
+  <data name="H_28_Health" xml:space="preserve">
+    <value>疾病：注意肝、神經系統、足疾，病情反覆。 </value>
+  </data>
+
+  <data name="H_28_Lost" xml:space="preserve">
+    <value>失物：可能是受某些事驚嚇而遣失，令你驚惶失措，嘗試於會發聲的東西或電器處尋找。 </value>
+  </data>
+
+  <data name="H_28_Lawsuit" xml:space="preserve">
+    <value>訴訟：反覆難平，宜收斂脾氣，心平氣和。</value>
+  </data>
+
+  <data name="H_28_Poem2" xml:space="preserve">
+    <value>霹靂震雷事事通 來時驚恐去歡容 震驚百裡何足論 把酒開懷笑大風</value>
+  </data>
+
+  <data name="H_29_Main" xml:space="preserve">
+    <value>《恆卦》象征常久：亨通順利，沒有災禍，利於堅守正道，利於前去行事。《象》曰：雷風，恆；君子以立不易方。《象辭》說：《恆卦》的卦象是巽(風)下震(雷)上，為風雷交加之表象，二者常是相輔相成而不停地活動的形象，因而象征常久；君子效法這一現象，應當樹立自身的形象，堅守常久不變的正道。</value>
+  </data>
+
+  <data name="H_29_Change1" xml:space="preserve">
+    <value>初六，刨根挖底地深入追求常久之道，結果必然凶險，沒有一點好處。《象》曰：“浚恆之凶”，始求深也。《象辭》說：“刨根挖底地深入追求常久之道所產生的凶險”，是因為事情剛開始，追求的目標就過於深遠的緣故。</value>
+  </data>
+
+  <data name="H_29_Change2" xml:space="preserve">
+    <value>九二，悔恨自行消除。《象》曰：九二“悔亡”，能久中也。《象辭》說：《恆卦》的第二爻位(九二)能夠使“悔恨自行消除”，是由於它能夠常久地守中不偏的緣故。</value>
+  </data>
+
+  <data name="H_29_Change3" xml:space="preserve">
+    <value>九三，不能常久地保持美好的品德，總會不時蒙受他人的羞辱，結果難免產生惋惜。《象》曰：“不恆其德”，無所容也。《象辭》說：“不能常久地保持美好的品德”，是說由於急躁妄動，不安分守己，沒有恆心，因此落了個無處容身的下場。</value>
+  </data>
+
+  <data name="H_29_Change4" xml:space="preserve">
+    <value>九四，田間狩獵，結果卻沒有捕獲到任何禽獸。《象》曰：“久非其位，安得禽也？《象辭》說：“長久地處在不屬於自己應該處的位置上，又怎麼能夠捕獲到禽獸呢？</value>
+  </data>
+
+  <data name="H_29_Change5" xml:space="preserve">
+    <value>六五，常久地保持柔順服從的美好品德，永遠堅守正道；這樣的話，女人可以獲得吉祥，男人則遭遇凶險。《象》曰：“婦人貞吉，從一而終也；夫子制義，從婦凶也。《象辭》說：“女人堅守正道可以獲得吉祥，是說女人一生應該隻嫁一個丈夫，終身都不能改嫁他人；男人遇事應當果斷處理，如果像女人那樣隻知順從、優柔寡斷的話，就會遭遇凶險。</value>
+  </data>
+
+  <data name="H_29_Change6" xml:space="preserve">
+    <value>上六，搖擺不定，不能堅守常久之道，結果必然凶險。《象》曰：“振恆在上，大無功也。《象辭》說：搖擺不定，不能堅守常久之道，但是又高高在上，終將一無所成，不會有所建樹。</value>
+  </data>
+
+  <data name="H_29_Meaning" xml:space="preserve">
+    <value>相對並行之象　努力不懈之意</value>
+  </data>
+
+  <data name="H_29_Judgement" xml:space="preserve">
+    <value>魚來撞網,上平卦</value>
+  </data>
+
+  <data name="H_29_Poem1" xml:space="preserve">
+    <value>卦辭：魚來撞網樂自然，卦佔行人不久還。交易婚姻兩成就，謀望求財不費難。 </value>
+  </data>
+
+  <data name="H_29_Deduction" xml:space="preserve">
+    <value>推斷：出行湊巧，有病就好，雖有口舌，自然消了。</value>
+  </data>
+
+  <data name="H_29_Omen" xml:space="preserve">
+    <value>大象：震者為動，宜向外發展，巽為入為內向，一內一外，各居本位，故能永恆不變，喻夫婦之道。 </value>
+  </data>
+
+  <data name="H_29_Luck" xml:space="preserve">
+    <value>運勢：萬事亨通，能恆久努力，安守本份則吉，妄動則招災。 </value>
+  </data>
+
+  <data name="H_29_Love" xml:space="preserve">
+    <value>愛情：萬事亨通，恆久如意，終成美眷。 </value>
+  </data>
+
+  <data name="H_29_Health" xml:space="preserve">
+    <value>疾病：為慢性及須長期治療之疾。注意肝之疾。 </value>
+  </data>
+
+  <data name="H_29_Lost" xml:space="preserve">
+    <value>失物：不能尋回。 </value>
+  </data>
+
+  <data name="H_29_Lawsuit" xml:space="preserve">
+    <value>訴訟：小人招禍，但宜速戰速決，不利拖延，宜和解。</value>
+  </data>
+
+  <data name="H_29_Poem2" xml:space="preserve">
+    <value>有恆堅定自亨通 婦隨夫唱德永同 問者無恙貞得利 前行進取事昌隆</value>
+  </data>
+
+  <data name="H_30_Main" xml:space="preserve">
+    <value>《解卦》象征著災禍危難的舒解：利於往西南方行事。如果沒有什麼災禍，隻要嚴守自己的本分和職責，就一定會吉祥如意的。但是如果發生了禍患，就應該及時地想辦法加以解決，這樣才能獲得吉祥。《象》曰：雷雨作，解；君子以赦過宥罪。《象辭》說：《解卦》的卦象是坎（水）下震（雷）上，坎又代表雨；為春雷陣陣，春雨瀟瀟，萬物舒展生長之表象，充分顯示了解卦所蘊含的解除危難的含義，因此，君子也應該勇於赦免那些有過錯的，饒恕那些有罪過的，使他們在寬鬆的環境下，得到解脫和新生。</value>
+  </data>
+
+  <data name="H_30_Change1" xml:space="preserve">
+    <value>初六，處在危難才解的情形下，是沒有什麼過失和不當的。《象》曰：剛柔之際，義無咎也。《象辭》說：處在剛柔相濟、相輔相成的地位，是不會有什麼過失和不當的。</value>
+  </data>
+
+  <data name="H_30_Change2" xml:space="preserve">
+    <value>九二，打獵時捕獲許多隻狐狸，又得到了象征美德的黃色箭矢，保持這種品德並堅守自己的職責而持之以恆，那將會是非常吉祥的。《象》曰：九二貞吉，得中道也。《象辭》說：《解卦》的第二爻位（九二）之所以能獲得吉祥，是因為它能夠遵循中正之道，符合事物發展的規律。</value>
+  </data>
+
+  <data name="H_30_Change3" xml:space="preserve">
+    <value>六三，肩扛著沉重的東西，卻又坐在華麗的大車上，由於地位和身份不相稱，必然招來強盜。因而，即使他能夠堅守本分，其結果也決不會好的。《象》曰：“負且乘“，亦可丑也；自我致戎，又誰咎也？《象辭》說：“肩扛著沉重的東西，卻又坐在華麗的大車上“，這樣的行為簡直是太丑陋了，必然會帶來災禍。由於自己的原因而招致戰禍，這又能去責怪誰呢？隻能是自作自受罷了。</value>
+  </data>
+
+  <data name="H_30_Change4" xml:space="preserve">
+    <value>九四，如果能像伸展自懷的拇指那樣擺脫小人對自己的糾纏，志同道合的人就會真心信任，坦誠相助。《象》曰：“解而拇“，未當位也。《象辭》說：“像伸展自己的拇指那樣去擺脫小人的糾纏”，是因為其所處位置不正的緣故。</value>
+  </data>
+
+  <data name="H_30_Change5" xml:space="preserve">
+    <value>六五，君子隻有消除解脫了危難禍患，才會有吉祥如意；同時，也隻有這樣，才有可能去贏得小人的信服。《象》曰：君子有解，小人退也。《象辭》說：君子如果能夠消除解脫危難禍患，小人就自然會畏懼退避的。</value>
+  </data>
+
+  <data name="H_30_Change6" xml:space="preserve">
+    <value>上六，卓越的王公，用箭去射那盤踞在高城上的惡鳥，一箭射中，沒有什麼不利的。《象》曰：“公用射隼，以解悖也。《象辭》說：“像王公用箭射殺惡鳥”那樣，君主應如此去解除因悖逆所造成的危難。</value>
+  </data>
+
+  <data name="H_30_Meaning" xml:space="preserve">
+    <value>草木舒展之象　遇困可解之意</value>
+  </data>
+
+  <data name="H_30_Judgement" xml:space="preserve">
+    <value>五關脫難,中吉卦</value>
+  </data>
+
+  <data name="H_30_Poem1" xml:space="preserve">
+    <value>卦辭：五關脫難運抬頭，勸君須當把財求。交易出行有人助，疾病口舌不用愁。 </value>
+  </data>
+
+  <data name="H_30_Deduction" xml:space="preserve">
+    <value>推斷：疾病大好，行人來早，謀望成全，諸般湊巧。 </value>
+  </data>
+
+  <data name="H_30_Omen" xml:space="preserve">
+    <value>大象：春雷大作，大地解凍，喻冬去春來生機再現。 </value>
+  </data>
+
+  <data name="H_30_Luck" xml:space="preserve">
+    <value>運勢：宜把握良機，快速處理，身邊困境，更宜出外求謀，因貴人在遠方，以西南為吉方。 </value>
+  </data>
+
+  <data name="H_30_Love" xml:space="preserve">
+    <value>愛情：無須猶疑，把握良機，可成功。 </value>
+  </data>
+
+  <data name="H_30_Health" xml:space="preserve">
+    <value>疾病：久病可治愈，注意肝、腎、足疾。 </value>
+  </data>
+
+  <data name="H_30_Lost" xml:space="preserve">
+    <value>失物：遺失之物似有被支解破壞的可能，故尋回的機會不大。 </value>
+  </data>
+
+  <data name="H_30_Lawsuit" xml:space="preserve">
+    <value>訴訟：一般糾紛皆可解決，宜當機立斷，不可拖延。</value>
+  </data>
+
+  <data name="H_30_Poem2" xml:space="preserve">
+    <value>除危解困利西南 雷雨交加勢非凡 俠義去來真君子 前行主動福添增</value>
+  </data>
+
+  <data name="H_31_Main" xml:space="preserve">
+    <value>《小過卦》象征略為過分：小過之時，可致亨通，但應以正為本，故而利於堅守中正之道；可以去干一些小事，但不可去涉足一些大事；飛鳥留下悲鳴之時，不應該向上強飛，而應該向下棲息，如此，大為吉祥。《象》曰：山上有雷，小過；君子以行過乎恭，喪過乎哀，用過乎儉。《象辭》說：《小過卦》的卦象是艮（山）下震（雷）上，為山上響雷之表象，雷聲超過了尋常的雷鳴，以此比喻“小有過越”，君子應效法“小過”之象，在一些尋常小事上能略有過分，如行止時過分恭敬，遇到喪事時過分悲哀，日常用度過分節儉，為的是矯枉過正。</value>
+  </data>
+
+  <data name="H_31_Change1" xml:space="preserve">
+    <value>初六，飛鳥向上強飛將會出現凶險。《象》曰：“飛鳥以凶”，不可如何也。《象辭》說：“飛鳥向上強飛將會出現凶險”，是咎由自取，無可奈何。</value>
+  </data>
+
+  <data name="H_31_Change2" xml:space="preserve">
+    <value>六二，超過祖父，遇到祖母；但不能擅自越過君位，君臣遇合，一定沒有禍患。《象》曰：“不及其君”，臣不可過也。《象辭》說：“不能擅自越過君位”，因為作為臣子是不能超越至尊的。</value>
+  </data>
+
+  <data name="H_31_Change3" xml:space="preserve">
+    <value>九三，自恃強盛而不願過分防備，從而將要為人所害，故有凶險。《象》曰：“從或戕之”，凶如何也！《象辭》說：“將要為人所害”，說明面臨的危險是多麼的嚴重啊！</value>
+  </data>
+
+  <data name="H_31_Change4" xml:space="preserve">
+    <value>九四，沒有禍患，不過分恃強恃剛就能遇到陰柔；但是主動迎合陰柔會有凶險，因此，務必心存戒惕，不能去施展才用，要永遠守中正之道。《象》曰：“弗過遇之”，位不當也；“往厲必戒”，終不可長也。《象辭》說：“不過分恃強恃剛就能遇到陰柔”，因為九四爻以剛居柔位，位置不正；“主動迎合陰柔會有凶險，務必要心存戒惕”，是說若主動迎合陰柔，最終將不可能長久無害。</value>
+  </data>
+
+  <data name="H_31_Change5" xml:space="preserve">
+    <value>六五，烏雲密布在天空而不下雨，這些烏雲是從城的西邊飄過來的；王公們用細繩系在箭上射取那些藏在穴中的野獸。《象》曰：密雲不雨，已上也。《象辭》說：“烏雲密布在天空而不下雨”，是因為陰氣超過了陽氣，陰陽不合，故而不能化雨。</value>
+  </data>
+
+  <data name="H_31_Change6" xml:space="preserve">
+    <value>上六，不能遇合陽剛卻超越了陽剛，無安棲之所的飛鳥遭受射殺之禍，故而凶險，這就叫做災殃禍患。《象》曰：“弗遇過之”，已亢也。《象辭》說：“不能遇合陽剛而超越了陽剛”，是指其過分已達到極點，再危險不過了。</value>
+  </data>
+
+  <data name="H_31_Meaning" xml:space="preserve">
+    <value>飛鳥遺音之象　陽奉陰違之意</value>
+  </data>
+
+  <data name="H_31_Judgement" xml:space="preserve">
+    <value>急過獨橋,中平卦</value>
+  </data>
+
+  <data name="H_31_Poem1" xml:space="preserve">
+    <value>卦辭：行人路過獨木橋，心內惶恐眼裡跳。爽利保保過得去，慢行一步不安牢。 </value>
+  </data>
+
+  <data name="H_31_Deduction" xml:space="preserve">
+    <value>推斷：求財到手，官事平常，目下不吉，交節自強。 </value>
+  </data>
+
+  <data name="H_31_Omen" xml:space="preserve">
+    <value>大象：山上有雷，雷聲雖大但被山阻隔，雷聲減弱，即為「小過」。 </value>
+  </data>
+
+  <data name="H_31_Luck" xml:space="preserve">
+    <value>運勢：諸事不利，宜行小事，不宜做大事，更防因小過失做成驚動，惹來是非爭訟。 </value>
+  </data>
+
+  <data name="H_31_Love" xml:space="preserve">
+    <value>愛情：相處有障礙，雖可成功但最終又不和。 </value>
+  </data>
+
+  <data name="H_31_Health" xml:space="preserve">
+    <value>疾病：病情有惡化之象，但及時診治則吉，防手足，腸胃之疾。 </value>
+  </data>
+
+  <data name="H_31_Lost" xml:space="preserve">
+    <value>失物：不能尋回。 </value>
+  </data>
+
+  <data name="H_31_Lawsuit" xml:space="preserve">
+    <value>訴訟：不宜各走極端，宜多溝通和解。</value>
+  </data>
+
+  <data name="H_31_Poem2" xml:space="preserve">
+    <value>淺嘗輒止笑懷開 小事可成大事推 飛鳥歸巢休鹜遠 吉祥得利定相隨</value>
+  </data>
+
+  <data name="H_32_Main" xml:space="preserve">
+    <value>《豫卦》象征歡樂愉快：有利於建立諸侯的偉大功業，有利於出師南征北戰。《象》曰：“雷出地奮，豫。先王以作樂崇德，殷薦之上帝，以配祖考。《象辭》說：《豫卦》的卦象為坤（地）下震（雷）上，為地上響雷之表象。雷在地上轟鳴，使大地振奮起來，這就是大自然愉快高興的表現。上古聖明的君主，根據大自然歡樂愉快時雷鳴地震的情景創造了音樂，並用音樂來崇尚推廣偉大的功德。他們以盛大隆重的儀禮，把音樂獻給天帝，並用它來祭祀自己的祖先。</value>
+  </data>
+
+  <data name="H_32_Change1" xml:space="preserve">
+    <value>初六，自鳴得意，高興過了頭，結果樂極生悲，必遭凶險。《象》曰：初六，“鳴豫“，志窮凶也。《象辭》說：《豫卦》的第一位（初六），“自鳴得意，高興過了頭“，說明它沒有雄心壯志，志向容易滿足。一滿足，就得意忘形，結果必遭凶險。</value>
+  </data>
+
+  <data name="H_32_Change2" xml:space="preserve">
+    <value>六二，正直而不同流合污的品德堅如磐石，還不到一天時間，就明白了歡樂愉快的深刻道理，能守正必獲吉祥。《象》曰：“不終日，貞吉”，以中正也。《象辭》說：“還不到一天時間，就明白了愉快歡樂的深刻道理，能守正必獲吉祥”，這是因為能居中守正，在歡樂中既不過分，也不會不滿足，因而獲得吉祥。</value>
+  </data>
+
+  <data name="H_32_Change3" xml:space="preserve">
+    <value>六三，有諂媚奉承暗送秋波的手段取悅於上司，以求得自己的歡樂，這勢必導致悔恨。如若執迷不悟，悔恨不及時，就會招致更大的悔恨。《象》曰：“盱豫有悔”，位不當也。《象辭》說：“用諂媚奉承、暗送秋波的手段取悅於上司，以求得自己歡樂，這勢必導致悔恨”，這是由於六三爻所處位置不正的緣故。</value>
+  </data>
+
+  <data name="H_32_Change4" xml:space="preserve">
+    <value>九四，人們由於他而得到歡樂愉快，大有所獲；毋庸置疑，朋友們會像頭發匯聚於簪子一樣，積聚在他周圍。《象》曰：“由豫，大有得”，志大行也。《象辭》說：“人們由於得到歡樂愉快，大有所獲”，表明九四爻的陽剛之志，可以放手實現。</value>
+  </data>
+
+  <data name="H_32_Change5" xml:space="preserve">
+    <value>六五，國中出現了不少弊病，但仍能長時間地支持下去而不致滅亡。《象》曰：六五“貞疾”，乘剛也；“恆不死”，中未亡也。《象辭》說：《豫卦》的第五爻位（六五）指出，“國中出現了不少弊病”，但有剛強之臣輔佐，“仍能長時間地支持下去而不致滅亡”，這是因為它居中，隻要保持中庸，就會長時間地堅持下去而不致於滅亡。</value>
+  </data>
+
+  <data name="H_32_Change6" xml:space="preserve">
+    <value>上六，已處在天昏地暗的局面之中，但卻執迷不悟，仍沈溺於尋歡作樂之中，十分危險。但隻要及時覺悟，改弦易轍，則可避免禍害。《象》曰：“冥豫”在上，何可長也？《象辭》說：“已處在天昏地暗的局面之中，但卻執迷不悟，仍沈溺於尋歡作樂之中”，並高高在上，不察下情，這樣的歡樂愉快怎能長久地保持呢？</value>
+  </data>
+
+  <data name="H_32_Meaning" xml:space="preserve">
+    <value>雷奮大地之象　事見生機之意</value>
+  </data>
+
+  <data name="H_32_Judgement" xml:space="preserve">
+    <value>青龍得位,上中卦</value>
+  </data>
+
+  <data name="H_32_Poem1" xml:space="preserve">
+    <value>卦辭：青龍得意喜氣生，謀望求財事有成。婚姻出行無阻隔，是非口舌的安寧。 </value>
+  </data>
+
+  <data name="H_32_Deduction" xml:space="preserve">
+    <value>推斷：交易即成，行人即歸，頭緒有准，合伙有利。 </value>
+  </data>
+
+  <data name="H_32_Omen" xml:space="preserve">
+    <value>大象：雷出於地上，陽氣奮發，萬物欣欣向榮。 </value>
+  </data>
+
+  <data name="H_32_Luck" xml:space="preserve">
+    <value>運勢：如意安泰，可得長輩扶助，但須防色難，凡事應有備而戰。</value>
+  </data>
+
+  <data name="H_32_Love" xml:space="preserve">
+    <value>愛情：一帆風順，天賜良緣，但女方年齡比男方大。 </value>
+  </data>
+
+  <data name="H_32_Health" xml:space="preserve">
+    <value>疾病：凶險之卦，注意腹腔、肝膽之疾。 </value>
+  </data>
+
+  <data name="H_32_Lost" xml:space="preserve">
+    <value>失物：難以尋回。 </value>
+  </data>
+
+  <data name="H_32_Lawsuit" xml:space="preserve">
+    <value>訴訟：有始而無終，易被多人連累，破財、受驚。</value>
+  </data>
+
+  <data name="H_32_Poem2" xml:space="preserve">
+    <value>雷行地奮順時機 快樂歡愉自伴隨 大利征行功建業 須防樂極反生悲</value>
+  </data>
+
+  <data name="H_33_Main" xml:space="preserve">
+    <value>《小畜卦》象征小有積蓄：亨通順利；天空布滿濃密的積雲，但還沒有下雨，雲氣是從城西郊區升起來的。《象》曰：風行天上，"小畜"；君子以懿文德。《象辭》說：《小畜卦》的卦象是乾（天）下巽（風）上，是風飄行天上的表象。風在天上吹，密雲不雨，氣候不好不壞，收成一般，所以隻能"小有積蓄"；君子面對這種情況，於是修養美好的品德，用心做好文章等待發達的時機。</value>
+  </data>
+
+  <data name="H_33_Change1" xml:space="preserve">
+    <value>初九，自己從原路返回，哪裡會有什麼災害呢？吉祥。《象》曰："復自道"，其義吉也。《象辭》說："自己從原路返回"，表明這行動很適宜，符合常理，因而吉祥。</value>
+  </data>
+
+  <data name="H_33_Change2" xml:space="preserve">
+    <value>九二，帶著別人一道從原路返回，吉祥。《象》曰：牽復在中，亦不自失也。《象辭》說："帶著別人從原路返回，表明此時處於居中位置，自己不會失掉陽剛的德行。"</value>
+  </data>
+
+  <data name="H_33_Change3" xml:space="preserve">
+    <value>九三，行在半路上，忽然大車的輻條從車輪中脫出來，車不能再行了，回到家裡，夫妻因此大吵大鬧著要離婚。《象》曰：夫妻反目，不能正室也。《象辭》說：結發夫妻吵鬧著要離婚，說明丈夫不能以家規要求妻子，自己也沒有給妻子做出表率，所以妻子不守婦道。</value>
+  </data>
+
+  <data name="H_33_Change4" xml:space="preserve">
+    <value>六四，具有誠實守信的德行，互相信任；拋棄憂患意識與戒備心理，這樣就沒有災禍。《象》曰："有孚惕出",上合志也。《象辭》說："具有誠信之德並拋棄戒備心理"表明這樣符合居於尊上地位的權勢者的意願</value>
+  </data>
+
+  <data name="H_33_Change5" xml:space="preserve">
+    <value>九五，具有誠信的德行，與別人緊密聯系並互相幫助，自己致富也要使鄰人跟著一同富起來。《象》曰："有孚攣如"，不獨富也。《象辭》說："具有誠信的德行與別人緊密聯系並互相幫助"，表明要與人共同富裕，不獨自享受富貴。</value>
+  </data>
+
+  <data name="H_33_Change6" xml:space="preserve">
+    <value>上九，下起了細雨，但不久又停下來，陽剛者的德行被陰氣所彌漫掩蓋；這時婦人要堅守正道，因為十五月圓十六就開始虧了，要小心防備危險。君子要出外遠行，必有凶險。《象》曰："既雨既處"，德積載也；"君子征凶"，有所疑也。《象辭》說："下起了細雨，但不久又停下來"，表明這時陰氣彌漫掩蓋了陽剛之德；"君子外出遠行必遭凶險"，說明陰濕之氣聚集，到處一片茫茫，方向不清，情況不明，自然會發生危險。</value>
+  </data>
+
+  <data name="H_33_Meaning" xml:space="preserve">
+    <value>密雲無雨之象　蓄養實力之意</value>
+  </data>
+
+  <data name="H_33_Judgement" xml:space="preserve">
+    <value>密雲不雨,下平卦</value>
+  </data>
+
+  <data name="H_33_Poem1" xml:space="preserve">
+    <value>卦辭：濃雲密排下雨難，盼望行人不見還。交易出行空費力，婚姻求謀是枉然。 </value>
+  </data>
+
+  <data name="H_33_Deduction" xml:space="preserve">
+    <value>推斷：月令中平，忍耐從容，疾病口舌，交節安寧。 </value>
+  </data>
+
+  <data name="H_33_Omen" xml:space="preserve">
+    <value>大象：蓄養之量有限，力不從心，故宜忍耐蓄養實力，靜待時機。</value>
+  </data>
+
+  <data name="H_33_Luck" xml:space="preserve">
+    <value>運勢：運勢反覆，有口舌之爭，但難於短期內解決，須忍耐，靜待時機。 </value>
+  </data>
+
+  <data name="H_33_Love" xml:space="preserve">
+    <value>愛情：意見分歧，或遭受長輩反對。 </value>
+  </data>
+
+  <data name="H_33_Health" xml:space="preserve">
+    <value>疾病：危，重病，注意肝膽，頭部病變。 </value>
+  </data>
+
+  <data name="H_33_Lost" xml:space="preserve">
+    <value>失物：似乎遺失的是金器或現金支票等物，有被硬物夾住，或者第三格的地方。 </value>
+  </data>
+
+  <data name="H_33_Lawsuit" xml:space="preserve">
+    <value>訴訟：會因証據不足而敗訴。</value>
+  </data>
+
+  <data name="H_33_Poem2" xml:space="preserve">
+    <value>風急天陰遠望西 欲來山雨密雲低 甘霖將至收成好 積得小財事可為</value>
+  </data>
+
+  <data name="H_34_Main" xml:space="preserve">
+    <value>《中孚卦》象征誠信：誠信施及到愚鈍無知的小豬小魚身上，從而感化了它們，因此獲得吉祥，利於涉越大河大川，利於堅守中正之道。《象》曰：“澤上有風，中孚；君子以議獄緩死。《象辭》說《中孚卦》的卦象是兌（澤）下巽（風）上，為澤上有風，風吹動著澤水之表象，比喻沒有誠信之德施及不到的地方，說明極為誠信；君子應當效法“中孚”之象，廣施信德，慎重地議論刑法訟獄，寬緩死刑。</value>
+  </data>
+
+  <data name="H_34_Change1" xml:space="preserve">
+    <value>初九，能安守誠信，可以獲得吉祥，如果另有他求的話就會得不到安寧。《象》曰：初九“虞吉”，志未變也。《象辭》說：《中孚卦》的第一爻位（初九）“能安守誠信，可以獲得吉祥”，是因為其沒有他求的志向沒有改變。</value>
+  </data>
+
+  <data name="H_34_Change2" xml:space="preserve">
+    <value>九二，鶴在山的北面鳴叫，它的那些同類們一聲聲地應和著它；我有醇香的酒漿，願與你一同暢飲。《象》曰：其子和之，中心願也。《象辭》說：“鶴的那些同類們一聲聲地應和著它”，說明它們表露出了內心的意願。</value>
+  </data>
+
+  <data name="H_34_Change3" xml:space="preserve">
+    <value>六三，面臨強勁的敵人，或者敲起戰鼓發動進攻，或者兵疲將乏而致敗退，或因為懼怕敵人的反擊而哭泣，或由於敵人不加侵害而高興地歌唱。《象》曰：“或鼓或罷”，位不當也。《象辭》說：“或者敲起戰鼓發動進攻，或者兵疲將乏而致敗退”，均是因為六三爻居位不正的緣故。</value>
+  </data>
+
+  <data name="H_34_Change4" xml:space="preserve">
+    <value>六四，月亮將圓而未盈，好馬失掉了匹配，不會有什麼禍害。《象》曰：“馬匹亡”，絕類上也。《象辭》說：“好馬失掉了匹配”，是指六四爻誠信專一，斷絕與同類之間的交往，而專心事奉君主。</value>
+  </data>
+
+  <data name="H_34_Change5" xml:space="preserve">
+    <value>九五，具有誠信之德並以其牽系天下人心，天下的人也以誠信相和應，所以沒有禍患。《象》曰：“有孚攣如”，位正當也。《象辭》說：“具有誠信之德並以其牽系天下人心”，是指居位中正適當，說明中心誠信這種教化作用可以施及整個邦國。</value>
+  </data>
+
+  <data name="H_34_Change6" xml:space="preserve">
+    <value>上九，鳥高飛著，鳴叫聲響徹天空，有可能出現凶險。《象》曰：“翰音登於天”，何可長也！《象辭》說：“鳥高飛著，鳴叫聲響徹天空”，這種聲音虛而不實，聲高於情，怎麼可能長久保持呢？</value>
+  </data>
+
+  <data name="H_34_Meaning" xml:space="preserve">
+    <value>鶴鳴子和之象　以誠待人之意</value>
+  </data>
+
+  <data name="H_34_Judgement" xml:space="preserve">
+    <value>販賣豬羊,下下卦</value>
+  </data>
+
+  <data name="H_34_Poem1" xml:space="preserve">
+    <value>卦辭：此卦佔之運氣歹，如同太公做買賣。販豬羊快販牛遲，豬羊齊販斷了宰。 </value>
+  </data>
+
+  <data name="H_34_Deduction" xml:space="preserve">
+    <value>推斷：佔名不利，佔利不全，疾病不愈，做事更難。 </value>
+  </data>
+
+  <data name="H_34_Omen" xml:space="preserve">
+    <value>大象：中孚為誠信意，風吹在澤水之上，澤水必相應而起波浪，為共鳴之象。 </value>
+  </data>
+
+  <data name="H_34_Luck" xml:space="preserve">
+    <value>運勢：凡事以「誠」待人，以「信」處事則諸事皆吉，心存邪念則凶。 </value>
+  </data>
+
+  <data name="H_34_Love" xml:space="preserve">
+    <value>愛情：雙方能以誠相待，良緣可定。 </value>
+  </data>
+
+  <data name="H_34_Health" xml:space="preserve">
+    <value>疾病：金木交戰之象，士妥井啁理，注意胸腹脾胃。 </value>
+  </data>
+
+  <data name="H_34_Lost" xml:space="preserve">
+    <value>失物：可失而 得，但需要一段時間。 </value>
+  </data>
+
+  <data name="H_34_Lawsuit" xml:space="preserve">
+    <value>訴訟：為突發事件，宜把握第一時間處理，遲則反凶。</value>
+  </data>
+
+  <data name="H_34_Poem2" xml:space="preserve">
+    <value>心誠祭祀自然靈 有肉有魚吉運行 冒險功成創大業 問求得利喜盈盈</value>
+  </data>
+
+  <data name="H_35_Main" xml:space="preserve">
+    <value>《家人卦》象征家庭：特別注重女人在家中的作用，如果她能夠堅守正道，始終如一，將會非常有利。《象》曰：風自火出，家人；君子以言有物而行有恆。《象辭》說：《家人卦》的卦象是離（火）下巽（風）上，為風從火出之表象，象征著外部的風來自於本身的火，就像家庭的影響和作用都產生於自己內部一樣。君子應該特別注意自己的一言一行，說話要有根據和內容，行動要有准則和規矩，不能朝三暮四和半途而廢。</value>
+  </data>
+
+  <data name="H_35_Change1" xml:space="preserve">
+    <value>初九，治家應從一開始就打好基礎，立下規矩，防患於未然。如果這樣做了，就不會有什麼過失了。《象》曰：“閑有家”，志未變也。《象辭》說：“治家應從一開始就打好基礎，立下規矩，防患於未然”，意義就在於開一個好頭十分重要。如果等到出現了問題再去想辦法，效果就差得多了。</value>
+  </data>
+
+  <data name="H_35_Change2" xml:space="preserve">
+    <value>六二，不要自作主張，追求功名，能夠料理好家中的飲食起居就行了，結果一定是吉祥的。《象》曰：六二之吉，順以巽也。《象辭》說：《家人卦》的第二爻位（六二）這所以能夠吉祥如意，是因為它位置居中，符合常規，而且溫柔順從的緣故。</value>
+  </data>
+
+  <data name="H_35_Change3" xml:space="preserve">
+    <value>九三，由於治家過分嚴厲，使得家裡人承受不了而怨言叢生，這樣做雖然有過失，會帶來麻煩，但是從長遠看，最終會得到吉祥的。可是如果不能從嚴治家，聽憑婦人和孩子們隨心所欲，最終的發展結果卻決不會好。《象》曰：“家人嗃嗃”，未失也；“婦子嘻嘻”，失家節也。《象辭》說：“由於過分嚴厲使得家中人怨言叢生，但最終卻可以得到吉祥”，是因為這樣做是符合治家的原則的，雖然有過失，但不失根本。而聽憑“婦人和孩子隨心所欲，最終的發展結果卻決不會好”，是因為這樣做違背了治家的原則和規矩。六四，富家，大吉。</value>
+  </data>
+
+  <data name="H_35_Change4" xml:space="preserve">
+    <value>六四，能夠使家中的財富增加，就一定會非常吉祥如意。《象》曰：“富家大吉”，順在位也。《象辭》說：六四之所以“能夠使家中的財富增加，一定會非常吉祥如意”，是由於它柔順的本性決定的。</value>
+  </data>
+
+  <data name="H_35_Change5" xml:space="preserve">
+    <value>九五，一家之主通過自己的行為感染帶動家裡的人，使他們各自都按照自己的本分和職責去做，是會吉祥如意的。《象》曰：“王假有家“，交相愛也。《象辭》說：“一家之主通過自己的行為感染帶動家裡的人，是會吉祥如意的”，關鍵是要能使全家人和睦相處，感情融洽，相親相愛。</value>
+  </data>
+
+  <data name="H_35_Change6" xml:space="preserve">
+    <value>上九，治家的根本在於嚴格要求自己，如果自己能夠誠實有信，樹立起威信，結果一定會獲得吉祥。《象》曰：威如之吉，反身之謂也。《象辭》說：之所以建立尊嚴和威信能夠獲得吉祥，是因為這種尊嚴和威信是通過嚴格要求自己得到的，而不是通過其他方式。</value>
+  </data>
+
+  <data name="H_35_Meaning" xml:space="preserve">
+    <value>入海求珠之象　開花結果之意</value>
+  </data>
+
+  <data name="H_35_Judgement" xml:space="preserve">
+    <value>鏡裡觀花,下下卦</value>
+  </data>
+
+  <data name="H_35_Poem1" xml:space="preserve">
+    <value>卦辭：鏡裡觀花休認真，謀望求財不遂心。交易慢成婚姻散，走失行人無音信。 </value>
+  </data>
+
+  <data name="H_35_Deduction" xml:space="preserve">
+    <value>推斷：找人不遇，疾病未愈，求名不准，官事不宜。 </value>
+  </data>
+
+  <data name="H_35_Omen" xml:space="preserve">
+    <value>大象：風吹火之象，助火之威，喻家人同心協力，發展事業。 </value>
+  </data>
+
+  <data name="H_35_Luck" xml:space="preserve">
+    <value>運勢：平安大吉，與人合作則易成，更有喜慶之象，如添丁婚嫁等。 </value>
+  </data>
+
+  <data name="H_35_Love" xml:space="preserve">
+    <value>愛情：大吉之象，終成美眷。 </value>
+  </data>
+
+  <data name="H_35_Health" xml:space="preserve">
+    <value>疾病：注意心臟或膽病，必須小心調理。 </value>
+  </data>
+
+  <data name="H_35_Lost" xml:space="preserve">
+    <value>失物：出現。隱藏在家中。可能是被家人收起來了。 </value>
+  </data>
+
+  <data name="H_35_Lawsuit" xml:space="preserve">
+    <value>訴訟：雖產生大疑慮，若行事合理則無礙。</value>
+  </data>
+
+  <data name="H_35_Poem2" xml:space="preserve">
+    <value>家庭倫理貴諧和 主婦柔謙福自多 內正家齊能外順 問求女事樂欣欣</value>
+  </data>
+
+  <data name="H_36_Main" xml:space="preserve">
+    <value>《益卦》象征增益：利於前去行事，利於渡大河越巨流。《象》曰：風雷，益；君子以見善則遷，有過則改。《象辭》說：《益卦》的卦象是震（雷）下巽（風）上，為狂風和驚雷互相激蕩，相得益彰之表象，象征“增益”的意思；從中得到的啟示就是：君子應當看到良好的行為就馬上向它看齊，有了過錯就馬上改正，不斷增強自身的美好品德。</value>
+  </data>
+
+  <data name="H_36_Change1" xml:space="preserve">
+    <value>初九，利於大顯身手干一番事業，如果能獲得大吉大利，就不會遭到責難。《象》曰：“元吉無咎”，不厚事也。《象辭》說：“如果能獲得大吉大利，就不會遭到責難”，表明在大顯身手干事業的時候，一定要謹慎小心，盡量不要過分鋪張奢侈，不能好大喜功而使民眾過分辛勞。隻有這樣才能獲大吉而免遭責難。</value>
+  </data>
+
+  <data name="H_36_Change2" xml:space="preserve">
+    <value>六二，有人送來價值昂貴的大烏龜，沒有辦法辭讓，遇到這種情況，在任何時候佔卜其結堅果永遠是吉祥如意的；君王如果在此時祭祀天神，祈求降福保佑，也會如願以償獲得吉利。《象》曰：“或益之”自外來也。《象辭》說：“有人送來（價值昂貴的大烏龜）”，這樣的大好事並不是由於貪婪而主動索取的結果，完全是他人心甘情願送上門來的意外收獲。</value>
+  </data>
+
+  <data name="H_36_Change3" xml:space="preserve">
+    <value>六三，將所得到的好處用來幫助他人解除危難和災禍，這樣才不會引起麻煩；要滿懷誠意地按照中庸之道行事，進見王公貴人時一定要手執象征虔誠守信的圭玉。《象》曰：益用凶事，固有之也。《象辭》說：將得到的好處用來解救他人的危難之事，是保全自身的最好辦法。因為身處顯赫地位，得到許多好處，同時也埋下了禍根，隻有把這些好處用來助人，才能得人心，免除災禍，從而可以牢固地保持所得到的好處。</value>
+  </data>
+
+  <data name="H_36_Change4" xml:space="preserve">
+    <value>六四，採取溫和寬厚的中庸態度行事，有事求告於王公的話，王公會很樂意的答應，此時最有利於借重王公的威望來決定遷徙國都這樣的大事。《象》曰：“告公從”，以益志也。《象辭》說：“有事求告於王公的話，王公會很樂意地答應”並不是由於別的原因，完全是甘願自我減損而使天下大眾受益的志向感動了王公貴人。</value>
+  </data>
+
+  <data name="H_36_Change5" xml:space="preserve">
+    <value>九五，滿腹虔誠地懷著一顆使天下人受惠的仁慈之心，不用佔卦問卜就知道是大吉大利：將心比心天下人必然也都虔誠地懷著施惠於我、感我恩德的心願。《象》曰：“有孚惠心”，勿問之矣；惠我德，大得志也。《象辭》說：“滿腹虔誠地懷著一顆使天下受惠的仁慈之心”，作為至高無上的君長，能夠做到這樣確實難能可貴，根本用不著佔卦問卜，吉祥如意將永運伴隨著他；天下人都虔誠地感激我的大恩大德，這種萬民歸心的盛況，使我自行減損造福大眾的心志得到了極大的滿足。</value>
+  </data>
+
+  <data name="H_36_Change6" xml:space="preserve">
+    <value>上九，沒有誰來讓他受益，倒是有人來攻擊他；內心拿定主意卻不能持之以恆，必然會有凶險臨頭。《象》曰：“莫益之”，偏辭也；“或擊之”，自外來也。《象辭》說：“沒有誰來讓他受益”，是因為背離了益卦損己益人的宗旨，由損上益下變為損下益上，必然遭到世人的唾棄，他要求受益的呼聲就隻能是一廂情願之辭；“倒是有人來攻擊他”因為他凌駕於君王之上，位置不當，而且貪圖受益，搞得天怒人怨，遭到外來的攻擊也就毫不奇怪。</value>
+  </data>
+
+  <data name="H_36_Meaning" xml:space="preserve">
+    <value>風雷交錯之象　損上益下之意</value>
+  </data>
+
+  <data name="H_36_Judgement" xml:space="preserve">
+    <value>枯木開花,中吉卦</value>
+  </data>
+
+  <data name="H_36_Poem1" xml:space="preserve">
+    <value>卦辭：時來運轉喜氣發，多年枯木又開花。枝葉重生多茂盛，幾人見了幾人夸。 </value>
+  </data>
+
+  <data name="H_36_Deduction" xml:space="preserve">
+    <value>推斷：交易有成，見官有理，走失得見，出門見喜。</value>
+  </data>
+
+  <data name="H_36_Omen" xml:space="preserve">
+    <value>大象：強風配快雷，聲威增長之象，長男配長女，夫婦合體，增益兒孫之象。 </value>
+  </data>
+
+  <data name="H_36_Luck" xml:space="preserve">
+    <value>運勢：現正當吉運，可得貴人之助而成功，宜施惠於人，施比受更有福。 愛情：相親相愛，良緣天定。 </value>
+  </data>
+
+  <data name="H_36_Love" xml:space="preserve">
+    <value>疾病：可治愈，提防肝膽、腸胃之疾，或性病等。 </value>
+  </data>
+
+  <data name="H_36_Health" xml:space="preserve">
+    <value>失物：有望可尋回。 </value>
+  </data>
+
+  <data name="H_36_Lost" xml:space="preserve">
+    <value>訴訟：有牢獄之災，或事因女人、房地產引起，宜和解。</value>
+  </data>
+
+  <data name="H_36_Lawsuit" xml:space="preserve">
+    <value></value>
+  </data>
+
+  <data name="H_36_Poem2" xml:space="preserve">
+    <value></value>
+  </data>
+
+  <data name="H_37_Main" xml:space="preserve">
+    <value>《巽卦》象征順從：謙虛柔順，小心從事可以達到亨通，這樣才能利於所要做的事情，利於出現有道德並居於高位的人物。《象》曰：“隨風，巽；君子以申命行事。《象辭》說：《巽卦》的卦象是巽（風）下巽（風）上，為風行起來無所不入之表象，由此表示順從。具有賢良公正美德的君主應當仿效風行而物無不順的樣子，下達命令，施行統治。</value>
+  </data>
+
+  <data name="H_37_Change1" xml:space="preserve">
+    <value>初六，過度謙卑，缺乏信心，進退遲疑，利於勇武之人堅守中正之道。《象》曰：“進退”志疑也；“利武人之貞”，志治也。《象辭》說：“過度謙卑，缺乏信心，進退遲疑”，是指意志懦弱猶豫；“利於勇武之人堅守中道”，是勉勵其修治，以樹立堅強的意志。</value>
+  </data>
+
+  <data name="H_37_Change2" xml:space="preserve">
+    <value>九二，過度謙卑而屈居於床下，如果能像祝史、巫覡那樣用崇敬謙恭的態度事神將十分吉祥，一定不會有什麼禍患。《象》曰：“紛若之吉”，得中也。《象辭》說：“用崇敬謙恭的態度去行事將十分吉祥”，這是因為九二爻能夠居中守正的緣故。</value>
+  </data>
+
+  <data name="H_37_Change3" xml:space="preserve">
+    <value>九三，朝令夕改，使人無所適從，會有禍患。《象》曰：“頻巽之吝”，志窮也。《象辭》說：“朝令夕改，使人無所適從，會有禍患”，是因為當政者缺乏遠大的志向。</value>
+  </data>
+
+  <data name="H_37_Change4" xml:space="preserve">
+    <value>六四，悔恨消失，田獵時得到多種收獲。《象》曰：“田獲三品，有功也。《象辭》說：“田獵時得到多種收獲”，是因為能恪守“順從”之道，所以才有所建樹。</value>
+  </data>
+
+  <data name="H_37_Change5" xml:space="preserve">
+    <value>九五，堅守中道，可以得到吉祥，悔恨會消失，做任何事情沒有不順利的；開始時也許不會太順利，但最后一定會通達。比如頒行新的法令、政令，可以在象征變更的“庚”日的前三天發布，在“庚”日后三天再開始施行這些命令，才能使命令深入人心，從而使上下皆順從，由此獲得好的效果。《象》曰：“九五之吉，位中正也。《象辭》說：《巽卦》的第五爻位（九五）之所以吉祥，是因為它居中端正，守持中道，慎始慎終。</value>
+  </data>
+
+  <data name="H_37_Change6" xml:space="preserve">
+    <value>上九，謙卑恭順到了極點而屈於床下，喪失了賴以謀生的資本，喪失了剛硬的本性，結果是凶險的。《象》曰：“巽在床下”，上窮也；“喪其資斧”，正乎凶也。《象辭》說：“謙卑恭順到了極點而屈居於床下”，處於窮極末路，無法前進；“喪失了謀生的資本”，失去了生活的能力，結果必然是凶險的。</value>
+  </data>
+
+  <data name="H_37_Meaning" xml:space="preserve">
+    <value>颶風覆船之象　上行下效之意</value>
+  </data>
+
+  <data name="H_37_Judgement" xml:space="preserve">
+    <value>孤舟得水,中吉卦</value>
+  </data>
+
+  <data name="H_37_Poem1" xml:space="preserve">
+    <value>卦辭：泛舟得水離沙灘，出外行人早回家。是非口舌皆無礙，婚姻合伙更不差。 </value>
+  </data>
+
+  <data name="H_37_Deduction" xml:space="preserve">
+    <value>推斷：功名稱意，求財得利，交易可成，疾病痊愈。 </value>
+  </data>
+
+  <data name="H_37_Omen" xml:space="preserve">
+    <value>大象：此卦為兩重巽風重疊，巽為入，風之所到無孔不入，尤如政令頒布，深入民心。 </value>
+  </data>
+
+  <data name="H_37_Luck" xml:space="preserve">
+    <value>運勢：波折重重，運勢起落浮沉不定，要隨機應變，心平氣和，擇善固執。 </value>
+  </data>
+
+  <data name="H_37_Love" xml:space="preserve">
+    <value>愛情：有不穩定之象，宜作真誠溝通，不可一味奉承。 </value>
+  </data>
+
+  <data name="H_37_Health" xml:space="preserve">
+    <value>疾病：六沖卦者久病則凶，且病情變化多端。 </value>
+  </data>
+
+  <data name="H_37_Lost" xml:space="preserve">
+    <value>失物：遣失在遠處，不能尋回。 </value>
+  </data>
+
+  <data name="H_37_Lawsuit" xml:space="preserve">
+    <value>訴訟：不易和解，但一方肯讓步則易解決。</value>
+  </data>
+
+  <data name="H_37_Poem2" xml:space="preserve">
+    <value>聽命順從是巽風 無孔不入小亨通 前行進取加謙遜 助運貴人自可逢</value>
+  </data>
+
+  <data name="H_38_Main" xml:space="preserve">
+    <value>《渙卦》象征渙散：順暢亨通，賢明的君主去祠廟祭祀神靈以祈求保佑，利於渡過大川河流，利於堅守中正之道。《象》曰：風行水上，“渙”；先王以享於帝立廟。《象辭》說：《渙卦》的卦象是坎（水）下巽（風）上，為風行水上之表象，象征渙散、離散。先代君王為了收合歸攏人心便祭祀天帝，修建廟宇。</value>
+  </data>
+
+  <data name="H_38_Change1" xml:space="preserve">
+    <value>初六，借助健壯的好馬來彌補力量的不足，可以獲得吉祥。《象》曰：初六之吉，順也。《象辭》說：《兌卦》的第一位（初六）之所以是吉祥的，這是由於它能順承陽剛的緣故。</value>
+  </data>
+
+  <data name="H_38_Change2" xml:space="preserve">
+    <value>九二，處在渙散之時，要迅速脫離險境，轉移到安全的地方，悔恨便會消失。《象》曰：“渙奔其機”，得願也。《象辭》說：“渙散之時，要迅速脫離險境，轉移到安全的地方”，脫離了危險，消失了悔恨，實現了自己的願望。</value>
+  </data>
+
+  <data name="H_38_Change3" xml:space="preserve">
+    <value>六三，寧願自身受到損失，因此沒有什麼悔恨。《象》曰：“渙其躬”，志在外也。《象辭》說：“寧願自身受到損失”，說明志向在外。</value>
+  </data>
+
+  <data name="H_38_Change4" xml:space="preserve">
+    <value>六四，盡散朋黨，因而有大的吉祥；同時，它又能化解小群而聚成山丘一般大的群體，這不是常人所能想到的。《象》曰：“渙其群元吉”，光大也。《象辭》說：“盡散朋黨，因而有大的吉祥”，表明無自私自利之心，品行光明正大。</value>
+  </data>
+
+  <data name="H_38_Change5" xml:space="preserve">
+    <value>九五，像揮發身上的汗水一樣發布重大的命令，同時亦能疏散君王的積蓄用以聚攏民心，這樣做一定不會有什麼禍患。《象》曰：“王居無咎”，正位也。《象辭》說：“疏散君王的積蓄以聚攏民心，這樣做一定不會有什麼禍患”，是因為九五爻居於正位，行事端正。</value>
+  </data>
+
+  <data name="H_38_Change6" xml:space="preserve">
+    <value>上九，擺脫傷害，遠遠地避開它，不再接近它，不會有什麼禍患。《象》曰：“渙其血，遠害也。《象辭》說：擺脫傷害，這就是避禍之道。</value>
+  </data>
+
+  <data name="H_38_Meaning" xml:space="preserve">
+    <value>順風揚帆之象　隨波逐流之意</value>
+  </data>
+
+  <data name="H_38_Judgement" xml:space="preserve">
+    <value>隔河望金,下下卦</value>
+  </data>
+
+  <data name="H_38_Poem1" xml:space="preserve">
+    <value>卦辭：隔河望見一錠金，欲取河寬水又深。指望錢財難到手，日夜思想妄費心。 </value>
+  </data>
+
+  <data name="H_38_Deduction" xml:space="preserve">
+    <value>推斷：婚姻不濟，合伙無利，交易出行，總不如意。 </value>
+  </data>
+
+  <data name="H_38_Omen" xml:space="preserve">
+    <value>大象：風吹在水面上，流動四散，又有春風吹散嚴寒，令冰雪消解。 </value>
+  </data>
+
+  <data name="H_38_Luck" xml:space="preserve">
+    <value>運勢：雖有憂患，但終可解困，百事亨通，忌任性散慢。 </value>
+  </data>
+
+  <data name="H_38_Love" xml:space="preserve">
+    <value>愛情：現時有障礙，但最終能圓滿。 </value>
+  </data>
+
+  <data name="H_38_Health" xml:space="preserve">
+    <value>疾病：幼年多體弱多病，及年逐長大而漸康 ，注意血液、內分泌。 </value>
+  </data>
+
+  <data name="H_38_Lost" xml:space="preserve">
+    <value>失物：不能尋回。 </value>
+  </data>
+
+  <data name="H_38_Lawsuit" xml:space="preserve">
+    <value>訴訟：凡事宜大事化小，小事化無，訴訟可解。</value>
+  </data>
+
+  <data name="H_38_Poem2" xml:space="preserve">
+    <value>風行水上波渙散 得勢君王坐廟壇 冒險功成當創業 問求得利挽狂瀾</value>
+  </data>
+
+  <data name="H_39_Main" xml:space="preserve">
+    <value>《漸卦》象征循序漸進：如同女子出嫁那樣，按照一切婚嫁的禮節循序漸進，就會得到吉祥，有利於堅守正道。《象》曰：山上有木，漸；君子以居賢德善俗。《象辭》說：《漸卦》的卦象是艮（山）下巽（風）上，表明高山上的樹木逐漸長得高大，象征循序漸進；君子觀看高山上的樹木逐漸長得高大的情況，由是修養德性，改善社會的風尚、禮節和習慣。</value>
+  </data>
+
+  <data name="H_39_Change1" xml:space="preserve">
+    <value>初六，鴻雁飛起來逐漸前進到水涯旁邊，落伍離群，顯得不安；象征著年幼無知的孩子有危難，受到言語中傷，如果能夠循序漸進，就不會受害。《象》曰：“小子之厲”，義無咎也。《象辭》說：“年幼無知的孩子有危難”，不會發生什麼危險的。</value>
+  </data>
+
+  <data name="H_39_Change2" xml:space="preserve">
+    <value>六二，鴻雁飛起來逐漸前進到安穩的磐石之上，飲食和樂，吉祥。《象》曰：“飲食衎衎，不素飽也。《象辭》說：“飲食和樂”，說明決不是尸位素餐不干事情的。</value>
+  </data>
+
+  <data name="H_39_Change3" xml:space="preserve">
+    <value>九三，鴻雁飛起來逐漸前進到較平的山頂，好比丈夫遠去出征而不復還，他的妻子非夫而孕難以生育，這當然是凶險的事；但卻能以剛烈御強寇。《象》曰：“夫征不復”，離群丑也；“婦孕不育”，失其道也；“利用御寇”，順相保也。《象辭》說：“好比丈夫遠去出征而不復還”，離開自己的同類是值得憂慮的；“他的妻子非夫而孕難以生育”，因為違反了婦道；“但卻能以剛烈御強寇”說明守正能夠使丈夫與妻子和順相保。</value>
+  </data>
+
+  <data name="H_39_Change4" xml:space="preserve">
+    <value>六四，鴻雁飛起來逐漸前進到高樹之上，或許能找到較平的枝杈得以棲息，這樣就沒有愆尤。《象》曰：“或得其桷”，順以巽也。《象辭》說：“或許能尋找到較平的枝杈得以棲息”，說明六四柔順和服從。</value>
+  </data>
+
+  <data name="H_39_Change5" xml:space="preserve">
+    <value>九五，鴻雁飛起來逐漸前進到丘陵上，好比丈夫遠出在外，妻子三年沒有懷孕；但邪畢竟不能勝正，因此最終得到吉祥。《象》曰：“終莫之勝吉”，得所願也。《象辭》說：“邪終久不能勝正，因此就得到吉祥”，實現了夫婦聚首的願望。</value>
+  </data>
+
+  <data name="H_39_Change6" xml:space="preserve">
+    <value>上九，鴻雁飛起來逐漸前進到高山之上，漂亮的羽毛可以作為典禮上潔美的裝飾品，吉祥。《象》曰：“其羽可用為儀，吉”，不可亂也。《象辭》說：“洪亮的羽毛可以作為典禮上潔美的裝飾品，吉祥”，說明潔美高尚的志向不能相亂的。</value>
+  </data>
+
+  <data name="H_39_Meaning" xml:space="preserve">
+    <value>草木漸茂之象　積小成多之意</value>
+  </data>
+
+  <data name="H_39_Judgement" xml:space="preserve">
+    <value>鳳鳴歧山,上上卦</value>
+  </data>
+
+  <data name="H_39_Poem1" xml:space="preserve">
+    <value>卦辭：鳳凰落在西岐山，長鳴幾聲出聖賢。天降文王開基業，富貴榮華八百年。 </value>
+  </data>
+
+  <data name="H_39_Deduction" xml:space="preserve">
+    <value>推斷：出門有益，求財必准，疾病皆除，諸事平穩。 </value>
+  </data>
+
+  <data name="H_39_Omen" xml:space="preserve">
+    <value>大象：山上種有樹木，逐漸生長，比喻循序漸進。 </value>
+  </data>
+
+  <data name="H_39_Luck" xml:space="preserve">
+    <value>運勢：逐漸走向光明前途，凡事宜打根基，可得吉慶，但須防色情之難及文書錯失。 </value>
+  </data>
+
+  <data name="H_39_Love" xml:space="preserve">
+    <value>愛情：循序發展，可成功，但婚姻有再娶之象。 </value>
+  </data>
+
+  <data name="H_39_Health" xml:space="preserve">
+    <value>疾病：惡化之象，注意胃、腸、背痛等。 </value>
+  </data>
+
+  <data name="H_39_Lost" xml:space="preserve">
+    <value>失物：多數不能尋回。 </value>
+  </data>
+
+  <data name="H_39_Lawsuit" xml:space="preserve">
+    <value>訴訟：宜進不宜退，據理力爭可勝。</value>
+  </data>
+
+  <data name="H_39_Poem2" xml:space="preserve">
+    <value>山中木長漸成材 千裡歸鴻步岸回 嫁女漸行吉大利 問求定得笑顏開</value>
+  </data>
+
+  <data name="H_40_Main" xml:space="preserve">
+    <value>《觀卦》象征瞻仰：瞻仰了祭祀開頭盛大的傾酒灌地的降神儀式，就可以不去看后面的獻饗之禮了，因為這時心中已經充滿了誠敬肅穆的情緒。《象》曰：風行地上，觀；先王以省方觀民設教。《象辭》說：《觀卦》的卦象是坤（地）下巽（風）上，為風吹拂於地上而遍及萬物之表象，象征瞻仰。先代君王仿效風吹拂於地而遍及萬物的精神，視察四方，留心民風民俗，用教育來感化民眾。</value>
+  </data>
+
+  <data name="H_40_Change1" xml:space="preserve">
+    <value>初六，像幼稚的兒童一樣觀察景物，這對無知的庶民來說，不會有害處，但對擔任教化重任的君子來說，就未免有所憾惜。《象》曰：初六，“童觀”，小人道也。《象辭》說：《觀卦》的第一位（初六），“像幼稚的兒童一樣觀察景物”，這是淺薄的小人之道。</value>
+  </data>
+
+  <data name="H_40_Change2" xml:space="preserve">
+    <value>六二，由門縫中偷觀景物，有利於婦女保持節操，堅持正道。《象》曰：“闚觀，女貞”，亦可丑也。《象辭》說：“由門縫中偷觀景物，對於婦女來說有利於堅持正道，固守貞操”，但對男子漢來說，這樣的行為就丟丑了。</value>
+  </data>
+
+  <data name="H_40_Change3" xml:space="preserve">
+    <value>六三，對照高尚的道德標准來省察自己的言行，審時度勢，小心謹慎地決定進退。《象》曰：“觀我生，進退”，未失道也。《象辭》說：“對照高尚的道德標准省察自己的言行，審時度勢，小心謹慎地決定進退”，這樣做是不失原則的。</value>
+  </data>
+
+  <data name="H_40_Change4" xml:space="preserve">
+    <value>六四，瞻仰一個國家的文治武功，有利於成為君王的賓客和輔佐。《象》曰：“觀國之光”，尚賓也。《象辭》說：“瞻觀一個國家的文治武功”，說明此國崇尚賢士。</value>
+  </data>
+
+  <data name="H_40_Change5" xml:space="preserve">
+    <value>九五，對照高尚的道德標准省察自己的言行，不斷地完善自己，君子就不會有禍患。《象》曰：“觀我生”，觀民也。《象辭》說：“對照高尚的道德標准，審察自己的言行，弄清自己的德行”，便可知萬民的德行。</value>
+  </data>
+
+  <data name="H_40_Change6" xml:space="preserve">
+    <value>上九，君子時刻瞻仰君主的德行和作為，並按照君主的德行和作為行事，這樣才不會有禍患。《象》曰：“觀其生”，志未平也。《象辭》說：“君子時刻瞻仰君主的德行和作為”，因為君子始終以天下為己任，天下未安，其志難平。</value>
+  </data>
+
+  <data name="H_40_Meaning" xml:space="preserve">
+    <value>風揚塵埃之象　觀察入微之意</value>
+  </data>
+
+  <data name="H_40_Judgement" xml:space="preserve">
+    <value>鸛鵲同林,下中卦</value>
+  </data>
+
+  <data name="H_40_Poem1" xml:space="preserve">
+    <value>卦辭：鵲遇天晚宿林中，不知林內先有鸛。雖然同處心生惡，卦外逢之事非輕。 </value>
+  </data>
+
+  <data name="H_40_Deduction" xml:space="preserve">
+    <value>推斷：先難后易，謀事不易，交過節令，憂愁變喜。 </value>
+  </data>
+
+  <data name="H_40_Omen" xml:space="preserve">
+    <value>大象：風運行於坤地之上，喻有周游觀覽之意。陰長陽消，正道衰微，萬物難行。 </value>
+  </data>
+
+  <data name="H_40_Luck" xml:space="preserve">
+    <value>運勢：處身於變化之中，宜多觀察入微，心身苦惱，並防外來誘惑。 </value>
+  </data>
+
+  <data name="H_40_Love" xml:space="preserve">
+    <value>愛情：飄動不定，外表看好，但內裡虛浮，宜得長輩扶助。 </value>
+  </data>
+
+  <data name="H_40_Health" xml:space="preserve">
+    <value>疾病：有漸惡化之象，病情變化多，為腹、神經系統病症。 </value>
+  </data>
+
+  <data name="H_40_Lost" xml:space="preserve">
+    <value>失物：若能細心四察，可以找回來。 </value>
+  </data>
+
+  <data name="H_40_Lawsuit" xml:space="preserve">
+    <value>訴訟：小人當道，愈爭論惹起紛爭愈多，但終會和解。</value>
+  </data>
+
+  <data name="H_40_Poem2" xml:space="preserve">
+    <value>祭祀虔誠先淨手 尊崇仰慕肅溫恭 瞻觀恰似風行地 徹悟得來感化中</value>
+  </data>
+
+  <data name="H_41_Main" xml:space="preserve">
+    <value>《需卦》象征等待：具有誠實守信的品德，光明正大，做事才會亨通順利，佔問的結果是吉祥的，出外遠行，渡過寬闊的河流會很順利。 《象》曰：雲上於天，需；君子以飲食宴樂。 《象辭》說：《需卦》的卦象是乾（天）下坎（水）上，為水在天上之表象。水汽聚集天上成為雲層，密雲満天，但還沒有下雨，需要等待；君子在這個時候需要吃喝，飲酒作樂，即在等待的時候積蓄力量。</value>
+  </data>
+
+  <data name="H_41_Change1" xml:space="preserve">
+    <value>初九，在郊外等待，必須有恆心，長久耐心地靜候時機，不會有什麼禍患。 《象》曰："需於郊"，不犯難行也；"利用恆，無咎"，未失常也。 《象辭》說："在郊外等待"，表明不能冒險輕率前行；"長久耐心地等候時機，不會有什麼禍患"，表明沒有偏離正道，沒有偏離天地恆常之理。</value>
+  </data>
+
+  <data name="H_41_Change2" xml:space="preserve">
+    <value>九二，在沙灘上等待，雖然要受到別人的一些非難指責，耐心等待終究會獲得吉祥。 《象》曰："需於沙"，衍在中也；雖有小言，以終吉也。 《象辭》說："在沙灘上等待"，表明寬宏大量不急躁；雖然受到一些非難和指責，但終久能獲得吉祥。</value>
+  </data>
+
+  <data name="H_41_Change3" xml:space="preserve">
+    <value>九三，在泥濘中等待，結果搶劫的強徒乘機而至。 《象》曰："需於泥"，災在外也；自我致寇，敬慎不敗也。《象辭》說："在泥濘中等待"，說明災禍還在外面，尚未殃及本身；自己招引來強盜，說明要處處謹慎小心才能避開危險。</value>
+  </data>
+
+  <data name="H_41_Change4" xml:space="preserve">
+    <value>六四，在血泊中等待，不小心陷進深穴，用盡全力才逃脫出來。 《象》曰："需於血"，順以聽也。 《象辭》說："在血泊中等待"，表明此時必須沉著冷靜，順應時勢，聽天由命，以等待轉機。</value>
+  </data>
+
+  <data name="H_41_Change5" xml:space="preserve">
+    <value>九五，准備好酒食招待客人，佔問的結果是吉祥的。 《象》曰："酒食貞吉"，以中正也。 《象辭》說："准備好酒食招待客人，佔問的結果是吉祥的"，說明此時處於中位，完美無缺。</value>
+  </data>
+
+  <data name="H_41_Change6" xml:space="preserve">
+    <value>上六，落入了洞穴之中，忽然有不請自來的三位客人到來；對他們恭恭敬敬，以禮相待，終久會得到吉祥的結果。 《象》曰："不速之客來，敬之終吉"。雖不當位，未大失也。 《象辭》說："不請自來的三位客人到來，對他們恭敬而且熱情地招待，終久獲得吉祥"，表明此時盡管處在不適當的地位，但還沒有遭受大的損失。</value>
+  </data>
+
+  <data name="H_41_Meaning" xml:space="preserve">
+    <value>待機而動之意 </value>
+  </data>
+
+  <data name="H_41_Judgement" xml:space="preserve">
+    <value>明珠出土,上上卦</value>
+  </data>
+
+  <data name="H_41_Poem1" xml:space="preserve">
+    <value>卦辭：明珠土埋日久深，無光無毫到如今。忽然大風吹去土，自然顯露又重新。 </value>
+  </data>
+
+  <data name="H_41_Deduction" xml:space="preserve">
+    <value>推斷：謀望有成，婚姻最合，求財如意，也喜動挪。 </value>
+  </data>
+
+  <data name="H_41_Omen" xml:space="preserve">
+    <value>大象：雲登天上而未雨，不能急進，等待時機之象。 </value>
+  </data>
+
+  <data name="H_41_Luck" xml:space="preserve">
+    <value>運勢：智者必須待時而行，急進反見凶險。 </value>
+  </data>
+
+  <data name="H_41_Love" xml:space="preserve">
+    <value>愛情：感情發展初期不如意，必須耐心等待，方見有成。 </value>
+  </data>
+
+  <data name="H_41_Health" xml:space="preserve">
+    <value>疾病：病情拖延，須留心治療，為頭胸肺、泌尿系統等病。 </value>
+  </data>
+
+  <data name="H_41_Lost" xml:space="preserve">
+    <value>失物：即時不能尋回，需經過一段時間將會出現。 </value>
+  </data>
+
+  <data name="H_41_Lawsuit" xml:space="preserve">
+    <value>訴訟：暫時未能了結，以和為貴。</value>
+  </data>
+
+  <data name="H_41_Poem2" xml:space="preserve">
+    <value>耐心恆心自信心 安閑等待值千金 誠信順利求者吉 闖險何須懼水深</value>
+  </data>
+
+  <data name="H_42_Main" xml:space="preserve">
+    <value>《節卦》象征節制：節制可致亨通；但過分的節制也不可以的，應當持正、適中。《象》曰：澤上有水，節；君子以制數度，議德行。《象辭》說：《澤卦》的卦象是兌（澤）下坎（水）上為澤上有水之表象，象征以堤防來節制。水在澤中，一旦滿了就溢出來，而堤防本身就是用來節制水的盈虛的。君子應當效法《節卦》的義理，制定典章制度和必要的禮儀法度來作為行事的准則，以此來節制人們的行為。</value>
+  </data>
+
+  <data name="H_42_Change1" xml:space="preserve">
+    <value>初九，不邁出庭院，沒有危害。《象》曰：“不出戶庭”，知通塞也。《象辭》說：“不邁出庭院”，說明知曉通則當行，阻則當止的道理。</value>
+  </data>
+
+  <data name="H_42_Change2" xml:space="preserve">
+    <value>九二，因過分節制而不跨出門庭，會有凶險。《象》曰：“不出門庭”，失時極也。《象辭》說：“因過分節制而不跨出門庭”，因此失去了適中、妥當的時機。</value>
+  </data>
+
+  <data name="H_42_Change3" xml:space="preserve">
+    <value>六三，雖不能節制，但能嗟嘆自悔，則沒有禍患。《象》曰：“不節之嗟”，又誰咎也！《象辭》說：“雖然不能節制，但能嗟嘆自悔”，這樣的話，又有誰能給它造成禍患呢？</value>
+  </data>
+
+  <data name="H_42_Change4" xml:space="preserve">
+    <value>六四，能安然實行節制，故而亨通。《象》曰：“安節之亨”，承上道也。《象辭》說：“能安然實行節制，故而亨通”，說明謹守柔順尊上之道。</value>
+  </data>
+
+  <data name="H_42_Change5" xml:space="preserve">
+    <value>九五，能適度節制從而讓人感到美而適中，是吉祥的；前行一定會受到褒獎。《象》曰：甘節之吉，位居中也。《象辭》說：“能適度節制從而讓人感到美而適中，是吉祥的”，這是由於居位中正的緣故。</value>
+  </data>
+
+  <data name="H_42_Change6" xml:space="preserve">
+    <value>上六，因節制過分，則會感到苦澀；而且會發生凶險，如果能對過分節制感到懊悔，則凶險有可能消失。《象》曰：“苦節貞凶”，其道窮也。《象辭》說：“因節制過分，則會感到苦澀，而且會發生凶險”，因為過分節制必然導致末路窮途。</value>
+  </data>
+
+  <data name="H_42_Meaning" xml:space="preserve">
+    <value>蓄水成塘之象　勤檢克己之意</value>
+  </data>
+
+  <data name="H_42_Judgement" xml:space="preserve">
+    <value>斬將封神,上吉卦</value>
+  </data>
+
+  <data name="H_42_Poem1" xml:space="preserve">
+    <value>卦辭：時來運轉喜氣生，登台封神姜太公。到此諸神皆退位，縱然有禍不成凶。 </value>
+  </data>
+
+  <data name="H_42_Deduction" xml:space="preserve">
+    <value>推斷：月令高強，聲名大楊，走失有信，官事不妨。 </value>
+  </data>
+
+  <data name="H_42_Omen" xml:space="preserve">
+    <value>大象：澤為池沼，坎水在上，喻蓄積及約束水份不使流失，但水位過高，則成泛濫。 </value>
+  </data>
+
+  <data name="H_42_Luck" xml:space="preserve">
+    <value>運勢：有志不能伸，諸事必須節制，不宜過份，更要戒酒色。 </value>
+  </data>
+
+  <data name="H_42_Love" xml:space="preserve">
+    <value>愛情：男女正常交往則吉利，相反則凶。 </value>
+  </data>
+
+  <data name="H_42_Health" xml:space="preserve">
+    <value>疾病：注意泌尿及消化系病變，宜速就醫。 </value>
+  </data>
+
+  <data name="H_42_Lost" xml:space="preserve">
+    <value>失物：不能尋回。 訴訟：局勢僵持不下，宜讓則訟可解。</value>
+  </data>
+
+  <data name="H_42_Lawsuit" xml:space="preserve">
+    <value></value>
+  </data>
+
+  <data name="H_42_Poem2" xml:space="preserve">
+    <value></value>
+  </data>
+
+  <data name="H_43_Main" xml:space="preserve">
+    <value>《既濟卦》象征成功：此時功德完滿，連柔小者都亨通順利，有利於堅守正道；開始時是吉祥的，但如有不慎，終久必導致混亂。《象》曰：“水在火上，既濟；君子以思患而預防之。《象辭》說：《既濟卦》的卦象是離（火）下坎（水）上，為水在火上之表象，比喻用火煮食物，食物已熟，象征事情已經成功；君子應有遠大的目光，在事情成功之后，就要考慮將來可能出現的種種弊端，防患於未然，採取預防措施。</value>
+  </data>
+
+  <data name="H_43_Change1" xml:space="preserve">
+    <value>初九，拉住車的輪子，不使它快進，小狐狸渡河時沾濕了尾巴，無法快游，沒有災禍。《象》曰：“曳其輪”，義無咎也。《象辭》說：“拉住車的輪子，不使它快進”，說明事情成功之后，必須謹慎從事，小心防備，才沒有災禍。</value>
+  </data>
+
+  <data name="H_43_Change2" xml:space="preserve">
+    <value>六二，丟失了婦人乘車的遮帘，不用去尋找，過不了七天就會物歸原處。《象》曰：“七日得”，以中道也。《象辭》說：“丟失婦人乘車上的遮帘，過不了七日就會物歸原處”，說明此時正處於中位，堅守正道，不偏不倚，所以丟失了的東西可以失而復得。</value>
+  </data>
+
+  <data name="H_43_Change3" xml:space="preserve">
+    <value>九三，殷高宗武丁征伐地處西北的鬼方國，經過三年的連續戰斗才獲得勝利；不可任用急躁冒進的小人。《象》曰：“三年克之”憊也。《象辭》說：“經過三年的連續戰斗才攻克了鬼方國”，說明戰爭非常激烈又持續了三年之久，已經筋疲力盡了，勝利是來之不易的。</value>
+  </data>
+
+  <data name="H_43_Change4" xml:space="preserve">
+    <value>六四，渡河的時候，為了防止船漏水，事先要准備破布棉絮，而且整天保持戒備，以防止發生災禍。《象》曰：“終日戒”有所疑也。《象辭》說：“整天保持戒備，以防止災禍的發生”，說明此時心中有所疑慮，感到恐懼。</value>
+  </data>
+
+  <data name="H_43_Change5" xml:space="preserve">
+    <value>九五，東邊鄰國殺牛羊來舉行盛大祭禮，不如西邊的鄰國舉行簡單而朴素的祭祀，這樣才能實在地得到神降賜的福分。《象》曰：“東鄰殺牛”，不如西鄰之時也；“實受其福”，吉大來也。《象辭》說：“東邊的鄰國殺牛宰羊來舉行盛大的祭禮”，還不如西邊鄰國能按時舉行虔誠簡單的時祭；西鄰“實在地得到上天神靈降賜的福分”，說明此是正當其位，吉祥福分將不斷隆臨，非常幸運。</value>
+  </data>
+
+  <data name="H_43_Change6" xml:space="preserve">
+    <value>上六，小狐狸渡河時弄濕了頭，有危險。《象》曰：“濡其道，厲”，何可久也！《象辭》說：“小狐狸渡河時弄濕了頭，有危險”，這是警告在事情成功之后，要更加小心謹慎，不然怎能長久不敗！</value>
+  </data>
+
+  <data name="H_43_Meaning" xml:space="preserve">
+    <value>陰陽和諧之象　上下相通之意</value>
+  </data>
+
+  <data name="H_43_Judgement" xml:space="preserve">
+    <value>金榜題名,上中卦</value>
+  </data>
+
+  <data name="H_43_Poem1" xml:space="preserve">
+    <value>卦辭：金榜之上提姓名，不負當年苦用功。人逢此卦多吉慶，一切謀望大亨通。 </value>
+  </data>
+
+  <data name="H_43_Deduction" xml:space="preserve">
+    <value>推斷：月令吉善，找人尋見，走失能找，口舌消散。 </value>
+  </data>
+
+  <data name="H_43_Omen" xml:space="preserve">
+    <value>大象：坎水在離火之上，水性下注，火勢上炎，水火相濟。完成之意。 </value>
+  </data>
+
+  <data name="H_43_Luck" xml:space="preserve">
+    <value>運勢：名利雙收，成功之象，防物極必反，初吉后凶。 </value>
+  </data>
+
+  <data name="H_43_Love" xml:space="preserve">
+    <value>愛情：初則出雙入對，形影不離，但日久反目離異。 </value>
+  </data>
+
+  <data name="H_43_Health" xml:space="preserve">
+    <value>疾病：短期雖有好轉，但好景不常。 </value>
+  </data>
+
+  <data name="H_43_Lost" xml:space="preserve">
+    <value>失物：應可尋回。 </value>
+  </data>
+
+  <data name="H_43_Lawsuit" xml:space="preserve">
+    <value>訴訟：有理說不清，仍須把握最有利時機爭取主動，遲則反見凶。</value>
+  </data>
+
+  <data name="H_43_Poem2" xml:space="preserve">
+    <value>功成既濟事亨通 奮發依然莫放鬆 小利能求須謹慎 惟恐初吉變亂終</value>
+  </data>
+
+  <data name="H_44_Main" xml:space="preserve">
+    <value>《屯卦》象征初生：元始，亨通，和諧，貞正。不要急於發展，首先要立君建國。《象》曰：雲雷屯，君子以經綸。《象辭》說：《屯卦》的卦象是震（雷）下坎（水）上，為雷上有水之表象，水在上表示雨尚未落，故釋為雲。雲雷大作，是即將下雨的征兆，故《屯卦》象征初生。這裡表示天地初創，國家始建，正人君子應以全部才智投入到創建國家的事業中去。</value>
+  </data>
+
+  <data name="H_44_Change1" xml:space="preserve">
+    <value>初九，萬事開頭難，在初創時期困難特別大，難免徘徊不前，但隻要能守正不阿，仍然可建功立業。《象》曰：雖磐桓，志行正也。以貴下賤，大得民也。《象辭》說："雖然徘徊不前，但志向和行為純正。隻要能下定決心，深入基層，仍然會大得民心的。"</value>
+  </data>
+
+  <data name="H_44_Change2" xml:space="preserve">
+    <value>六二，女子貞不字，十年后才生育。《象》曰：六二之難，乘剛也。"十年乃字"，反常也。《象辭》說：六二爻之所以出現困難，是由於陽剛一方所造成的。"婚后十年才生育"，是很反常的現象。</value>
+  </data>
+
+  <data name="H_44_Change3" xml:space="preserve">
+    <value>六三，追逐鹿時，由於缺少管山林之人的引導，致使鹿逃入樹林中去。君子此時如仍不願舍棄，輕率地繼續追蹤，則必然會發生禍事。《象》曰："即鹿無虞"，以從禽也。君子舍之，往吝窮也。《象辭》說："追逐鹿缺少管山林之人引導"，是因為獲鹿之心過於急切。君子應及時放棄，否則必有禍事或導致窮困。</value>
+  </data>
+
+  <data name="H_44_Change4" xml:space="preserve">
+    <value>六四，四馬前進，步調不一，但如堅定不移地去求婚，則結果必然是吉祥順利的。《象》曰：求而往，明也。《象辭》說："堅定不移地去追求，是明智之舉。"</value>
+  </data>
+
+  <data name="H_44_Change5" xml:space="preserve">
+    <value>九五，隻顧自己囤積財富而不注意幫助別人，是很危險的，那樣做，辦小事雖有成功的可能，但辦大事則必然會出現凶險。《象》曰："屯其膏"，施未光也。《象辭》說："隻顧自己囤積財富而不注意幫助別人"，這樣的人即使想有所作為，其前景也不大光明。</value>
+  </data>
+
+  <data name="H_44_Change6" xml:space="preserve">
+    <value>上六，四馬前進，步調不一，進退兩難，悲傷哭泣，泣血不止。《象》曰："泣血漣如"，何可長也？《象辭》說："悲傷哭泣，泣血不止"，這種狀況怎能維持長久呢？</value>
+  </data>
+
+  <data name="H_44_Meaning" xml:space="preserve">
+    <value>春木更新之象　艱難險阻之意 </value>
+  </data>
+
+  <data name="H_44_Judgement" xml:space="preserve">
+    <value>亂絲無頭,下下卦</value>
+  </data>
+
+  <data name="H_44_Poem1" xml:space="preserve">
+    <value>卦辭：風刮亂絲不見頭，顛三倒四犯憂愁。慢行緩來頭有緒，急促反惹不自由。 </value>
+  </data>
+
+  <data name="H_44_Deduction" xml:space="preserve">
+    <value>推斷：疾病未好，婚姻不巧，口舌瑣碎，做事顛倒。 </value>
+  </data>
+
+  <data name="H_44_Omen" xml:space="preserve">
+    <value>大象：屯者難也，萬事欲進而不得進。 </value>
+  </data>
+
+  <data name="H_44_Luck" xml:space="preserve">
+    <value>運勢：身處困境，步步為營，有初難后解之意。 </value>
+  </data>
+
+  <data name="H_44_Love" xml:space="preserve">
+    <value>愛情：感情發展受阻，宜堅守信念，排除困難。 </value>
+  </data>
+
+  <data name="H_44_Health" xml:space="preserve">
+    <value>疾病：病在腸胃，足部或泌尿系統，不宜掉以輕心。 </value>
+  </data>
+
+  <data name="H_44_Lost" xml:space="preserve">
+    <value>失物：難以尋回。 </value>
+  </data>
+
+  <data name="H_44_Lawsuit" xml:space="preserve">
+    <value>訴訟：小事粘滯糾纏，大事反無大害，宜和解。</value>
+  </data>
+
+  <data name="H_44_Poem2" xml:space="preserve">
+    <value>萌芽起步最艱難 大路通行得利還 萬勿輕率求冒進 功成置業自開顏</value>
+  </data>
+
+  <data name="H_45_Main" xml:space="preserve">
+    <value>《井卦》：象征無窮：改變遷移城邑不會使水井發生改變和遷徙，井水不會枯竭也不會溢滿，來來往往的人都到井裡來打水。提水提到井口眼看就要上來了，卻把水瓶打翻了，這是凶險的兆頭。《象》曰：木上有水，井；君子以勞民勸相。《象辭》說：《井卦》的卦象是巽（木）下坎（水）上，即是說水分沿著樹身向上運行，直達樹冠，為井水源源不斷地被汲引到地面之表象，因此象征無窮；井水無窮無盡，孜孜不倦地養育著人們，君子應當效法這種美德，不辭勞苦地為大眾謀福利，倡導助人為樂的社會風尚。</value>
+  </data>
+
+  <data name="H_45_Change1" xml:space="preserve">
+    <value>初六，井底淤滿了污泥不能供人飲用，歷盡滄桑，年久失修的老井連鳥雀都不來光顧。《象》曰：“井泥不食”，下也；“舊井無禽”，時舍也。《象辭》說：“井底淤滿了污泥不能供人飲用”，完全是因為位置處在最下面，相當於井底部位，水中泥沙不斷沉澱最后都淤積在這裡；“歷盡滄桑、年久失修的老井連鳥雀都不來光顧”，反映出一種時過境遷，被世間萬物所遺忘拋棄的淒涼遭遇。</value>
+  </data>
+
+  <data name="H_45_Change2" xml:space="preserve">
+    <value>九二，井底容水的凹穴被當作捉魚的場所，汲水的瓮也破損漏水不能再用。《象》曰：“井谷射鮒”，無與也。《象辭》說：“井底容水的凹穴被當作捉魚的場所”，主要是由於上面沒有接應，難以把水送到地面上去供人飲用。於是井的作用得不到發揮，隻好退而求其次，盛水的地方成了抓魚的所在。由於水井陷於癱瘓狀態，因而汲水的器具也破損不堪用不成了。</value>
+  </data>
+
+  <data name="H_45_Change3" xml:space="preserve">
+    <value>九三，井水淘干淨了卻不飲用，使我心中不免失望；可以趕快汲來盡情享用，君王賢明是大家共同的福氣。《象》曰：“井渫不食”，行惻也；求“王明”，受福也。《象辭》說：“井水淘干淨了卻不飲用”，表明盡管血氣方剛，一心想有所作為而使世人受益，卻苦於一片好心無人領受，滿懷熱情的善行隻落了個令人悲嘆的結局；希望“君王賢明”，直接從井水說到人事，盼望聖明的君主出現，思賢若渴，像汲水一樣選拔吸收重用人才，就能給國家帶來吉祥，君臣萬民都可以享受到由此帶來的恩惠。</value>
+  </data>
+
+  <data name="H_45_Change4" xml:space="preserve">
+    <value>六四，用磚石壘砌加固井壁，不會遇到災禍。《象》曰：“井甃無咎”，修井也。《象辭》說：“用磚石壘砌加固井壁，不會遇到災禍”，表明六四爻以陰柔之象處在《井卦》居中部位，正好相當於井壁的關鍵部位，不可有絲毫閃失。因此應當及時修繕使其堅固，才能免除災禍。</value>
+  </data>
+
+  <data name="H_45_Change5" xml:space="preserve">
+    <value>九五，井水清澈明淨，就像甘甜涼爽的泉水一樣可供天下人飲用。《象》曰：“寒泉之食”，中正也。《象辭》說：“像甘甜涼爽的泉水一樣可供天下人飲用”，這是因為九五爻處在最尊貴的地位，位置適中而且十分妥當。象征行為不偏不倚，內心純正無私。因而能夠集中體現水井滋潤萬物，造福大眾的美德。</value>
+  </data>
+
+  <data name="H_45_Change6" xml:space="preserve">
+    <value>上六，水井養人潤物的功德業已完成，不要蓋上井口；內心懷著一片誠意，定能帶來大吉大利。《象》曰：“元吉”在上，大成也。《象辭》說：“大吉大利”的情況出現在《井卦》最上面的位置，是因為上下照應，同心協力可將水提出井口。而且在這以后並不把井口蓋嚴，繼續懷著誠心為人們不斷提供飲水的方便，功德無量，必然會有大吉大利到來。從而標志著滋養世人的宏偉事業獲得了巨大的成功。</value>
+  </data>
+
+  <data name="H_45_Meaning" xml:space="preserve">
+    <value>珠藏深淵之象　井井有條之意</value>
+  </data>
+
+  <data name="H_45_Judgement" xml:space="preserve">
+    <value>枯井生泉,上中卦</value>
+  </data>
+
+  <data name="H_45_Poem1" xml:space="preserve">
+    <value>卦辭:枯井破了已多年，一朝涌泉出水新。資生濟渴人稱羨，時來運轉樂自然。 </value>
+  </data>
+
+  <data name="H_45_Deduction" xml:space="preserve">
+    <value>推斷：精神漸爽，富祿日增，出入皆吉，百事亨通。 </value>
+  </data>
+
+  <data name="H_45_Omen" xml:space="preserve">
+    <value>大象：水被植物吸收，滋養樹身又象徵汲器入井取水，有節約重覆之意。 </value>
+  </data>
+
+  <data name="H_45_Luck" xml:space="preserve">
+    <value>運勢：井為靜物，不能移動，故凡事不能進取主動，又缺乏沖勁，不如處之泰然更有利。 </value>
+  </data>
+
+  <data name="H_45_Love" xml:space="preserve">
+    <value>愛情：形勢不大理想，有分開再合之象，故往后可成。 </value>
+  </data>
+
+  <data name="H_45_Health" xml:space="preserve">
+    <value>疾病：病情較重且拖延，可能是發。 </value>
+  </data>
+
+  <data name="H_45_Lost" xml:space="preserve">
+    <value>失物：不能尋回。 </value>
+  </data>
+
+  <data name="H_45_Lawsuit" xml:space="preserve">
+    <value>訴訟：有刑罰之象，且受人牽連，及防房地產之訴訟。</value>
+  </data>
+
+  <data name="H_45_Poem2" xml:space="preserve">
+    <value>村邑變時井不遷 時光流逝井依然 汲瓶取水瓶先破 勞卻無功惡運</value>
+  </data>
+
+  <data name="H_46_Main" xml:space="preserve">
+    <value>《坎卦》象征重重艱險：像水奔流一樣，胸懷堅定的信念，執著專一，內心才能不畏艱險而獲得亨通，這種奔流不止、堅強剛毅的行為必然被人們所崇尚。《象》曰：水洊至，習坎；君子以常德行，習教事。《象辭》說：《坎卦》的卦象是坎（水）下坎（水）上，為水流之表象。流水相繼而至、潮涌而來，必須充滿前方無數極深的陷坑才能繼續向前，所以象征重重的艱險困難；君子因此應當堅持不懈地努力，反復不間斷地推進教育事業。</value>
+  </data>
+
+  <data name="H_46_Change1" xml:space="preserve">
+    <value>初六，置身於重重的艱險困難之中，落入到陷坑的最底下，結果必然是凶險的。《象》曰：“習坎入坎”，失道凶也。《象辭》說：“置身於重重的艱險困難之中，落入到陷坑的最底下”，是因為不能堅守正道，自身軟弱無能，又得不到外援，所以遭遇凶險。</value>
+  </data>
+
+  <data name="H_46_Change2" xml:space="preserve">
+    <value>九二，仍然處在陷坑之中面臨危險，雖不能脫險，但在一定程度上還是可以解決一些小問題的。《象》曰：“求小得”，未出中也。《象辭》說：“雖不能脫險，但在一定程度上還是可以解決一些小問題的”，說明仍未脫離險境。</value>
+  </data>
+
+  <data name="H_46_Change3" xml:space="preserve">
+    <value>六三，往來進退都處在重重陷坑之間，面臨危險難以得到安全，落入陷坑的最底下，在這種情況下，隻有伏枕以待，不可輕舉妄動。《象》曰：“來之坎坎”終無功也。《象辭》說：“往來進退都處在重重陷坑之間”，是說雖急於求得平安，結果是欲速則不達，最終還是不能擺脫危險，走出困境。</value>
+  </data>
+
+  <data name="H_46_Change4" xml:space="preserve">
+    <value>六四，一樽酒，兩簋飯，用瓦缶盛著進獻，禮雖然很輕，然而卻充滿了深厚的情意，正大光明地表示誠信，最終不會發生災禍。《象》曰：“樽酒簋貳”，剛柔際也。《象辭》說：“一樽酒兩簋飯”，是說在艱險困難的情況下能夠推心置腹、相互信任地交往，剛柔相濟，所以最終免遭災禍。</value>
+  </data>
+
+  <data name="H_46_Change5" xml:space="preserve">
+    <value>九五，奔流的水還未溢出陷坑，然而卻已和陷坑平齊了，還不會發生災害。《象》曰：“坎不盈”，中未大也。《象辭》說：“奔流的水還未溢出陷坑”，說明居中而不自大，所以，還不會發生災害。</value>
+  </data>
+
+  <data name="H_46_Change6" xml:space="preserve">
+    <value>上六，被繩索重重地捆綁住，囚放在荊棘叢生的牢獄中，長達三年不能解脫，十分凶險。《象》曰：上六失道，凶三歲也。《象辭》說：“《坎卦》的第六爻位(上六)面臨艱險困難，不能堅守正道，所以遭受三年的凶險。</value>
+  </data>
+
+  <data name="H_46_Meaning" xml:space="preserve">
+    <value>重重險陷之象　向下內斂之意</value>
+  </data>
+
+  <data name="H_46_Judgement" xml:space="preserve">
+    <value>水底撈月,下下卦</value>
+  </data>
+
+  <data name="H_46_Poem1" xml:space="preserve">
+    <value>卦辭：一路明月照水中，隻見影兒不見蹤。愚人當財下去取，摸來摸去一場空。 </value>
+  </data>
+
+  <data name="H_46_Deduction" xml:space="preserve">
+    <value>推斷：求名不遂，疾病未愈，婚姻未成，合伙不利。 </value>
+  </data>
+
+  <data name="H_46_Omen" xml:space="preserve">
+    <value>大象：兩水重疊，坎水為險，進固險，退亦險，進退兩難。 </value>
+  </data>
+
+  <data name="H_46_Luck" xml:space="preserve">
+    <value>運勢：危機重重，宜沉著應付，保持心境開朗，凡事莫與人爭。 </value>
+  </data>
+
+  <data name="H_46_Love" xml:space="preserve">
+    <value>愛情：易沉溺於愛情中，但有險阻重重之象。 </value>
+  </data>
+
+  <data name="H_46_Health" xml:space="preserve">
+    <value>疾病：病重宜速治，否則難救，注意腎臟，膀胱生殖器病。 </value>
+  </data>
+
+  <data name="H_46_Lost" xml:space="preserve">
+    <value>失物：找不回來。有失竊可能。或沉在水底。因坎水有困難之意。</value>
+  </data>
+
+  <data name="H_46_Lawsuit" xml:space="preserve">
+    <value>訴訟：有盜賊之訟，或田土之爭，有理說不清，凶象。</value>
+  </data>
+
+  <data name="H_46_Poem2" xml:space="preserve">
+    <value>重重險阻大江橫 欲破危艱靠信誠 苦困煉磨人健毅 行為高尚事方成</value>
+  </data>
+
+  <data name="H_47_Main" xml:space="preserve">
+    <value>蹇卦，象征陷入困境，難以前進；面對這種情況，利於向西南行動，不利於向東北行動。此時利於出現大人物，隻要能夠堅守正道，始終如一，就一定可以獲得吉祥。《象》曰：“山上有水，蹇；君子以反身修德。《象辭》說：《蹇卦》的卦象是（山）下坎（水）上，為高山上積水之表象，象征艱難險阻，行動困難。面對這種情況，君子應該很好地反省自己，提高自己的品德修養，以通過自身的努力渡過困境。</value>
+  </data>
+
+  <data name="H_47_Change1" xml:space="preserve">
+    <value>初六，前進將會進入險境，后退將得到贊美。《象》曰：“往蹇來譽”，宜待也。《象辭》說：“前進將會進入險境，后退將得到贊美”，處在這種情況下，最好是安心等待，尋找時機，不要輕舉妄動。</value>
+  </data>
+
+  <data name="H_47_Change2" xml:space="preserve">
+    <value>六二，臣子為了解救君王的困境努力奔走在危難之中。如果是為了自己，他是用不著這樣做的。《象》曰：“王臣蹇蹇”，終無尤也。《象辭》說：“臣子為了解救君主的困境而努力奔走在危難之中”，那麼結果將不會有什麼過失。</value>
+  </data>
+
+  <data name="H_47_Change3" xml:space="preserve">
+    <value>九三，前進陷於危難，最好還是退回原地，不要再繼續往前走了。《象》曰：“往蹇來反”，內喜之也。《象辭》說：“前進將陷於危難，最好還是回原地”，這樣內部的力量必會來依附於己。</value>
+  </data>
+
+  <data name="H_47_Change4" xml:space="preserve">
+    <value>六四，如果它要奔赴危難，就該聯合其他的力量，隻有這樣，才有可能解救危難。《象》曰：“往蹇來連”位當實也。《象辭》說：“前去解救危難，應該聯合其他的力量”，是指這一爻所處的位置決定了他應該這樣去做。</value>
+  </data>
+
+  <data name="H_47_Change5" xml:space="preserve">
+    <value>九五，處境極為艱難，卻有眾多的人來協助他渡過危難。《象》曰：“大蹇朋來”以中節也。《象辭》說：“處境極為艱難，卻有眾多的人來協助他渡過危難”，表明他能夠堅守正道，行為合乎准則，所以有眾多的人前來協助他。</value>
+  </data>
+
+  <data name="H_47_Change6" xml:space="preserve">
+    <value>上六，如果前進就會陷入險境，退回來卻可以大有收獲；這樣做就會吉祥如意；有利於出現大人物。《象》曰：“往蹇來碩”，志在內也；“利見大人”，以從貴也。《象辭》說：“如果前進就會陷入險境，退回來卻可以大有收獲”，是因為關鍵在於首先要聯合自己內部的各種力量才能夠共同度過艱難時世。“利於出現大人物”，說明應當追隨尊貴的君主去建功立業。</value>
+  </data>
+
+  <data name="H_47_Meaning" xml:space="preserve">
+    <value>門前有陷之象　背明向暗之意</value>
+  </data>
+
+  <data name="H_47_Judgement" xml:space="preserve">
+    <value>雨雪載途,下下卦</value>
+  </data>
+
+  <data name="H_47_Poem1" xml:space="preserve">
+    <value>卦辭：大雨傾地雪滿天，路上行人苦又難，拖泥帶水費盡力，事不遂心且耐煩。 </value>
+  </data>
+
+  <data name="H_47_Deduction" xml:space="preserve">
+    <value>推斷：行人未至，投向無門，好事難成，求名不准。 </value>
+  </data>
+
+  <data name="H_47_Omen" xml:space="preserve">
+    <value>大象：前路險陷，后有高山，進退維谷，如跛者舉步為艱。 </value>
+  </data>
+
+  <data name="H_47_Luck" xml:space="preserve">
+    <value>運勢：多災多難，進退兩難，此時宜守正道，不可輕舉妄動，動反招禍。 </value>
+  </data>
+
+  <data name="H_47_Love" xml:space="preserve">
+    <value>愛情：困難重重，破象已現。 </value>
+  </data>
+
+  <data name="H_47_Health" xml:space="preserve">
+    <value>疾病：病重，不可疏忽醫治，注意腎、胃、手部四肢損傷。 </value>
+  </data>
+
+  <data name="H_47_Lost" xml:space="preserve">
+    <value>失物：搜索有困難阻滯而停止，不能尋回。 </value>
+  </data>
+
+  <data name="H_47_Lawsuit" xml:space="preserve">
+    <value>訴訟：終必有險，更防血光。不宜起訟，動則招咎。</value>
+  </data>
+
+  <data name="H_47_Poem2" xml:space="preserve">
+    <value>山高水急路難探 莫向東北利西南 得遇貴人能相助 貞者大吉渡龍潭</value>
+  </data>
+
+  <data name="H_48_Main" xml:space="preserve">
+    <value>《比卦》象征親密無間，團結互助：吉祥。探本求原，再一次卜筮佔問，知道要輔佐有德行的長者，長久不變地堅守正道，不會有禍害。連不安分的諸侯現在也來朝賀，還有少數來得遲的諸侯將有凶險。《象》曰：地上有水，比；先王以建萬國，親諸侯。《象辭》說：《比卦》的卦象為坤，（地）下坎（水）上，象征地上有水。大地上百川爭流，流水又浸潤著大地，表明地與水親密無間，互相依存；以前的歷代君主明白這個道理，所以分封土地，建立萬國，安撫親近各地諸侯。</value>
+  </data>
+
+  <data name="H_48_Change1" xml:space="preserve">
+    <value>初六，具有誠實守信的德行，親密團結，輔佐君主，不會有災禍；誠信的德行如同美酒注滿了酒缸，這樣遠方的人紛紛前來歸附，結果是吉祥的。《象》曰：《比》之初六，有它吉也。《象辭》說：《比卦》的第一爻位（初六），表示一開始便具有誠信的德行，致使遠方來人歸附，自然可獲吉祥。</value>
+  </data>
+
+  <data name="H_48_Change2" xml:space="preserve">
+    <value>六二，在內部親密團結，努力輔佐君主，結果是吉祥的。《象》曰："比之自內"，不自失也。《象辭》說："內部親密無間團結一致，輔佐君主"，說明沒有偏離了正道。</value>
+  </data>
+
+  <data name="H_48_Change3" xml:space="preserve">
+    <value>六三，和行為不端正的人交朋友，而且關系親密。《象》曰"比之匪人"，不亦傷乎？《象辭》說："和行為不端正的人交朋友，而且關系親密"，難道不是一件很可悲的事嗎？</value>
+  </data>
+
+  <data name="H_48_Change4" xml:space="preserve">
+    <value>六四，在對外交往中互相信任，親密團結，盡力輔佐賢明的君主，其結果是吉祥的。《象》曰：外比於賢，以從上也。《象辭》說：在外面親密團結朋友，輔佐賢君，說明要順從居於尊上地位的君主，才會有好的結果。</value>
+  </data>
+
+  <data name="H_48_Change5" xml:space="preserve">
+    <value>九五，光明無私，親密團結，互相輔助；跟隨君王去田野圍獵，從三面驅趕，網開一面，看著禽獸從放開的一面逃走，毫不在乎，君王的部下也不戒備，吉祥。《象》曰："顯比"之吉，位正中也，舍逆取順，失前禽也；邑人不誡，上使中也。《象辭》說："光明無私，親密團結，互相輔助"，可獲得吉祥，因為此時居於正中位置。拋棄逆天行事的舉動而順其自然，就好像圍獵時網開一面，讓該被擒的禽獸落網，不該被獲的從前面逃掉；君王的部下聽其自然，不加戒備；這是君王的賢德感化了部下的緣故。</value>
+  </data>
+
+  <data name="H_48_Change6" xml:space="preserve">
+    <value>上六，和眾人親密團結、互助友愛但自己不居於領導地位，將有凶險。《象》曰："比之無首"，無所終也。《象辭》說："和眾人親密團結、互助友愛但自己不居於領導地位，將有凶險"，說明自己將來沒有可以歸附的地方，無立足之地。</value>
+  </data>
+
+  <data name="H_48_Meaning" xml:space="preserve">
+    <value>眾星拱月之象　安逸進取之意</value>
+  </data>
+
+  <data name="H_48_Judgement" xml:space="preserve">
+    <value>船得順風,上吉卦</value>
+  </data>
+
+  <data name="H_48_Poem1" xml:space="preserve">
+    <value>卦辭：順風行船撒起棚，上天又助一篷風。不用費力逍遙去，任意而行大亨通。 </value>
+  </data>
+
+  <data name="H_48_Deduction" xml:space="preserve">
+    <value>推斷：走失可尋，見官有理，婚姻求名，保管恭喜。 </value>
+  </data>
+
+  <data name="H_48_Omen" xml:space="preserve">
+    <value>大象：一陽統五陰，比鄰相親相輔，和樂之象。 </value>
+  </data>
+
+  <data name="H_48_Luck" xml:space="preserve">
+    <value>運勢：平順可得貴人提拔，凡事宜速戰速決，不可過份遲疑。 </value>
+  </data>
+
+  <data name="H_48_Love" xml:space="preserve">
+    <value>愛情：兩情相悅，美好良緣。 </value>
+  </data>
+
+  <data name="H_48_Health" xml:space="preserve">
+    <value>疾病：新病宜速就醫，久病則危，為腹、腎、耳等疾。 </value>
+  </data>
+
+  <data name="H_48_Lost" xml:space="preserve">
+    <value>失物：不會再現。通常均已遭損毀。 </value>
+  </data>
+
+  <data name="H_48_Lawsuit" xml:space="preserve">
+    <value>訴訟：宜以和解態度面對，雖小人多，但可勝訴。</value>
+  </data>
+
+  <data name="H_48_Poem2" xml:space="preserve">
+    <value>相依團結勿遲疑 擇善佔研事可為 貞問連連無災禍 不寧后至反生悲</value>
+  </data>
+
+  <data name="H_49_Main" xml:space="preserve">
+    <value>《大畜卦》象征大量的畜養積聚：利於堅守正道；不要讓賢能的人窮困地居於家中自謀生計，而應該把他招到朝廷中食取國家的俸祿，把才能貢獻給國家，這樣便可以獲得吉祥；利於涉過大河。《象》曰：天在山中，大畜；君子以多識前言往行，以畜其德。《象辭》說：《大畜卦》的卦象是乾（天）下艮（山）上，為天被包含在山裡之表象，象征大量的畜養積聚；君子效法這一精神，應當努力更多地學習領會前代聖人君子的言論和行為，以此充實自己，培養美好的品德和積聚廣博的知識。</value>
+  </data>
+
+  <data name="H_49_Change1" xml:space="preserve">
+    <value>初九，不顧一切地貿然前進就會有危險的情況發生，這時隻有暫時停下來不勉強前進才會有利。《象》曰：“有厲，利己“,不犯災也。《象辭》說：“不顧一切地貿然前進就會有危險的情況發生，這時隻有暫時停下來不勉強前進才會有利“，是說不必冒著災難風險前進。</value>
+  </data>
+
+  <data name="H_49_Change2" xml:space="preserve">
+    <value>九二，車子脫去輪輹自動停下來不再前進。《象》曰：“輿說輹，中無尤也。《象辭》說：“車子脫去輪輹自動停下來不再前進”，說明九二爻雖然剛健急躁，但它能夠自度量時，自動停止不前，所以沒有貿然前進的過失。</value>
+  </data>
+
+  <data name="H_49_Change3" xml:space="preserve">
+    <value>九三，駿馬奔馳如同風馳電掣一般，但是，貿然前進有陷入危險的可能，所以應當警惕前進道路上的各種艱難，同時又應當堅守正道，這樣才會安然無恙。隻有嫻熟地掌握了駕車和防衛的本領，才能利於前去行事。《象》曰：“利有攸往”，上合志也。《象辭》說：“利於前去行事”，是因為九三與上九志同道合，沒有妨礙。</value>
+  </data>
+
+  <data name="H_49_Change4" xml:space="preserve">
+    <value>六四，給頭上尚未長角的小牛預先裝上一塊橫木，以防止它長出角后頂人，這是大吉大利的。《象》曰：六四“元吉”，有喜也。《象辭》說：《大畜卦》的第四爻位（六四）的“大吉大利”，是因為能夠防患於未然，未雨而綢繆，因而是可喜的。</value>
+  </data>
+
+  <data name="H_49_Change5" xml:space="preserve">
+    <value>六五，面對長有鋒利牙齒的豬，並不從如何除去它的牙齒上下手，而是避其鋒利，擊其要害，將它閹割。這樣就可以制服它剛暴凶猛的本性，使它變得溫順，這樣便能平安無事，獲得吉祥。《象》曰：六五之吉，有慶也。《象辭》說：“《大畜卦》的第五爻位（六五）的吉祥，是因為能夠抓住事物的關鍵，從根本上予以治理，因而是可慶可賀的。</value>
+  </data>
+
+  <data name="H_49_Change6" xml:space="preserve">
+    <value>上九，四通八達，多麼暢通無阻的天街大道，必然亨通順利。《象》曰：“何天之衢”，道大行也。《象辭》說：“四通八達，多麼暢通無阻的天街大道”，是說由於大量畜養積聚賢士，天下已經賢路大開了。</value>
+  </data>
+
+  <data name="H_49_Meaning" xml:space="preserve">
+    <value>淺水行舟之象　積小成大之意</value>
+  </data>
+
+  <data name="H_49_Judgement" xml:space="preserve">
+    <value>陣勢得開,中吉卦</value>
+  </data>
+
+  <data name="H_49_Poem1" xml:space="preserve">
+    <value>卦辭：憂愁常鎖兩眉間，千頭萬緒挂心間。從今以后打開陣，任意而行不相干。 </value>
+  </data>
+
+  <data name="H_49_Deduction" xml:space="preserve">
+    <value>推斷：交節行人，出門大吉，好運有信，白事和順。 </value>
+  </data>
+
+  <data name="H_49_Omen" xml:space="preserve">
+    <value>大象：天之大而在山之中，以小阻大，以陰畜陽，為止為養。 </value>
+  </data>
+
+  <data name="H_49_Luck" xml:space="preserve">
+    <value>運勢：處事不可好高騖遠，宜腳踏實地，可成大業，忌目空一切。 </value>
+  </data>
+
+  <data name="H_49_Love" xml:space="preserve">
+    <value>愛情：雖現時有小阻礙，但終可成功。 </value>
+  </data>
+
+  <data name="H_49_Health" xml:space="preserve">
+    <value>疾病：病雖重，但可治，防胸肺，腹或手部之病，易積勞成疾。 </value>
+  </data>
+
+  <data name="H_49_Lost" xml:space="preserve">
+    <value>失物：有機會尋回。似是在圓形有蓋盛存之物中。 </value>
+  </data>
+
+  <data name="H_49_Lawsuit" xml:space="preserve">
+    <value>訴訟：因房地產引起，有破財之象，但糾紛可解。</value>
+  </data>
+
+  <data name="H_49_Poem2" xml:space="preserve">
+    <value>山高天闊六畜興 最利貞人問止停 莫戀家園溫飽暖 出門勇闖事必成</value>
+  </data>
+
+  <data name="H_50_Main" xml:space="preserve">
+    <value>《損卦》象征減損：內心有誠意，最為吉祥，不會招來禍患，可以堅守正道，利於前去行事。用什麼祭祀神靈呢？兩簋（古代盛食物的器具，圓口，有兩個耳子）粗淡的食物就足夠了。《象》曰：山下有澤，損；君子以懲忿窒欲。《象辭》說：《損卦》的卦象是兌（澤）下艮（山）上，為山下有湖澤之表象，湖澤漸深而高山愈來愈高，象征著減損；按照這一現象中包含的哲理來做人，君子就應該抑制狂怒暴躁的脾性，杜絕世俗的欲望，也就是摒棄格調不高的低級趣味，不斷培養高尚的品德。</value>
+  </data>
+
+  <data name="H_50_Change1" xml:space="preserve">
+    <value>初九，停下正在做的事情趕快前去助人，就不會有災難臨頭，損已助人時要再三斟酌把握分寸。《象》曰：“已事遄往“，尚合志也。《象辭》說：“停下正在做的事情趕快前去助人”，處在尊位的柔弱之輩正需要幫助，地位卑下的陽剛之士首當其沖，義不容辭，立刻犧牲自己的事業而成人之美，表現出尊貴者心心相印的關系。</value>
+  </data>
+
+  <data name="H_50_Change2" xml:space="preserve">
+    <value>九二，利於堅守正道，主動出擊會有凶險；幾乎用不著自我減損就可以使尊貴者受益。《象》曰：九二利貞，中以為志也。《象辭》說：《損卦》的第二爻位（九二）之所以利於堅守正道，是因為處在不高不下的適中位置上，本身地位又不很穩固，不宜於積極行動。隻有持不偏不激也不過於保守的中庸態度，作為始終不變的志向，才能夠使他人受益。</value>
+  </data>
+
+  <data name="H_50_Change3" xml:space="preserve">
+    <value>六三，三個人一同前進，由於互相掣肘會使一個人受到傷害；一個人獨自行動，就會專心一意地尋求伙伴，最終必定能遇到志同道合的朋友。《象》曰：一人行，三則疑也。《象辭》說：一個人前去無牽無挂，目的明確，可以順利地得到接應，取得成功。三個人一齊前去，則會相互猜疑而達不到預期的目的。說明損下益上不能不分情況地一窩蜂上，而要審時度勢，講求實效。</value>
+  </data>
+
+  <data name="H_50_Change4" xml:space="preserve">
+    <value>六四，盡量減損克服自身的弱點，准備迎接馬上到來的喜慶，不會有任何災禍。《象》曰：“損其疾”，亦可喜也。《象辭》說：“盡量減損克服自身的弱弱點”，意思是說，本身很柔弱，又處在比較尊貴的地位上，不可能通過自我減損來使他人受益。隻有盡量減損克服自身的弱點，等待接受別人助益。但無論哪種減損，哪怕是這種減損克服自身弱點的舉動，也是十分可喜的事情。</value>
+  </data>
+
+  <data name="H_50_Change5" xml:space="preserve">
+    <value>六五，有人送來價值十朋（古時候貨幣單位，雙貝為一朋）的大寶龜，想推辭都不行，大吉大利。《象》曰：六五元吉，自上佑也。《象辭》說：《損卦》的第五爻位（六五）之所以獲得大吉大利，完全是上天保佑的結果。因為六五爻本身陰柔，居於尊位，仍想著自我減損而使他人受益。這樣不但得到大眾的廣泛助益，也搏得了上天的好感。</value>
+  </data>
+
+  <data name="H_50_Change6" xml:space="preserve">
+    <value>上九，用不著自我減損就可以使他人受益；沒有一點災患，佔卜的結果十分吉利，前去行事，定能獲得天下萬民歸心。《象》曰：“弗損益之“，大得志也。《象辭》說：“用不著自我減損就可以使他人受益“，是因為處在損卦最高位置，損極必反，本身所獲取的大量的助益，使得能夠不用自我減損就可以有益他人，這當然是損卦損已益人的最高境界，因而使得損已益人的心意得到極大的滿足。</value>
+  </data>
+
+  <data name="H_50_Meaning" xml:space="preserve">
+    <value>山高水深之象　以德報怨之意</value>
+  </data>
+
+  <data name="H_50_Judgement" xml:space="preserve">
+    <value>推車掉耳,下中卦</value>
+  </data>
+
+  <data name="H_50_Poem1" xml:space="preserve">
+    <value>卦辭：時運不至費心多，比作推車受折磨。山路崎嶇掉了耳，左插右安安不著。 </value>
+  </data>
+
+  <data name="H_50_Deduction" xml:space="preserve">
+    <value>推斷：時運不遂，不可胡為，交節換月，自然奪魁。 </value>
+  </data>
+
+  <data name="H_50_Omen" xml:space="preserve">
+    <value>大象：山高水深，各得其所，因損得益之象。 </value>
+  </data>
+
+  <data name="H_50_Luck" xml:space="preserve">
+    <value>運勢：現況諸事不順，有破財之象，雖先損失，但后反而得益，因禍得福。 </value>
+  </data>
+
+  <data name="H_50_Love" xml:space="preserve">
+    <value>愛情：不利女性之卦。以誠信待人，可得成功，不宜斤斤計較。 </value>
+  </data>
+
+  <data name="H_50_Health" xml:space="preserve">
+    <value>疾病：現況病情雖重，積極治療可愈。身體較衰弱，注意腸胃、咽喉、貧血等疾。 </value>
+  </data>
+
+  <data name="H_50_Lost" xml:space="preserve">
+    <value>失物：不能尋回。 </value>
+  </data>
+
+  <data name="H_50_Lawsuit" xml:space="preserve">
+    <value>訴訟：有斗爭之象，損失破財，和解反而獲益。</value>
+  </data>
+
+  <data name="H_50_Poem2" xml:space="preserve">
+    <value>挖澤堆山山益增 虔誠能改損為盈 問求無礙應積極 祭祀何須奉厚牲</value>
+  </data>
+
+  <data name="H_51_Main" xml:space="preserve">
+    <value>《賁卦》象征裝飾：亨通，利於柔小者前去行事。《象》曰：山下有火，賁；君子以明庶政，無敢折獄。《象辭》說：“《賁卦》的卦象是離（火）下艮（山）上，為山下燃燒著火焰之表象。山下火焰把山上草木萬物照得通明，如同披彩，這就叫裝飾。君子像火焰一樣，使眾多的政務清明，但卻不能用修飾的方法來斷官司。</value>
+  </data>
+
+  <data name="H_51_Change1" xml:space="preserve">
+    <value>初九，裝飾自己的腳趾頭，舍棄乘坐車馬而徒步行走。《象》曰：“舍車而徒”，義弗乘也。《象辭》說：“舍棄乘坐車馬而徒步行走”，這是因為按道義不該乘坐車馬。</value>
+  </data>
+
+  <data name="H_51_Change2" xml:space="preserve">
+    <value>六二，裝飾長者的胡須。《象》曰：“賁其須”，與上興也。《象辭》說：“裝飾長者的胡須”，是說六二爻與它上面的九三爻同心而互飾之意。</value>
+  </data>
+
+  <data name="H_51_Change3" xml:space="preserve">
+    <value>九三，裝飾得光澤柔潤，永遠堅守正道，便可獲得吉祥。《象》曰：“永貞之吉”，終莫之陵也。《象辭》說：“永遠堅守正道，便可獲得吉祥”，是說隻有永久堅持正道，才能最終不受人凌辱。</value>
+  </data>
+
+  <data name="H_51_Change4" xml:space="preserve">
+    <value>六四，裝飾得那樣素雅：全身潔白如玉，乘坐著一匹雪白的駿馬，輕捷地往前奔馳。前方的人並非敵寇，而是自己求聘的婚配佳人。《象》曰：“六四當位，疑也；”“非寇婚媾”，終無尤也。《象辭》說：六四爻雖則當位得正，但心中卻疑慮重重。“前方的人並非敵寇，而是自己求聘的婚配佳人”。說明盡管放心前往，最終將無所怨恨。</value>
+  </data>
+
+  <data name="H_51_Change5" xml:space="preserve">
+    <value>六五，裝飾山丘陵園，質朴無華，再拿一束微薄的絲絹，來聘納賢士；雖可能產生遺憾，然而最終必獲吉祥。《象》曰：“六五之吉，有喜也。《象辭》說：《賁卦》的第五爻位（六五）的吉祥，說明必有喜事臨門。</value>
+  </data>
+
+  <data name="H_51_Change6" xml:space="preserve">
+    <value>上九，裝飾素白，不喜好華麗，沒有禍害。《象》曰：“白賁，無咎”，上得志也。《象辭》說：“裝飾素白，不喜好華麗，沒有禍害”，說明正符合朴素無華的志向。</value>
+  </data>
+
+  <data name="H_51_Meaning" xml:space="preserve">
+    <value>爭妍斗麗之象　粉飾庄扮之意</value>
+  </data>
+
+  <data name="H_51_Judgement" xml:space="preserve">
+    <value>喜氣迎門,中上卦</value>
+  </data>
+
+  <data name="H_51_Poem1" xml:space="preserve">
+    <value>卦辭：時來運轉銳氣周，窈窕淑女君子求。鐘古樂之大吉慶，佔著此卦喜臨頭。 </value>
+  </data>
+
+  <data name="H_51_Deduction" xml:space="preserve">
+    <value>推斷：出門吉祥，諸事順當，失物見得，月令高強。 </value>
+  </data>
+
+  <data name="H_51_Omen" xml:space="preserve">
+    <value>大象：日落西山，照耀通明，華美燦爛，同時喻光明力量漸消，陰暗的力量擴大。 </value>
+  </data>
+
+  <data name="H_51_Luck" xml:space="preserve">
+    <value>運勢：表面風光內裡空虛，必須充實自己，凡事踏實，按部就班。</value>
+  </data>
+
+  <data name="H_51_Love" xml:space="preserve">
+    <value>愛情：不宜單注重外表而忽略內涵，不可自視太高。 </value>
+  </data>
+
+  <data name="H_51_Health" xml:space="preserve">
+    <value>疾病：病情危重，為心臟、胸腹等病。 </value>
+  </data>
+
+  <data name="H_51_Lost" xml:space="preserve">
+    <value>失物：在家中遺失，將可尋回。不妨試試注意門腳的地方。 </value>
+  </data>
+
+  <data name="H_51_Lawsuit" xml:space="preserve">
+    <value>訴訟：宜速求解決，不可拖延，可得貴人調解。</value>
+  </data>
+
+  <data name="H_51_Poem2" xml:space="preserve">
+    <value>火向山行烈焰熊 門庭璀璨業昌隆 文明裝飾知方寸 積極前行小建功</value>
+  </data>
+
+  <data name="H_52_Main" xml:space="preserve">
+    <value>《頤卦》象征頤養：隻有堅守正道才能獲得吉祥；通過觀察能夠體現頤養的具體實例，以及自己是如何謀取口中食物的，這樣才能真正地掌握頤養之道，獲得吉祥。《象》曰：山下有雷，君子以慎言語，節飲食。《象辭》說：《頤卦》的卦象是震（雷）下艮（山）上，為雷在山下震動之表象，引申為咀嚼食物時上顎靜止、下顎活動的狀態，因而象征頤養；頤養必須堅守正道，所以君子應當言語謹慎以培養美好的品德，節制飲食以養育健康的身體。</value>
+  </data>
+
+  <data name="H_52_Change1" xml:space="preserve">
+    <value>初九，舍棄你如同神龜般的聰明智慧，痴呆地看著我鼓動腮幫子進食，結果必然導致凶險。《象》曰：“觀我朵頤”，亦不足貴也。《象辭》說：“痴呆地看著我鼓動腮幫子進食”，是說初九爻雖重視保養身體，但由於不能堅守正道，並不值得推崇。</value>
+  </data>
+
+  <data name="H_52_Change2" xml:space="preserve">
+    <value>六二，反過來向下屬乞求食物以獲取奉養，是違背常理的，向高丘處的乞食，則前進的途中必然遭遇凶險。《象》曰：六二“征凶”，行失類也。《象辭》說：《頤卦》的第二爻位（六二）“前進的途中必然遭遇凶險”，是因為前進的途中沒有相應的同類。六三，拂頤，貞凶，十年勿用，無攸利。</value>
+  </data>
+
+  <data name="H_52_Change3" xml:space="preserve">
+    <value>六三，違背頤養的正道，仍然一味地隻求口腹之欲，結果必然遭遇凶險，在十年的漫長歲月裡被遺棄而得不到養育，沒有一點好處。《象》曰：“十年勿用”，道大悖也。《象辭》說：“在十年的漫長歲月裡被遺棄而得不到養育”，是因為它與頤養的正道大相徑庭，從根本上違背了養育他人和保養自己的原則和方法。</value>
+  </data>
+
+  <data name="H_52_Change4" xml:space="preserve">
+    <value>六四，反過來向下屬乞求食物以獲取奉養，可以獲得吉祥；因為這就像老虎要扑食那樣，虎視眈眈，專心致志，孜孜以求，則必然能夠達到目的，當然也沒有什災禍。《象》曰：“顛頤之吉”，上施光也。《象辭》說：“反過來向下屬乞求食物以獲取奉養的吉祥”，是因為六四位居在上，與初九照應，同時又能堅守正道，雖取之於民，卻又用之於民，這也就是說，它能夠向下普遍地施舍光明恩德。</value>
+  </data>
+
+  <data name="H_52_Change5" xml:space="preserve">
+    <value>六五，違背頤養的正道，但是卻能夠安然地居於尊位，所以結果吉祥，隻是尚不能處理極為艱險困難的事情，就像不能夠涉過大河一樣。《象》曰：“居貞之吉”，順以從上也。《象辭》說：“能夠安然地居於尊位，所以結果吉祥”，是因為能夠順從有陽剛之美的賢者。</value>
+  </data>
+
+  <data name="H_52_Change6" xml:space="preserve">
+    <value>上九，天下百姓都依靠他的養育而得以安居樂業；肩負如此重任，必須謹防危險，有所戒懼才能獲得吉祥，這樣也才能排除萬難，就像順利涉過大河一樣。《象》曰：“由頤厲吉”，大有慶也。《象辭》說：“天下百姓都依靠他的養育而得以安居樂業，必須謹防危險，有所戒懼才能獲得吉祥”，是說養育天下百姓，因而能得到天下的信任和愛戴，達到普天同慶。</value>
+  </data>
+
+  <data name="H_52_Meaning" xml:space="preserve">
+    <value>匣中藏劍之象　審慎交往之意</value>
+  </data>
+
+  <data name="H_52_Judgement" xml:space="preserve">
+    <value>渭水訪賢,上吉卦</value>
+  </data>
+
+  <data name="H_52_Poem1" xml:space="preserve">
+    <value>卦辭：文王訪賢在渭濱，謀望求財事遂心。交易出行方如意，疾病口舌可離身。 </value>
+  </data>
+
+  <data name="H_52_Deduction" xml:space="preserve">
+    <value>推斷：渭水訪賢，大吉大利，佔著此卦，好了運氣。 </value>
+  </data>
+
+  <data name="H_52_Omen" xml:space="preserve">
+    <value>大象：形如口腔之象，取其飲食之道，須慎言，注重日常生活。 </value>
+  </data>
+
+  <data name="H_52_Luck" xml:space="preserve">
+    <value>運勢：處事欠缺周詳考慮，不宜心懷陰謀，要守正道而善方吉。 </value>
+  </data>
+
+  <data name="H_52_Love" xml:space="preserve">
+    <value>愛情：忌傲氣凌人，宜重新估計對方之價值，切勿因情誤了青春。</value>
+  </data>
+
+  <data name="H_52_Health" xml:space="preserve">
+    <value>疾病：佔病為凶，久病者險，為腸胃、咽喉、手足之疾。 </value>
+  </data>
+
+  <data name="H_52_Lost" xml:space="preserve">
+    <value>失物：盡快去找，似被物件上下夾著。 </value>
+  </data>
+
+  <data name="H_52_Lawsuit" xml:space="preserve">
+    <value>訴訟：我告他人終不能成，宜速和解。</value>
+  </data>
+
+  <data name="H_52_Poem2" xml:space="preserve">
+    <value>人生百事食為基 細看朵頤福自知 自力更生謀給養 問佔得利待來時</value>
+  </data>
+
+  <data name="H_53_Main" xml:space="preserve">
+    <value>《蠱卦》象征救弊治亂，撥亂反正：從開始就很亨通，有利於涉越大河。不過，在做大事以前，要考察現狀、分析事態；在做大事以后，要講究治理措施，預計到后果。《象》曰：“山下有風，蠱；君子以振民育德。《象辭》說：《蠱卦》的卦象是巽（風）下艮（山）上，為山下起大風之表象，象征救弊治亂、撥亂反正。這時候，君子救濟人民，培育美德，糾正時弊。</value>
+  </data>
+
+  <data name="H_53_Change1" xml:space="preserve">
+    <value>初六，挽救父輩所敗壞了的基業，由能干的兒子來繼承父輩的事業，必無危害；即使遇到艱難險阻，隻要努力奮斗，最終必獲吉祥。《象》曰：“干父之蠱”，意承考也。《象辭》說：“挽救父輩所敗壞了的基業”，表明其志在繼承父輩的遺業。</value>
+  </data>
+
+  <data name="H_53_Change2" xml:space="preserve">
+    <value>九二，救治母輩所造成的弊病，要耐心等待，如果時機不成熟的話，就要堅守正道等待時機。《象》曰：“干母之蠱”，得中道也。《象辭》說：“救治母輩所造成的弊病”，剛柔適中，既要順應，又要匡救，不可偏頗。</value>
+  </data>
+
+  <data name="H_53_Change3" xml:space="preserve">
+    <value>九三，要挽救父輩敗壞了的基業，其間必發生失誤，因而會產生懊悔，但不會有大的危害。《象》曰：“干父之蠱”，終無咎也。《象辭》說：“挽救父輩敗壞了的基業”，最終不會有禍害。</value>
+  </data>
+
+  <data name="H_53_Change4" xml:space="preserve">
+    <value>六四，寬緩地挽救父輩敗壞了的基業，往前發展，必然會因耽誤時機遺憾惋惜。《象》曰：“裕父之蠱”，往未得也。《象辭》說：“寬緩地挽救父輩所敗壞了的基業”，往前發展，難以達到挽救的效果。</value>
+  </data>
+
+  <data name="H_53_Change5" xml:space="preserve">
+    <value>六五，挽救父輩敗壞的基業，一定會受到人們的贊譽。《象》曰：“干父用譽”，承以德也。《象辭》說：“挽救父輩所敗壞的基業，一定會受到人們的贊譽”，因為以美德繼承父輩的遺業，總是會受到歡迎的。</value>
+  </data>
+
+  <data name="H_53_Change6" xml:space="preserve">
+    <value>上九，不侍奉王侯，超然物外，孤芳自賞，使自己的德行至高無上。《象》曰：“不事王侯”，志可則也。《象辭》說：“不侍奉王侯”，這高潔的志向，可作為人們學習的准則。</value>
+  </data>
+
+  <data name="H_53_Meaning" xml:space="preserve">
+    <value>物腐虫生之象　不進則退之意 </value>
+  </data>
+
+  <data name="H_53_Judgement" xml:space="preserve">
+    <value>推磨岔道,中下卦</value>
+  </data>
+
+  <data name="H_53_Poem1" xml:space="preserve">
+    <value>卦辭：卦中象如推磨，順當為福反為禍。心中有數事改變，凡事盡從忙裡錯。 </value>
+  </data>
+
+  <data name="H_53_Deduction" xml:space="preserve">
+    <value>推斷：出行無益，行人未回，走失難見，諸事莫為。</value>
+  </data>
+
+  <data name="H_53_Omen" xml:space="preserve">
+    <value>大象：風入山下，閉而不出，即物腐生虫，意氣不通，因循敗事。</value>
+  </data>
+
+  <data name="H_53_Luck" xml:space="preserve">
+    <value>運勢：諸事不如意，艱難迷惑，宜大膽革新，否則引來內憂外患。</value>
+  </data>
+
+  <data name="H_53_Love" xml:space="preserve">
+    <value>愛情：苦惱多，受人誘惑，關系復雜，切忌到處留情，徒增煩惱。</value>
+  </data>
+
+  <data name="H_53_Health" xml:space="preserve">
+    <value>疾病：宜把握治療時機，冬季佔得險象，為內臟惡性疾病。 </value>
+  </data>
+
+  <data name="H_53_Lost" xml:space="preserve">
+    <value>失物：找不回來，遺失似是木制工藝品，在門口或旅館遺失，或者是寄失了。 </value>
+  </data>
+
+  <data name="H_53_Lawsuit" xml:space="preserve">
+    <value>訴訟：慎防桃色糾紛，會拖一段時間，不易解決。</value>
+  </data>
+
+  <data name="H_53_Poem2" xml:space="preserve">
+    <value>從來安逸腐虫生 撥亂革新道路亨 三思而行三總結 勇往犯險定功成</value>
+  </data>
+
+  <data name="H_54_Main" xml:space="preserve">
+    <value>《蒙卦》象征啟蒙：亨通。不是我有求於幼童，而是幼童有求於我，第一次向我請教，我有問必答，如果一而再、再而三地沒有禮貌地亂問，則不予回答。利於守正道。《象》曰：山下出泉，蒙；君子以果行育德。《象辭》說："《蒙卦》的卦象是坎（水）下艮（山）上，為山下有泉水之表象，但要想發現甘泉，必須設法准確地找出泉水的位置，即意味著先必須進行啟蒙教育"。君子必須行動果斷，才能培養出良好的品德。</value>
+  </data>
+
+  <data name="H_54_Change1" xml:space="preserve">
+    <value>初六，要進行啟蒙教育，貴在樹立典型，以便防止罪惡發生；如不專心求學，而是急功冒進，將來必然會后悔。《象》曰：利用刑人，以正法也。《象辭》說：用樹立典型的辦法來進行啟蒙教育，是為了確立正確的法度，以便遵循。</value>
+  </data>
+
+  <data name="H_54_Change2" xml:space="preserve">
+    <value>九二，周圍都是上進心很強的蒙童，希望獲得知識，這是很吉利的。如果迎娶新媳婦，也是吉祥的。由於渴望接受教育，上進心很強，所以連孩子們已經能夠治家了。《象》曰："子克家"，剛柔接也。《象辭》說："由於渴望接受教育，上進心很強，所以連孩子們都已經能夠治家了"，這是因為剛柔相濟，孩子們受到了很好的啟蒙教育的結果。</value>
+  </data>
+
+  <data name="H_54_Change3" xml:space="preserve">
+    <value>六三，不能娶這樣的女子，她的心目中隻有美貌的郎君，不能守禮儀，也難以保住自己的節操，娶這樣的女子是沒有什麼好處的。《象》曰："勿用取女"，行不順也。《象辭》說："不能娶這個女子"，主要是指這個女子的行為是不合乎禮儀的，即這個女子沒有受過良好的啟蒙教育。</value>
+  </data>
+
+  <data name="H_54_Change4" xml:space="preserve">
+    <value>六四，人處於困難的境地，不利於接受啟蒙教育，因而孤陋寡聞，結果是不大好的。《象》曰："困蒙之吝",獨遠實也。《象辭》說："人處於困難的境地，不利於接受啟蒙教育"，是因為疏遠有真才實學的老師。</value>
+  </data>
+
+  <data name="H_54_Change5" xml:space="preserve">
+    <value>六五，蒙童虛心地向老師求教，這是很吉祥的。《象》曰："童蒙之吉"，順以巽也。《象辭》說："蒙童虛心地向老師求教，這是很吉祥的"，這是因為蒙童對老師採取了謙遜的態度。蒙童謙遜，則老師樂教，其教育結果自然是比較有效的，當然也是吉祥的。</value>
+  </data>
+
+  <data name="H_54_Change6" xml:space="preserve">
+    <value>上九，啟蒙教育要及早實行，要針對蒙童的缺點，先發治人。不要等到蒙童的問題徹底暴露再去教育，而要防患於未然，事先進行啟蒙教育。《象》曰："利用御寇"，上下順也。《象辭》說："啟蒙教育要及早實行，要針對蒙童的缺點，先發治人"，因為隻有這樣，才能使老師和蒙童互相配合，才能達到治病救人、上下一心的目的。</value>
+  </data>
+
+  <data name="H_54_Meaning" xml:space="preserve">
+    <value>童蒙啟智之象　迷模摸索之意</value>
+  </data>
+
+  <data name="H_54_Judgement" xml:space="preserve">
+    <value>小鬼偷錢,中下卦</value>
+  </data>
+
+  <data name="H_54_Poem1" xml:space="preserve">
+    <value>卦辭：卦中氣象犯小耗，謀望求財枉徒勞。婚姻合伙有人破，交易出行犯嘮叨。 </value>
+  </data>
+
+  <data name="H_54_Deduction" xml:space="preserve">
+    <value>推斷：為人仔細，掙錢費力，有心學好，小鬼偷去。 </value>
+  </data>
+
+  <data name="H_54_Omen" xml:space="preserve">
+    <value>大象：蒙者，昏而無所見也，故宜「啟蒙」。 </value>
+  </data>
+
+  <data name="H_54_Luck" xml:space="preserve">
+    <value>運勢：初時迷惑不知方向，須忍耐待機而動，凡事多聽取別人意見，則運可通。 </value>
+  </data>
+
+  <data name="H_54_Love" xml:space="preserve">
+    <value>愛情：落花有意流水無情，主缺乏勇氣與決心。 </value>
+  </data>
+
+  <data name="H_54_Health" xml:space="preserve">
+    <value>疾病：病情不明，反覆難治。為腸胃、腹水之疾及傳染病。 </value>
+  </data>
+
+  <data name="H_54_Lost" xml:space="preserve">
+    <value>失物：遍尋不獲。似乎在大門下陷之處遺失，忘記帶走，可試問人。 </value>
+  </data>
+
+  <data name="H_54_Lawsuit" xml:space="preserve">
+    <value>訴訟：因外人引起事端，目下未明，有理講不清。</value>
+  </data>
+
+  <data name="H_54_Poem2" xml:space="preserve">
+    <value>啟蒙討教要專誠 一再三多事不成 貴在包容無類教 問求得利好前程</value>
+  </data>
+
+  <data name="H_55_Main" xml:space="preserve">
+    <value>《艮卦》象征抑止：止於背部，不得使身體面向所止的地方；就好像在庭院裡行走，兩兩相背，不曾感覺到有人的存在，進入這一境界，就不會受害。《象》曰：兼山，艮；君子以思不出其位。《象辭》說：《艮卦》的卦象是艮（山）下艮（山）上，為兩山重疊之表象，象征著抑止；君子的思想應當切合實際，不可超越自己所處的地位。</value>
+  </data>
+
+  <data name="H_55_Change1" xml:space="preserve">
+    <value>初六，抑止應該在腳趾邁出之前，這樣就不會受害，而且將有利於長久堅守正道。《象》曰：“艮其趾”未失正也。《象辭》說：“抑止應該在腳趾邁出之前”，這就說明沒有失去正道。</value>
+  </data>
+
+  <data name="H_55_Change2" xml:space="preserve">
+    <value>六二，抑止人的小腿的行動，不能邁步追隨應該追隨的人，他的心中是不會快樂的。《象》曰：“不拯其隨”，未退聽也。《象辭》說：“不能邁步追隨應該追隨的人”，又不能退下來聽從抑止的意見，因而心中不快。</value>
+  </data>
+
+  <data name="H_55_Change3" xml:space="preserve">
+    <value>九三，抑止腰部的行動，斷裂脊背的肉，危難將像熊熊的烈火一樣燒灼他的心。《象》曰：“艮其限”，危薰心也。《象辭》說：“抑止腰部的行動”，說明危險將像熊熊的烈火一樣燒灼他的心。</value>
+  </data>
+
+  <data name="H_55_Change4" xml:space="preserve">
+    <value>六四，抑止身體上部不動，就不會受害。《象》曰：“艮其身”，止諸躬也。《象辭》說：“抑止身體上部不動”，自我控制不超越本身的地位。</value>
+  </data>
+
+  <data name="H_55_Change5" xml:space="preserve">
+    <value>六五，抑止於口不隨便亂說，說話很有條理，悔恨將會消失。《象》曰：“艮其輔”，以中正也。 《象辭》說：“抑止於口不隨便亂說”，說明六五爻居於中位能守中道。</value>
+  </data>
+
+  <data name="H_55_Change6" xml:space="preserve">
+    <value>上九，能夠以敦厚篤實的德行抑止邪欲，就吉祥。《象》曰：“敦艮之吉”，以厚終也。《象辭》說：“能夠以敦厚篤實的德行抑止邪欲，就吉祥”，說明上九能夠將敦厚的德行保持至終。</value>
+  </data>
+
+  <data name="H_55_Meaning" xml:space="preserve">
+    <value>重山關鎖之象　步步為營之意</value>
+  </data>
+
+  <data name="H_55_Judgement" xml:space="preserve">
+    <value>矬巴勾棗，下中卦</value>
+  </data>
+
+  <data name="H_55_Poem1" xml:space="preserve">
+    <value>卦辭：矬巴勾棗難撈枝，交易尋人不投機，謀望求財最費力，婚姻合伙終是虛。</value>
+  </data>
+
+  <data name="H_55_Deduction" xml:space="preserve">
+    <value>推斷：好事難成，走失難尋，凡事謹慎，交節安寧。 </value>
+  </data>
+
+  <data name="H_55_Omen" xml:space="preserve">
+    <value>大象：兩重高山並峙，故宜止不宜進，阻塞之象。 </value>
+  </data>
+
+  <data name="H_55_Luck" xml:space="preserve">
+    <value>運勢：凡事不宜妄動，前路受阻，隻好待機而動。 </value>
+  </data>
+
+  <data name="H_55_Love" xml:space="preserve">
+    <value>愛情：有單戀不和之象，雙方阻隔重重，關系停滯不前。 </value>
+  </data>
+
+  <data name="H_55_Health" xml:space="preserve">
+    <value>疾病：難治，注意腸胃血管硬化及結核病。 </value>
+  </data>
+
+  <data name="H_55_Lost" xml:space="preserve">
+    <value>失物：可以尋回，但要等一段時間。藏在家中、旅館、寺院、山中某處。 </value>
+  </data>
+
+  <data name="H_55_Lawsuit" xml:space="preserve">
+    <value>訴訟：因小事而化大，宜速求和，忌土姓人。</value>
+  </data>
+
+  <data name="H_55_Poem2" xml:space="preserve">
+    <value>慎行知止穩如山 背定身停動亦難 心靜如臨清靜地 適時而止免危艱</value>
+  </data>
+
+  <data name="H_56_Main" xml:space="preserve">
+    <value>《剝卦》象征剝落：不利於前去行事。《象》曰：山附於地，剝；上以厚下安宅。《象辭》說：《剝卦》的卦象是坤（地）下艮（山）上，好比高山受侵蝕而風化，逐漸接近於地面之表象，因而象征剝落；位居在上的人看到這一現象，應當加強基礎，使它更加厚實，隻有這樣才能鞏固其住所而不至發生危險。</value>
+  </data>
+
+  <data name="H_56_Change1" xml:space="preserve">
+    <value>初六，剝落床體先由床的最下方床腿部位開始，整個床腿都損壞了，結果必然凶險。《象》曰：“剝床以足”，以滅下也。《象辭》說：“剝落床體先由床的最下方床腿部位開始”，是說先損毀床的基礎。基礎損壞毀滅了，自然就會有凶險的情況發生，而且還會逐漸擴展波及到上面。</value>
+  </data>
+
+  <data name="H_56_Change2" xml:space="preserve">
+    <value>六二，床腿剝掉后，又開始剝落床頭，以至於整個床頭都剝落了，結果必然凶險。《象》曰：“剝床以辨”，未有與也。《象辭》說：“床腿剝掉后，又開始剝落床頭”，是因為六二爻沒有相應的陽爻援助。由於沒有外援，所以導致凶險的情況發生。</value>
+  </data>
+
+  <data name="H_56_Change3" xml:space="preserve">
+    <value>六三，雖被剝落，卻沒有什麼災禍。《象》曰：“剝之無咎”，失上下也。《象辭》說：“雖被剝落，卻沒有什麼災禍”，是因為六三脫離了上下陰爻的行列，而獨與陽爻上九相應，由於它潛藏著陽剛的性質，所以仍然可以免災禍。</value>
+  </data>
+
+  <data name="H_56_Change4" xml:space="preserve">
+    <value>六四，床頭剝落完了，又開始剝落床面，這樣必然會有凶險發生。《象》曰：“剝床以膚”，切近災也。《象辭》說：“床頭剝落完了，又開始剝落床面”，是說已經迫近災禍了。因為床面剝落損壞，必將危及到床上之人，所以說迫近災禍了。</value>
+  </data>
+
+  <data name="H_56_Change5" xml:space="preserve">
+    <value>六五，魚貫而入，像率領內宮之人順承君主那樣得到寵愛，就不會有什麼不利的情況發生。《象》曰：“以宮人寵”，終無尤也。《象辭》說：“像率領內宮之人順承君主那樣得到寵愛”，最終當然不會有什麼過失。</value>
+  </data>
+
+  <data name="H_56_Change6" xml:space="preserve">
+    <value>上九，碩大的果實不曾被摘取吃掉，君子若能摘食，則如同坐上大車，受到百姓擁戴；如果被小人摘食，則必然招致破家之災。《象》曰：“君子得輿”，民所載也；“小人剝廬”，終不可用也。《象辭》說：“君子若能摘食，則如同坐上大車”，是由於百姓願意擁戴君子；“如果被小人摘食，則必招致破家之災”，是由於小人終究是不可以任用的。</value>
+  </data>
+
+  <data name="H_56_Meaning" xml:space="preserve">
+    <value>群陰剝陽之象　去舊生新之意</value>
+  </data>
+
+  <data name="H_56_Judgement" xml:space="preserve">
+    <value>旱蓮逢河,上吉卦</value>
+  </data>
+
+  <data name="H_56_Poem1" xml:space="preserve">
+    <value>卦辭：花遇甘露旱逢河，生意買賣利息多。婚姻自有人來助，出門永不受折磨。 </value>
+  </data>
+
+  <data name="H_56_Deduction" xml:space="preserve">
+    <value>推斷：佔訟得利，佔病即愈，佔信見得，謀事得意。 </value>
+  </data>
+
+  <data name="H_56_Omen" xml:space="preserve">
+    <value>大象：山附於地喻山石崩而落於地面上，五陰迫一陽，正義被損。 </value>
+  </data>
+
+  <data name="H_56_Luck" xml:space="preserve">
+    <value>運勢：惡運纏身，宜重新部署，不宜自作聰明，防被女子及小人連累。 </value>
+  </data>
+
+  <data name="H_56_Love" xml:space="preserve">
+    <value>愛情：陰盛而陽衰，男追女則利，反之不利，是非小人多。 </value>
+  </data>
+
+  <data name="H_56_Health" xml:space="preserve">
+    <value>疾病：病情惡化之象，防頭痛、腸胃、性病等疾。 </value>
+  </data>
+
+  <data name="H_56_Lost" xml:space="preserve">
+    <value>失物：目前還隱藏在家中地上，可惜無法發現，不久會被掃走。 </value>
+  </data>
+
+  <data name="H_56_Lawsuit" xml:space="preserve">
+    <value>訴訟：因財而起紛爭，小人當道，宜避之則吉。</value>
+  </data>
+
+  <data name="H_56_Poem2" xml:space="preserve">
+    <value>陰盛陽衰要順從 高山漸塌地台中 小人得勢層層進 保守韜光莫爭鋒</value>
+  </data>
+
+  <data name="H_57_Main" xml:space="preserve">
+    <value>《泰卦》象征通達：這時弱小者離去，強大者到來，吉祥，亨通。《象》曰：天地交，泰；后以財成天地之道，輔相天地之宜，以左右民。《象辭》說：《泰卦》的卦象為乾（天）下坤（地）上，地氣上升，乾氣下降，為地氣居於乾氣之上之表象，陰陽二氣一升一降，互相交合，順暢通達；君主這時要掌握時機，善於裁節調理，以成就天地交合之道，促成天地化生萬物之機宜，護佑天下百姓，使他們安居樂業。</value>
+  </data>
+
+  <data name="H_57_Change1" xml:space="preserve">
+    <value>初九，拔起了一把茅草，它們的根相連在一起，真是物以類聚，所以找它時要以其種類而識別，往前行進是吉祥的。《象》曰：拔茅征吉，志在外也。《象辭》說：拔起一把茅草，往前行進可獲吉祥，說明有遠大的志向，有在外建功立業的進取心。</value>
+  </data>
+
+  <data name="H_57_Change2" xml:space="preserve">
+    <value>九二，有包容大川似的寬廣胸懷，可以徒步涉過大河急流；禮賢下士，對遠方的賢德之人也不遺棄；不結成小團體，不結黨營私，能夠輔佐公正有道德的君主。《象》曰：“包荒”，“得尚於中行”，以光在也。《象辭》說：“有包容大川似的寬廣胸懷”，“能夠輔佐公正有道德的君主”,說明自己光明正大，道德高尚。</value>
+  </data>
+
+  <data name="H_57_Change3" xml:space="preserve">
+    <value>九三，沒有平地不變為陡坡的，沒有隻出去不回來的，處在艱難困苦的環境中堅守正道就沒有災害，不要怕不能取信於人，安心享用自己的俸祿是很有福分的。《象》曰：“無往不復”，天地際也。《象辭》說：“沒有隻出去而不回來的”，葉落歸根，人回故鄉，事物的正反兩個方面往往互相轉化，表明此時正在天地交合的邊沿，處於變化之中。</value>
+  </data>
+
+  <data name="H_57_Change4" xml:space="preserve">
+    <value>六四，像飛鳥連翩下降，虛懷若谷，這樣與鄰居相處，不互相戒備，彼此以誠相見，講求信用。《象》曰：“翩翩不富”，皆失實也；“不戒以孚”，中心願也。《象辭》說：“像飛鳥從高處連翩下降，虛懷若谷”，說明此時不以個人的殷實富貴為念；“與鄰居相處，不互相戒備，彼此以誠相見，講求信用”，因為這是大家內心共同的意願。</value>
+  </data>
+
+  <data name="H_57_Change5" xml:space="preserve">
+    <value>六五，商代帝王乙嫁出自己的女兒，因此得到了福分，是十分吉祥的事。《象》曰：“以祉元吉”，中以行願也。《象辭》說：“帝乙把女兒嫁給賢德而又富裕的人家，因此獲得了深厚的福分，是在吉在利的事”，說明因為實現了長期以來心中祈求的意願，所以結果是吉祥的。</value>
+  </data>
+
+  <data name="H_57_Change6" xml:space="preserve">
+    <value>上六，城牆倒塌在久已干涸的護城壕溝裡；這時決不可進行戰爭，應減少繁瑣的政令，以防止可能出現的土崩瓦解的局面。《象》曰：城復於隍，其命亂也。《象辭》說：“城牆倒塌在久已干涸的護城壕溝裡”，說明形勢已經向錯亂不利的方面轉化，其前景是不大美妙的。</value>
+  </data>
+
+  <data name="H_57_Meaning" xml:space="preserve">
+    <value>事事通泰之象　上下和睦之意</value>
+  </data>
+
+  <data name="H_57_Judgement" xml:space="preserve">
+    <value>喜報三元,上吉卦</value>
+  </data>
+
+  <data name="H_57_Poem1" xml:space="preserve">
+    <value>卦辭：喜報三元運氣強，謀望求財大吉祥。交易出行多得意，是非口舌總無妨。 </value>
+  </data>
+
+  <data name="H_57_Deduction" xml:space="preserve">
+    <value>推斷：婚姻有成，行人即至，失物可尋，諸般湊巧。 </value>
+  </data>
+
+  <data name="H_57_Omen" xml:space="preserve">
+    <value>大象：天地陰陽之氣相交感，上下和睦，流通無阻。 </value>
+  </data>
+
+  <data name="H_57_Luck" xml:space="preserve">
+    <value>運勢：諸事吉祥順利，凡事宜內求，不宜外求，防樂極生悲。 </value>
+  </data>
+
+  <data name="H_57_Love" xml:space="preserve">
+    <value>愛情：情投意合，良緣締結。 </value>
+  </data>
+
+  <data name="H_57_Health" xml:space="preserve">
+    <value>疾病：久病不利，注意腸肺及頭部之症。 </value>
+  </data>
+
+  <data name="H_57_Lost" xml:space="preserve">
+    <value>失物：不會出現。 </value>
+  </data>
+
+  <data name="H_57_Lawsuit" xml:space="preserve">
+    <value>訴訟：是非由小事化大，終可和解。</value>
+  </data>
+
+  <data name="H_57_Poem2" xml:space="preserve">
+    <value>茅塞頓開事泰通 陽來陰去運無窮 循環往復憑天道 逆勢強求反落空</value>
+  </data>
+
+  <data name="H_58_Main" xml:space="preserve">
+    <value>《臨卦》象征督導：能亨通無阻，祥和有益，堅守正道。但是到了八月（陽衰陰盛），會有凶險。《象》曰：“澤上有地，臨；君子以教思無窮，容保民無疆。《象辭》說：《臨卦》的卦象是兌（澤）下坤（地）上，為地在澤上之表象。澤上有地，地居高而臨下，象征督導。君子由此受到啟發，費盡心思地教導人民，並以其無邊無際的盛德保護人民。</value>
+  </data>
+
+  <data name="H_58_Change1" xml:space="preserve">
+    <value>初九，感應尊貴者，使其行督導之責。可獲吉祥。《象》曰：“咸臨，貞吉”，志行正也。《象辭》說：“感應尊貴者，使其行督導之責，可獲吉祥”，說明其志向和行為都很正派。</value>
+  </data>
+
+  <data name="H_58_Change2" xml:space="preserve">
+    <value>九二，“感應尊貴者，使其行督導之責， 可獲吉祥”，不會有什麼不利。《象》曰：“咸臨，吉，無不利”，未順命也。《象辭》說：“感應尊貴者，使其行督導之責，可獲吉祥，不會有什麼不利”，這是由於不囿於命運安排的樊籠，自身努力的結果。</value>
+  </data>
+
+  <data name="H_58_Change3" xml:space="preserve">
+    <value>六三，居高臨下，靠甜言蜜語去督導，必無所利；但是，已經覺悟，能憂懼改過，就不會有禍害。《象》曰：“甘臨”，位不當也。“既憂之”，咎不長也。《象辭》說：“居高臨下，靠甜言蜜語去督導”，這是因為六三爻位置不當的緣故。但是，“已經覺悟，能憂懼改過”，危害就不會長久了。</value>
+  </data>
+
+  <data name="H_58_Change4" xml:space="preserve">
+    <value>六四，親善地督導下級，則必然沒有禍害。《象》曰：“至臨，無咎”位當也。《象辭》說：“親善的督導下級，則必然沒有禍害”，這是因為六四爻位置確當的緣故。</value>
+  </data>
+
+  <data name="H_58_Change5" xml:space="preserve">
+    <value>六五，以聰明才智來實行督導，這是偉大君主最適宜的統治之道，能獲得吉祥。《象》曰：“大君之宜”，行中之謂也。《象辭》說：“以聰明才智來實行督導，這是偉大君主最適宜的統治之道”，說的就是行中庸之道。</value>
+  </data>
+
+  <data name="H_58_Change6" xml:space="preserve">
+    <value>上六，溫柔敦厚地實行督導，能獲得吉祥，沒有危害。《象》曰：“敦臨之吉”，志在內也。《象辭》說：“溫柔敦厚地實行督導，能獲得吉祥”，說明其志在於利國利家（在內）。</value>
+  </data>
+
+  <data name="H_58_Meaning" xml:space="preserve">
+    <value>少女從母之象　循序漸進之意</value>
+  </data>
+
+  <data name="H_58_Judgement" xml:space="preserve">
+    <value>發政施仁,上平卦</value>
+  </data>
+
+  <data name="H_58_Poem1" xml:space="preserve">
+    <value>卦辭：發政施仁志量高，出外求財任逍遙。交易婚姻大有意，走失行人有信耗。 </value>
+  </data>
+
+  <data name="H_58_Deduction" xml:space="preserve">
+    <value>推斷：口舌消散，疾病即痊，求名稱意，家宅平安。 </value>
+  </data>
+
+  <data name="H_58_Omen" xml:space="preserve">
+    <value>大象：池澤之水灌溉地面萬物，相輔相成，生生不息。 </value>
+  </data>
+
+  <data name="H_58_Luck" xml:space="preserve">
+    <value>運勢：諸事亨通，上下和合，前途有望，但不宜過於急進。 </value>
+  </data>
+
+  <data name="H_58_Love" xml:space="preserve">
+    <value>愛情：柔順者可得吉利，注意欲速則不達。 </value>
+  </data>
+
+  <data name="H_58_Health" xml:space="preserve">
+    <value>疾病：病情較輕，為腸胃，口腔之疾，並防泌尿生殖系統病變。 </value>
+  </data>
+
+  <data name="H_58_Lost" xml:space="preserve">
+    <value>失物：不能立即發現，很久才能找回。可能被埋在地下。是件會發聲或震動的物件。 </value>
+  </data>
+
+  <data name="H_58_Lawsuit" xml:space="preserve">
+    <value>訴訟：宜柔不宜剛，因本欲欺他人，反傷自己。</value>
+  </data>
+
+  <data name="H_58_Poem2" xml:space="preserve">
+    <value>居高臨下勢如虹 領導有方事事通 教思無窮君得利 陽衰八月有險凶</value>
+  </data>
+
+  <data name="H_59_Main" xml:space="preserve">
+    <value>《明夷卦》象征光明受阻：在這種情況下，最好是在艱難困苦中堅守正道，保持自身的純潔和善始善終的恆心。《象》曰：明入地中，“明夷”；君子以蒞眾，用晦而明。《象辭》說：《明夷卦》的卦象是離（火）下坤（地）上，離為火，代表光明，為光明入地下之表象，象征著“光明被阻”。君子要能夠遵循這個道理去管理民眾，即有意不表露自己的才能和智慧，反而能在不知不覺中使民眾得到治理。</value>
+  </data>
+
+  <data name="H_59_Change1" xml:space="preserve">
+    <value>初九，在光明被阻的時候，要像鳥兒一樣地迅速飛走，而且要低垂著翅膀以免被人察覺。君子若要退避隱藏，就是丟掉職位、沒有飯吃也不在乎。但君子若在此時行動，必然要受到當政者的責備。《象》曰：“君子於行“，義不食也。《象辭》說：“君子隱藏退避“是由於堅持道義和原則而不願再拿這份俸祿了。</value>
+  </data>
+
+  <data name="H_59_Change2" xml:space="preserve">
+    <value>六二，處在這種光明被阻的情況下，就像傷了左大腿一樣，如果能借用好馬，增加自己的力量，將會是有利的。《象》曰：“六二之吉，順而則也。《象辭》說：“六二爻之所以能夠獲得吉祥，是因為它柔順而又堅持原則。</value>
+  </data>
+
+  <data name="H_59_Change3" xml:space="preserve">
+    <value>九三，君主在光明受阻的情況下，到南方去巡狩，將可以消滅罪惡的首領。但是應該注意不要操之過急，要能夠堅守正道，持之以恆。《象》曰：“南狩之志，乃大得也。《象辭》說：有到南方征伐巡狩的志向，就會有非常大的收獲。</value>
+  </data>
+
+  <data name="H_59_Change4" xml:space="preserve">
+    <value>六四，進入左方腹部，能夠深入了解光明被阻的內中情況，於是堅定地跨出門庭，離開這裡。《象》曰：“入於左腹”，獲心意也。《象辭》說：“進入左方腹部”，因此能夠從內部深刻了解光明受阻的情形。</value>
+  </data>
+
+  <data name="H_59_Change5" xml:space="preserve">
+    <value>六五，應採取箕子那種自掩其聰明才智的做法，這樣做有利於堅守正道。《象》曰：“箕子之貞，明不可息也。《象辭》說：箕子堅守正道，保持自我的行為說明，光明是不會熄滅的，隻是暫時受阻礙罷了。</value>
+  </data>
+
+  <data name="H_59_Change6" xml:space="preserve">
+    <value>上六，不但沒有光明，反而帶來黑暗。剛開始時升起在天空，而后來卻墮入地下。《象》曰：“初登於天”，照四國也；“后入於地”失則也。《象辭》說：“剛開始時升起在天空”，是說它的光明能夠普照四方各國；“而后來卻墮入地下”，是說它已經因違背正道而喪失了應有的作用，由光明轉入了黑暗。</value>
+  </data>
+
+  <data name="H_59_Meaning" xml:space="preserve">
+    <value>鳳凰垂翼之象　棄明投暗之意</value>
+  </data>
+
+  <data name="H_59_Judgement" xml:space="preserve">
+    <value>過河拆橋,下平卦</value>
+  </data>
+
+  <data name="H_59_Poem1" xml:space="preserve">
+    <value>卦辭：時乖運拙走不著，急忙過河拆了橋。恩人無義反為怨，凡事無功枉受勞。 </value>
+  </data>
+
+  <data name="H_59_Deduction" xml:space="preserve">
+    <value>推斷：行人未至，頭緒不清，口舌緊避，凡事小心。 </value>
+  </data>
+
+  <data name="H_59_Omen" xml:space="preserve">
+    <value>大象：太陽掩沒在坤地之下，大地黑暗，有失明之象。 </value>
+  </data>
+
+  <data name="H_59_Luck" xml:space="preserve">
+    <value>運勢：百事阻滯，小人加害，遇事多迷惑，宜守，靜待時機而動。</value>
+  </data>
+
+  <data name="H_59_Love" xml:space="preserve">
+    <value>愛情：對方不接受自己，難得成功。 </value>
+  </data>
+
+  <data name="H_59_Health" xml:space="preserve">
+    <value>疾病：凶象。為潛伏已久之疾，注意心臟、腹部之疾或神經病。 </value>
+  </data>
+
+  <data name="H_59_Lost" xml:space="preserve">
+    <value>失物：不能立即尋回。正當要遺忘這件事時，會意外地有所發現。 </value>
+  </data>
+
+  <data name="H_59_Lawsuit" xml:space="preserve">
+    <value>訴訟：敗象，宜和解了事，愈爭愈苦。</value>
+  </data>
+
+  <data name="H_59_Poem2" xml:space="preserve">
+    <value>最是傷情日落山 重重險困勢難安 須效箕子佯瘋避 若問艱危可過關</value>
+  </data>
+
+  <data name="H_60_Main" xml:space="preserve">
+    <value>《復卦》象征復歸：亨通順利。陽氣從下面產生而逐漸向上行進沒有阻礙，朋友前來也沒有災難危害。返回復歸有一定的運動規律，經過七天就會前來復歸。利於前去行事。《象》曰：“雷在地中，復；先王以至日閉關，商旅不行，后不省方。《象辭》說：《復卦》的卦象是震（雷）下坤（地）上，為雷在地中、陽氣微弱地活動之表象，因而象征復歸；從前的君主在陽氣初生的冬至這一天關閉關口，使商人旅客停止活動，不外出經商、旅行，君主自己也不巡行視察四方。</value>
+  </data>
+
+  <data name="H_60_Change1" xml:space="preserve">
+    <value>初九，剛剛開始行動，就能知過必改、復歸正道，這樣就不會發生災禍，也不會出現內心的悔恨，必然會獲得大吉大利。《象》曰：“不遠之復”，以修身也。《象辭》說：“剛剛開始行動，就能有知過必改、復歸正道的表現”，說明能注意自身修養。</value>
+  </data>
+
+  <data name="H_60_Change2" xml:space="preserve">
+    <value>六二，以真善美做為自己行為的准則和目標，雖然有時會走彎路，但是，隻要能夠復歸正道，就必然獲得吉祥。《象》曰：“休復之吉”，以下仁也。《象辭》說：“以真善美為自己行為的准則和目標，能夠復歸正道，就必然獲得吉祥”，是因為六二能夠向下親近具備仁德的人。</value>
+  </data>
+
+  <data name="H_60_Change3" xml:space="preserve">
+    <value>六三，屢次犯錯誤卻又能屢次改正過錯、復歸正道，這樣雖然有危險，但是最終卻不會遇到災禍。《象》曰：“頻復之厲”，義無咎也。《象辭》說：“屢次犯錯誤卻又能屢次改正過錯、復歸正道，這樣雖然有危險”，但畢竟能夠改過從善，復歸正道，所以最終卻不會遇到災禍。</value>
+  </data>
+
+  <data name="H_60_Change4" xml:space="preserve">
+    <value>六四，位居陰爻的正中，獨自專一地復歸正道。《象》曰：“中行獨復”，以從道也。《象辭》說：“位居陰爻的正中，獨自專一地復歸正道”，說明是為了奉行追隨正道。</value>
+  </data>
+
+  <data name="H_60_Change5" xml:space="preserve">
+    <value>六五，敦厚忠實地復歸正道，內心不會有什麼后悔。《象》曰：“敦復，無悔“，中以自考也。《象辭》說：“敦厚忠實地復歸正道，內心不會有什麼后悔”，是因為六五爻雖然遠離陽剛，但卻能夠反省考察自己的言行以完善自我，通過這樣的途徑，促成自己返回正道。</value>
+  </data>
+
+  <data name="H_60_Change6" xml:space="preserve">
+    <value>上六，犯了錯誤，仍然執迷不悟，不知悔改復歸正道，這樣必然凶險，會有天災人禍不斷降臨發生。在這種情況下，用兵作戰，終將一敗涂地；用於治國，國君遭受凶險。這樣的狀況會一直持續下去，長達十年之久，國家不能振興。《象》曰：“迷復之凶”，反君道也。《象辭》說：“犯了錯誤，仍然執迷不悟，不知悔改復歸正道所產生的凶險”，是由於違背為君之道的緣故。</value>
+  </data>
+
+  <data name="H_60_Meaning" xml:space="preserve">
+    <value>萬物更新之象　重修破舊之意</value>
+  </data>
+
+  <data name="H_60_Judgement" xml:space="preserve">
+    <value>夫妻反目,中下卦</value>
+  </data>
+
+  <data name="H_60_Poem1" xml:space="preserve">
+    <value>卦辭：若佔此卦不相和，憂疑愁閑無定奪。恩人無義反成怨，是非平地起風波。 </value>
+  </data>
+
+  <data name="H_60_Deduction" xml:space="preserve">
+    <value>推斷：尋人不見，心事不定，交節換月，自然安寧。 </value>
+  </data>
+
+  <data name="H_60_Omen" xml:space="preserve">
+    <value>大象：雷在地中振發，喻春回大地，一元始，萬象更生。 </value>
+  </data>
+
+  <data name="H_60_Luck" xml:space="preserve">
+    <value>運勢：開運亨通之象，萬事不宜急進，按部就班可成。 </value>
+  </data>
+
+  <data name="H_60_Love" xml:space="preserve">
+    <value>愛情：性急則事敗，緩可得成，有 合可能。 </value>
+  </data>
+
+  <data name="H_60_Health" xml:space="preserve">
+    <value>疾病：病防 發，但可治，為肝、腸胃、神經系統病變。 </value>
+  </data>
+
+  <data name="H_60_Lost" xml:space="preserve">
+    <value>失物：有失而 得之可能。 </value>
+  </data>
+
+  <data name="H_60_Lawsuit" xml:space="preserve">
+    <value>訴訟：多人之事，但經多次擾攘才可解決。</value>
+  </data>
+
+  <data name="H_60_Poem2" xml:space="preserve">
+    <value>盛陰過后一陽生 雷在地中始復萌 出入朋來無阻滯 循環往復七天成 前行主動加積極 問者當能事事亨</value>
+  </data>
+
+  <data name="H_61_Main" xml:space="preserve">
+    <value>《升卦》象征上升：亨通，宜於出現權高位尊的大人物，用不著憂慮，向南方出征會帶來吉祥。《象》曰：地中生木，升；君子以順德，積小以高大。《象辭》說：《升卦》的卦象是巽（風）下坤（地）上，而巽又象征高大樹木，這樣就成為地裡邊生長樹木之表象。樹木由矮小到高大，象征上升；與此相應，君子通過順應自然規律來培養自己的品德，積累微小的進步來塑造高大完美的人格。</value>
+  </data>
+
+  <data name="H_61_Change1" xml:space="preserve">
+    <value>初六，宜於上升，大吉大利。《象》曰：“允升大吉“上合志也。《象辭》說：“宜於上升而大吉大利”，是因為陰柔處在最卑下的地位，位於其上的陽剛者同情其處境，希望其盡快上升，所以其上正合乎上面的意思。</value>
+  </data>
+
+  <data name="H_61_Change2" xml:space="preserve">
+    <value>九二，內心恭敬虔誠，即使微薄的禴祭也可以感動神靈，免除災禍。《象》曰：九二之孚，有喜也。《象辭》說：《升卦》的第二爻位（九二）內心虔誠仁厚，一心成人之美，深得眾人信服，必定會給自身帶來喜慶。九三，升虛邑。九三，上升到空曠的城邑，如入無人之境。《象》曰：“升虛邑”，無所疑也。《象辭》說：“上升到空曠的城邑”，這是因為沒有任何阻礙，上升得十分順利，不要有半點遲疑。</value>
+  </data>
+
+  <data name="H_61_Change3" xml:space="preserve">
+    <value>九三，上升到空曠的城邑，如入無人之境。《象》曰：“升虛邑”，無所疑也。《象辭》說：“上升到空曠的城邑”，這是因為沒有任何阻礙，上升得十分順利，不要有半點遲疑。</value>
+  </data>
+
+  <data name="H_61_Change4" xml:space="preserve">
+    <value>六四，君王到岐山祭祀神靈，吉祥如意，沒有災禍。《象》曰：“王用亨於岐山”，順事也。《象辭》說：“君王到岐山祭祀神靈”，就是向神靈表示恭順，誠惶誠恐地供奉神靈，結果必然會帶來吉祥如意。</value>
+  </data>
+
+  <data name="H_61_Change5" xml:space="preserve">
+    <value>六五，佔卜結果吉祥如意，乘勢沿著台階穩步上升。《象》曰：“貞吉升階”，大得志也。《象辭》說：“佔卜結果吉祥如意，乘勢沿著台階穩步上長”，表明上升已達到鼎盛時期，接近光輝的頂點。真可說得上是春風得意，躊躇滿志。同時也表明陰柔居於尊位，必須穩健行事，循序漸進，不可像“升虛邑”那樣冒進。</value>
+  </data>
+
+  <data name="H_61_Change6" xml:space="preserve">
+    <value>上六，在昏暗幽冥狀態下依然上升，隻有堅持不懈地保持純正品性，才能獲得好的結果。《象》曰：冥升在上，消不富也。《象辭》說：昏暗幽冥狀態下仍然上升，本身又已處在《升卦》的最高位置，按照盛極而衰的道理，上升的勢頭必然會逐漸消退，再不會如原來那樣富有進取精神了。</value>
+  </data>
+
+  <data name="H_61_Meaning" xml:space="preserve">
+    <value>積小成大之象　拼搏得益之意</value>
+  </data>
+
+  <data name="H_61_Judgement" xml:space="preserve">
+    <value>指日高升,上吉卦</value>
+  </data>
+
+  <data name="H_61_Poem1" xml:space="preserve">
+    <value>卦辭：指日離升氣象新，走失行人有音信。功名出行遂心好，疾病口舌皆除根。 </value>
+  </data>
+
+  <data name="H_61_Deduction" xml:space="preserve">
+    <value>推斷：求財到手，謀事可成，尋人得見，家宅安寧。 </value>
+  </data>
+
+  <data name="H_61_Omen" xml:space="preserve">
+    <value>大象：樹木從地上不斷向上，有進升之勢。 </value>
+  </data>
+
+  <data name="H_61_Luck" xml:space="preserve">
+    <value>運勢：名利雙收，發展開運之象，宜向南方發展。 </value>
+  </data>
+
+  <data name="H_61_Love" xml:space="preserve">
+    <value>愛情：可望成功，但不宜急進。 </value>
+  </data>
+
+  <data name="H_61_Health" xml:space="preserve">
+    <value>疾病：病情重，注意腹部，膽管之疾。 </value>
+  </data>
+
+  <data name="H_61_Lost" xml:space="preserve">
+    <value>失物：不易尋回，失物有被束之高閣的可能。 </value>
+  </data>
+
+  <data name="H_61_Lawsuit" xml:space="preserve">
+    <value>訴訟：宜持平和態度處理，可爭取主動，勝算在握。</value>
+  </data>
+
+  <data name="H_61_Poem2" xml:space="preserve">
+    <value>地中生木步高升 得遇貴人莫怕驚 事事皆由吉相伴 信誠合力利南征</value>
+  </data>
+
+  <data name="H_62_Main" xml:space="preserve">
+    <value>《師卦》象征兵眾（師指軍隊）：堅守正道，德高望重富有經驗的長者統帥軍隊可以得到吉祥，不會有什麼災禍。《象》曰：地中有水，師；君子以容民畜眾。《象辭》說：《師卦》的卦象是坎（水）下坤（地）上，是地中有水之表象。地中蘊藏聚集了大量的水，取之不盡，用之不竭，象征兵源充足；君子要像地中藏水一樣容納天下百姓，養育眾人，這樣就會有眾多的士兵可用。</value>
+  </data>
+
+  <data name="H_62_Change1" xml:space="preserve">
+    <value>初六，出師征戰必須要有嚴明的紀律，如果軍紀混亂必然有凶險。《象》曰："師出以律"，失律凶也。《象辭》說："出師征戰必須要有嚴明的紀律"，要號令整齊，行動一致，賞罰分明。如果軍紀不良，指揮不靈，必然要發生凶險。</value>
+  </data>
+
+  <data name="H_62_Change2" xml:space="preserve">
+    <value>九二，在軍中任統帥，持中不偏可得吉祥，不會有什麼災禍；君王多次進行獎勵，並被委以重任。《象》曰："在師中吉"，承天寵也；"王三錫命"，懷萬邦也。《象辭》說："在軍中任統帥，持中不偏可得吉祥，不會有什麼災禍"，表明承受"天命"，因此得到君王的寵幸；"君王多次進行獎勵"，說明懷有治國平天下使萬邦悅服的弘大志向。</value>
+  </data>
+
+  <data name="H_62_Change3" xml:space="preserve">
+    <value>六三，不時有士兵從戰場上運送戰死者的尸體回來，凶險。《象》曰："師或輿尸"，大無功也。《象辭》說："士兵不時運送戰死者的尸體回來"，說明不能知己知彼，在敵強我弱的情況下，不自量力發動進攻，結果戰敗，沒有任何功績可言了。</value>
+  </data>
+
+  <data name="H_62_Change4" xml:space="preserve">
+    <value>六四，率軍暫時撤退，免得遭受損失。《象》曰："左次無咎"，示失常也。《象辭》說"觀察了戰場形勢后，暫時后退以避敵精銳，免遭更大損失"。說明深通兵法，懂得用兵有進有退的常理。</value>
+  </data>
+
+  <data name="H_62_Change5" xml:space="preserve">
+    <value>六五，田野中有野獸出沒，率軍圍獵捕獲，不會有損失；委任德高望重的長者為軍中主帥，必將戰無不勝，委任無德小人將運送著尸體大敗回，佔問的結果必然是凶險的。《象》曰："長子帥師"，以中行也；"弟子輿尸"，使不當也。《象辭》說："委任有德長者統帥軍隊戰無不勝"，表明居中恃正，行為有法度，必然獲勝；"委任無德小人將運送著戰死者的尸體，大敗而歸"，說明用人不當，必招致大敗，將自食惡果。</value>
+  </data>
+
+  <data name="H_62_Change6" xml:space="preserve">
+    <value>上六，凱旋而歸，天子頒布了詔命，分封功臣，或封為諸侯，或封為上卿，或封為大夫，但小人決不可以重用。《象》曰："大君有命"，以正功也；"小人勿用。必亂邦也"。《象辭》說："天子頒布了詔命，分封功臣"，是為了按功勞大小而公正封賞。"小人決不可以重用"，因為重用小人必然危害並擾亂邦國。</value>
+  </data>
+
+  <data name="H_62_Meaning" xml:space="preserve">
+    <value>地勢臨淵之象　以寡服眾之意</value>
+  </data>
+
+  <data name="H_62_Judgement" xml:space="preserve">
+    <value>馬到成功,上平卦</value>
+  </data>
+
+  <data name="H_62_Poem1" xml:space="preserve">
+    <value>卦辭：將帥領旨去出征，騎著烈馬拉硬弓。百步穿楊去的准，箭射金錢喜氣生。 </value>
+  </data>
+
+  <data name="H_62_Deduction" xml:space="preserve">
+    <value>推斷：疾病大好，走失能找，行人有信，百事湊巧。 </value>
+  </data>
+
+  <data name="H_62_Omen" xml:space="preserve">
+    <value>大象：養兵聚眾，出師攻伐之象，彼此有傷，難得安寧。 </value>
+  </data>
+
+  <data name="H_62_Luck" xml:space="preserve">
+    <value>運勢：困難重重，凡事以正規行事，忌獨斷獨行，投機取巧，提防潛在敵人。 </value>
+  </data>
+
+  <data name="H_62_Love" xml:space="preserve">
+    <value>愛情：陰盛陽衰，須提防色情之厄，似多角關系，求婚難成。 </value>
+  </data>
+
+  <data name="H_62_Health" xml:space="preserve">
+    <value>疾病：病況嚴重，提防心臟或腹腔腫瘤等。 </value>
+  </data>
+
+  <data name="H_62_Lost" xml:space="preserve">
+    <value>失物：不會出現，即或尋回，也已損壞。 </value>
+  </data>
+
+  <data name="H_62_Lawsuit" xml:space="preserve">
+    <value>訴訟：宜進不宜退，內心雖憂，但得貴人之助。</value>
+  </data>
+
+  <data name="H_62_Poem2" xml:space="preserve">
+    <value>用兵須慎莫貪功 爭戰從來禍害重 統帥佔求當吉利 或能趨吉又避凶</value>
+  </data>
+
+  <data name="H_63_Main" xml:space="preserve">
+    <value>《謙卦》象征謙虛：謙虛的美德可以使百事順利，但謙虛並不是人人都能堅持下去的，而隻有君子才能堅持到底。《象》曰：地中有山，謙。君子以裒多益寡，稱物平施。《象辭》說：“《謙卦》的卦象是艮（山）下坤（地）上，為高山隱藏於地中之表象，象征高才美德隱藏於心中而不外露，所以稱作謙。君子總是損多益少，衡量各種事物，然后取長補短，使其平均。</value>
+  </data>
+
+  <data name="H_63_Change1" xml:space="preserve">
+    <value>初六，謙虛而又謙虛的君子，可以涉過大河（意思是能夠克服一切困難，排除一切障礙），最終必然安全吉祥。《象》曰：“謙謙君子”，卑以自牧也。《象辭》說：“謙虛而又謙虛的君子”，即使處於卑微的地位，也能以謙虛的態度自我約束；而不因為位卑，就在品德方面放鬆修養。</value>
+  </data>
+
+  <data name="H_63_Change2" xml:space="preserve">
+    <value>六二，謙虛的美名遠揚四方，固守中正就可獲得吉祥。《象》曰：“鳴謙，貞吉“，中心得也。《象辭》說：“謙虛的美名遠揚四方，固守中正就可獲得吉祥”，這是說六二爻以心中純正羸得名聲，而不是靠沽名釣譽獲取名聲。</value>
+  </data>
+
+  <data name="H_63_Change3" xml:space="preserve">
+    <value>九三，勤勞而謙虛的君子，必能把美德保持到底，最終一定是吉祥的。《象》曰：“勞謙君子”，萬民服也。《象辭》說：“勤勞而又謙虛的君子，必能把美德保持到底”，所以天下的老百姓都服從他。</value>
+  </data>
+
+  <data name="H_63_Change4" xml:space="preserve">
+    <value>六四，沒有任何不吉利，要發揚光大謙虛的美德。《象》曰：“無不利，揮謙”，不違則也。《象辭》說：“沒有任何不吉利，要發揚光大謙虛的美德”這不違背謙虛導致亨通的原則。</value>
+  </data>
+
+  <data name="H_63_Change5" xml:space="preserve">
+    <value>六五，雖不富有，但卻虛懷若谷，有利於和近鄰一起征伐那些驕傲蠻橫不可一世的人，不會有任何不吉利的結果。《象》曰：“利用侵伐”，征不服也。《象辭》說：“有利於出兵討伐”，是指征伐那些驕橫而不可一世的人。</value>
+  </data>
+
+  <data name="H_63_Change6" xml:space="preserve">
+    <value>上六，謙虛的美德遠揚四方，有利於征伐鄰近的小國。《象》曰：“鳴謙”，志未得也；“可用行師”，征邑國也。《象辭》說：“謙虛的美名遠揚四方”，但安邦定國之志未酬，所以“可用出師征討”的辦法來懲處那些驕橫不可一世的小國。</value>
+  </data>
+
+  <data name="H_63_Meaning" xml:space="preserve">
+    <value>空谷藏玉之象　虛懷處世之意</value>
+  </data>
+
+  <data name="H_63_Judgement" xml:space="preserve">
+    <value>二人分金,上平卦</value>
+  </data>
+
+  <data name="H_63_Poem1" xml:space="preserve">
+    <value>卦辭：天賜貧人一封金，不用爭來二人分。彼此分得金到手，一切謀望皆遂心。 </value>
+  </data>
+
+  <data name="H_63_Deduction" xml:space="preserve">
+    <value>推斷：婚姻遂意，出外得地，交易合伙，無不吉利。 </value>
+  </data>
+
+  <data name="H_63_Omen" xml:space="preserve">
+    <value>大象：山應在地面上，而今在地下，代表謙遜之德。 </value>
+  </data>
+
+  <data name="H_63_Luck" xml:space="preserve">
+    <value>運勢：吉利平安。前途無限，但必須去除驕橫之氣。 </value>
+  </data>
+
+  <data name="H_63_Love" xml:space="preserve">
+    <value>愛情：以謙誠之態度追求有成，可獲良緣。 </value>
+  </data>
+
+  <data name="H_63_Health" xml:space="preserve">
+    <value>疾病：防舊病發，腹部或背部之疾，但仍屬吉象。 </value>
+  </data>
+
+  <data name="H_63_Lost" xml:space="preserve">
+    <value>失物：難以發現，有失竊的可能。 </value>
+  </data>
+
+  <data name="H_63_Lawsuit" xml:space="preserve">
+    <value>訴訟：宜速和解，拖延不利。</value>
+  </data>
+
+  <data name="H_63_Poem2" xml:space="preserve">
+    <value>山藏地下是虛謙 以退爭先利益添 終獲功成憑策略 好簽難得莫疑嫌</value>
+  </data>
+
+  <data name="H_64_Main" xml:space="preserve">
+    <value>《坤卦》象征地：元始，亨通，如果像雌馬那樣柔順，則是吉利的。君子從事某項事業，雖然開始時不知所從，但結果會是有利的。如往西南方，則會得到朋友的幫助。如往東南方，則會失去朋友的幫助。如果保持現狀，也是吉利的。 《象》曰：地勢坤，君子以厚德載物。 《象辭》說：坤象征大地，君子應效法大地，胸懷寬廣，包容萬物。</value>
+  </data>
+
+  <data name="H_64_Change1" xml:space="preserve">
+    <value>初六， 腳踏上了霜，氣候變冷，冰雪即將到來。 《象》曰："履霜堅冰"，陰始凝也；馴致其道，至堅冰也。 《象辭》說："腳踏上了霜，氣候變冷，冰雪即將到來"，說明陰氣開始凝聚；按照這種情況發展下去，必然迎來冰雪的季節。</value>
+  </data>
+
+  <data name="H_64_Change2" xml:space="preserve">
+    <value>六二，正直，端正，廣大，具備這樣的品質，即使不學習也不會有什麼不利。 《象》曰：六二之動，直以方也，"不習無不利"，地道光也。 《象辭》說：六二爻若是出現變化的話，總是表現出正直、端正的性質。"即使不學習也不會有什麼不利"，是因為地德廣大，包容萬物的緣故。</value>
+  </data>
+
+  <data name="H_64_Change3" xml:space="preserve">
+    <value>六三，胸懷才華而不顯露，如果輔佐君主，能克盡職守，功成不居。 《象》曰："含章可貞"，以時發也；"或從王事"，知光大也。 《象辭》說："胸懷才華而不顯露"，是要把握時機才發揮，"如果輔佐君主"，必能大顯身手，一展抱負</value>
+  </data>
+
+  <data name="H_64_Change4" xml:space="preserve">
+    <value>六四，扎緊袋口，不說也不動，這樣雖得不到稱贊，但也免遭禍患。 《象》曰："括囊無咎"，慎不害也。 《象辭》說："扎緊袋口，不說也不動，可以免遭禍患"，說明小心謹慎從事，是不會有害的</value>
+  </data>
+
+  <data name="H_64_Change5" xml:space="preserve">
+    <value>六五，黃色的衣服，最為吉祥。 《象》曰："黃裳元吉"，文在中也。 《象辭》說："黃色的衣服，最為吉祥"，是因為黃色代表中，行事以中道為准則，當然是吉祥的。</value>
+  </data>
+
+  <data name="H_64_Change6" xml:space="preserve">
+    <value>上六，陰氣盛極，與陽氣相戰郊外，天地混雜，乾坤莫辨，后果是不堪設想的。 《象》曰："龍戰於野"，其道窮也。 《象辭》說："陰氣盛極，與陽氣相戰於郊外"，說明陰氣已經發展到盡頭了。</value>
+  </data>
+
+  <data name="H_64_Meaning" xml:space="preserve">
+    <value>兼容萬物之象　以柔制剛之意 </value>
+  </data>
+
+  <data name="H_64_Judgement" xml:space="preserve">
+    <value>餓虎得食,上中卦</value>
+  </data>
+
+  <data name="H_64_Poem1" xml:space="preserve">
+    <value>卦辭：餓虎得食喜氣歡，求名應事主高遷。出門吉利行人到，是非口舌不相干。 </value>
+  </data>
+
+  <data name="H_64_Deduction" xml:space="preserve">
+    <value>推斷：找人得見，走失有信，疾病見好，凡事皆順。 </value>
+  </data>
+
+  <data name="H_64_Omen" xml:space="preserve">
+    <value>大象：大地承載萬物，以德服眾，仁者無敵。 </value>
+  </data>
+
+  <data name="H_64_Luck" xml:space="preserve">
+    <value>運勢：諸事不宜急進，以靜制動為宜。 </value>
+  </data>
+
+  <data name="H_64_Love" xml:space="preserve">
+    <value>愛情：急進有失，緩進反成，欲速不達。 </value>
+  </data>
+
+  <data name="H_64_Health" xml:space="preserve">
+    <value>疾病：病情嚴重，為腹、腸胃、肌肉等慢性病。 </value>
+  </data>
+
+  <data name="H_64_Lost" xml:space="preserve">
+    <value>失物：難以尋回，大部份均不知下落。 </value>
+  </data>
+
+  <data name="H_64_Lawsuit" xml:space="preserve">
+    <value>訴訟：防房地產之爭，宜和解，有始無終之兆。</value>
+  </data>
+
+  <data name="H_64_Poem2" xml:space="preserve">
+    <value>包容柔順地坤恩 隨伴當如母馬奔 臣仆尋主須積極 先迷后得莫逡巡 西南有助東無助 貞問心安好事頻</value>
+  </data>
+
+</root>

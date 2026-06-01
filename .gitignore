@@ -1,15 +1,10 @@
-# Dependencies
-node_modules/
-
-# Build output
-dist/
-
-# Local/editor files
+# macOS
 .DS_Store
-*.log
-.env
-.env.*
 
-# Temporary verification artifacts
-verification-screenshot.png
+# Visual Studio / Windows Phone local files
+*.suo
+*.user
+Bin/
+bin/
+obj/
 
